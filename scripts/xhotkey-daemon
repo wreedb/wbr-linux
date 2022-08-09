@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sxhkd -c $HOME/.config/bspwm/sxhkdrc &

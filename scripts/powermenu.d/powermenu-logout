@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sync && loginctl kill-user $USER &>/dev/null

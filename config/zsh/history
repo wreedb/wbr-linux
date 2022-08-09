@@ -1,0 +1,2648 @@
+ll
+mkdir regular
+mv static/* ./regular
+ll
+ll
+ll regular
+mkdir condensed
+mkdir semicondensed
+ll
+mv regular/OpenSans_Condensed ./condensed
+mv regular/OpenSans_SemiCondensed ./semicondensed
+ll
+ll semicondensed
+cd semicondensed
+ll
+mv OpenSans_SemiCondensed/* .
+rmdir OpenSans_SemiCondensed
+ll
+cd ..
+ll
+ll condensed
+cd condensed
+ll
+mv OpenSans_Condensed/* .
+rmdir OpenSans_Condensed
+ll
+cd ..
+ll
+ll regular
+cd regular
+ll
+mv OpenSans/* .
+ll
+rmdir OpenSans
+ll
+cd ..
+ll
+ll static
+rmdir static
+ll
+ll variable
+rm *.zip
+ll
+la
+exa --tree .
+exa --tree . | less
+ll
+cd ..
+ll
+cd font-play
+ll
+unzip Play.zip
+ll
+rm *.zip
+rm *.txt
+ll
+ll
+cd ..
+ll
+cd font-roboto
+l
+la
+ll
+ll
+mkdir regular
+ll..
+..
+ll
+cd font-roboto
+ll
+mv Roboto.zip regular
+ll
+cd regular
+ll
+unzip Roboto.zip
+ll
+rm LICENSE.txt
+rm Roboto.zip
+ll
+ll
+..
+ll
+cd mono
+ll
+ll
+la
+la
+unzip Roboto_Mono.zip
+rm *.txt
+ll
+rm Roboto_Mono.zip
+lll
+ll
+mkdir regular
+mkdir variable
+mv *.ttf variable
+ll
+ll static
+mv static regular
+ll
+cd regular
+ll
+mv static/* .
+ll
+rmdir static
+ll
+cd ../..
+ll
+cd condensed
+l
+unzip Roboto_Condensed.zip
+lll
+ll
+rm *txt
+rm *zip
+ll
+ll
+cd ../..
+ll
+cd font-ubuntu
+l
+unzip Ubuntu.zip
+rm *txt
+ll
+rm *zip
+ll
+cd ..
+ll
+sudo pacman -S tree
+tree
+sudo pacman -S most
+sudo pacman -S most
+tree | most
+ll
+cd ~/.local/share/fonts
+ll
+ll
+pacman -Ss joy
+pacman -S ttf-joypixels
+sudo pacman -S ttf-joypixels
+sudo pacman -S ttf-joypixels
+ll
+ll
+sudo updatedb
+locate joy
+ll
+la
+fontq
+fontq a
+ll
+z android
+ll
+fontpreview joypixels-android.ttf
+cd ..
+ll
+cd ios
+ll
+fontpreview AppleColorEmoji@2x.ttc
+pacman -Ss font-manager
+sudo pacman -S font-manager
+ll
+cd ..
+ll
+rm *zip
+mv android/* .
+mv ios/* .
+mv mac/* .
+ll
+rmdir android
+rmdir mac
+rmdir ios
+ll
+cd ..
+ll
+ll /usr/share/fonts
+ll /usr/share/fonts/joypixels
+ll font-joypixels/
+fontpreview /usr/share/fonts/joypixels/JoyPixels.ttf
+ll
+sudo pacman -Rnsc ttf-joypixels
+sudo pacman -Qq | rg ttf
+sudo pacman -Qq | rg font
+pacman -Q | otf
+pacman -Q | rg otf
+pacman -Q | rg ttf
+ll
+du . -h
+lll
+ll
+ll
+cd
+ll
+la
+ll repository
+ll
+mkdir repository/fonts
+mkdir repository/themes
+mkdir repository/icons
+mkdir repository/assets
+cd repository
+ll
+mv fonts assets
+mv icons assets
+mv themes assets
+ll
+ll
+ll
+ll assets
+ll
+mv ~/.local/share/fonts/* ./assets/fonts
+mv ~/.local/share/icons/* ./assets/icons
+mv ~/.local/share/themes/* ./assets/themes
+ll
+tree
+ll
+ll
+cd assets
+ln -s $PWD/fonts ~/.local/share/fonts
+ln -s $PWD/icons ~/.local/share/icons
+ln -s $PWD/themes ~/.local/share/themes
+ll
+ll fonts
+ll icons
+ll themes
+ll
+ll
+ll ~/.local/share
+fc-cache -vf
+ll
+cd Downloads
+ll
+mkdir font-jetbrainsmono
+mv JetBrainsMono-2.242.zip font-jetbrainsmono
+mkdir font-joypixels
+mv joypixels-7.0-free.zip font-joypixels
+ll
+cd font-jetbrainsmono
+ll
+unzip
+unzip JetBrainsMono-2.242.zip
+ll
+rm *
+ll
+rm *
+ll
+ll fonts
+cd fonts
+ll
+l
+la
+ll ttf
+mkdir ../regular
+ll
+mv ttf/* ../regular
+ll
+rm -rf ttf
+ll variable
+ll
+ll webfonts
+rm -rf webfonts
+ll
+lll
+ll
+mv variable ..
+cd ..
+rmdir fonts
+ll
+cd ..
+ll
+cd font-joypixels
+ll
+unzip joypixels-7.0-free.zip
+ll
+mv JoyPixels\ Asset\ Guide.pdf joypixels-asset-guide.pdf
+ll
+sudo pacman -S mupdf
+ll
+rm joypixels-7.0-free.zip
+ll
+ll
+mupdf joypixels-asset-guide.pdf
+ll
+ll sprites
+la
+cd ..
+ll
+ll ~/.local/share/fonts
+rm -rf ~/.local/share/fonts/jetbrains-mono
+rm -rf ~/.local/share/fonts/wbrfont
+ll
+ll
+mv ./* ~/.local/share/fonts
+cd ~/.local/share/fonts
+ll
+pacman -Qqem
+pacman -Qqe
+pacman -Qqe | rg ttf
+sudo pacman -Rcns ttf-opensans
+sudo pacman -Rcns ttf-roboto
+ll
+ll
+mv fantasque-sans-mono font-fantasquemono
+mv hack font-hack
+mv segoe font-segoe
+mv symbols-only-nf font-symbolsonlynf
+ll
+mv ~/Downloads/Ubuntu_Condensed.zip font-ubuntu
+mv ~/Downloads/Ubuntu_Mono.zip ./font-ubuntu
+ll
+cd font-ubuntu
+ll
+mkdir regular
+mkdir condensed
+mkdir mono
+mv Ubuntu_Mono.zip mono
+mv Ubuntu_Condensed.zip condensed
+ll
+mv *.ttf regular
+ll
+cd mono
+ll
+unzip Ubuntu_Mono.zip
+rm UFL.txt
+rm *zip
+ll
+cd ..
+ll
+cd condensed
+ll
+unzip Ubuntu_Condensed.zip
+ll
+rm *zip
+rm *txt
+ll
+cd ..
+ll
+cd ..
+ll
+ll ~/Downloads
+ll
+mv font-joypixels joypixels
+mv joypixels ~/.local/share/icons
+ll
+mv ~/Downloads/joypixels-6.6-free-fonts.zip .
+mkdir font-joypixels
+mv joypixels-6.6-free-fonts.zip font-joypixels
+ll
+cd font-joypixels
+ll
+unzip joypixels-6.6-free-fonts.zip
+ll
+ll android
+ll ios
+ll mac
+pacman -Ss fontpre
+paru -Ss fontpre
+paru -S fontpreview
+zsh
+cd .local/share/fonts
+ll
+cd font-joypixels
+ll
+cd sprites
+ll
+la
+cd ..
+la
+la png
+la png/unicode
+la png/unicode128
+la png/unicode/128
+la png/
+la png/labeled
+la png/labeled/128
+la png/labeled/128/symbols
+ll
+cd
+cd .local/share
+ll
+rmdir fonts
+rmdir icons
+rmdir themes
+l
+ll Downloads
+fontq noto
+ll repository/assets/fonts/font-notosans/display
+cd repository/assets/fonts/font-notosans/display
+ll
+mkdir variable
+ls -al
+ll
+la
+mv *ttf variable
+ll static
+cd static
+ll
+mkdir regular
+mkdir condensed
+mkdir semicondensed
+mkdir extracondensed
+ll
+mv NotoSansDisplay/* regular
+ll
+rm NotoSansDisplay
+rm NotoSansDisplay -rf
+ll
+mv NotoSansDisplay_Condensed condensed
+mv NotoSansDisplay_SemiCondensed semicondensed
+ll
+ll
+mv NotoSansDisplay_ExtraCondensed/* extracondensed
+ll
+rmdir NotoSansDisplay_ExtraCondensed
+ll
+mv semicondensed/NotoSansDisplay_SemiCondensed/* semicondensed
+rmdir semicondensed/NotoSansDisplay_SemiCondensed
+ll
+mv condensed/NotoSansDisplay_Condensed/* condensed
+rmdir condensed/NotoSansDisplay_Condensed
+ll
+tree
+cd ..
+ll
+ll
+mv static/* .
+rmdir static
+ll
+tree
+ll
+la
+cd ..
+ll
+cd ..
+ll
+ll
+tree font-segoe
+tree font-opensans
+cd
+ll
+fc-cache -vf
+vim .config/zsh/aliases.zsh
+vim .config/zsh/functions.zsh
+zsh
+db
+fontq play
+cd .config/hypr
+ll
+pidof waybar
+kill -9 55679
+vim bar/bar.css
+pidof waybar
+kill -9 104384
+cp waybar.sh
+cp waybar.sh restart-waybar.sh
+ll
+vim restart-waybar.sh
+sudo ln -s restart-waybar.sh /usr/local/bin/restart-hyprbar
+ll
+ll /usr/local/bin
+sudo ln -s $PWD/restart-waybar.sh /usr/local/bin/restart-hyprbar
+sudo ln -sf $PWD/restart-waybar.sh /usr/local/bin/restart-hyprbar
+l
+ll /usr/local/bin
+vim hyprland.conf
+vim .config/hypr/hyprland.conf
+fontq joy
+vim .config/hypr/bar/bar.css
+fontq display
+fc-list : family
+fc-list : family | most
+fontq symbol
+vim .config/hypr/hyprland.conf
+fontq robot
+vim .config/hypr/bar/bar.css
+clear
+vim .config/alacritty/theme.yml
+man chown
+light -h
+light -A 10
+light -U 10
+light -U 10 -v3
+sudo chown :wheel /sys/class/backlight/amdgpu_bl0/brightness
+light -A 10
+light -U 10
+sudo chown wbr:wheel /sys/class/backlight/amdgpu_bl0/brightness
+light -U 10
+light -U 10
+light -U 10
+light -U 10
+light -A 10
+light -A 10
+light -A 10
+light -A 10
+light -A 10
+fontq noto
+fontq noto
+fontq noto
+fontq noto
+fontq noto
+clear
+ll is
+ll i
+clear
+clear
+la
+la
+la
+ll ~/repository/assets/fonts
+fontq ubu
+fontq mono
+clear
+ll
+la
+ll
+la
+la
+ll
+ll
+ll
+la
+hyprctl clients
+vim ~/.zshenv
+bemenu-run
+zsh
+bemenu-run
+bemenu-run --scrollbare always
+bemenu-run --scrollbar always
+bemenu-run --scrollbar always --bdr #36a3d9
+bemenu-run --scrollbar always --bdr 36a3d9
+bemenu-run --scrollbar always
+bemenu-run --scrollbar always --bdr 36a3d9
+bemenu-run --scrollbar always --bdr "#36a3d9"
+bemenu-run --scrollbar always --bdr "#36a3d9" --scf "#36a3d9"
+bemenu-run --scrollbar always --bdr "#36a3d9" --scf "#36a3d9" --hb "#36a3d9" --hf "#ffffff"
+bemenu-run --scrollbar always --bdr "#36a3d9" --scf "#36a3d9" --hb "#36a3d9" --hf "#000000"
+bemenu-run --scrollbar always --bdr "#36a3d9" --scf "#36a3d9" --hb "#36a3d9" --hf "#0f1419"
+bemenu-run --scrollbar always --bdr "#36a3d9" --scf "#36a3d9" --hb "#36a3d9" --hf "#0f1419"
+bemenu-run --scrollbar always --bdr "#36a3d9" --scf "#36a3d9" --hb "#36a3d9" --hf "#0f1419"
+bemenu-run --scrollbar never --bdr "#36a3d9" --scf "#36a3d9" --hb "#36a3d9" --hf "#0f1419"
+zsh
+bemenu-run
+clear
+bemenu-run
+zsh
+bemenu-run
+bemenu-run -c
+bemenu-run -c -W 0.5
+bemenu-run -c -W 0.7
+bemenu-run -c -W 0.9
+bemenu-run -c -W 1
+bemenu-run -c -W 0.3
+bemenu-run -c -W 0.3 -B 1
+bemenu-run -c -W 0.3 -B 2
+zsh
+bemenu-run
+bemenu-run --help
+bat .config/alacritty/theme.yml
+zsh --login
+sudo pacman -S pavucontrol
+sudo pacman -S pamixer
+ll
+mkdir repository/scripts
+vim repository/scripts/voldown
+vim repository/scripts/voldown.sh
+ll
+vim repository/scripts/volup.sh
+ll
+ll repository/scripts
+pamixer -h
+pamixer -d 5
+pamixer -i 5
+pamixer -t
+pamixer -t
+cd repository/scripts
+ll
+vim volup.sh
+vim voldown.sh
+bat volup.sh
+bat voldown.sh
+echo $PATH
+chmod +x *
+ll
+vim volmute.sh
+ll
+chmod +x *
+ll
+ll
+la
+ll
+sudo ln -s $PWD/voldown.sh /usr/local/bin/voldown
+sudo ln -s $PWD/volup.sh /usr/local/bin/volup
+sudo ln -s $PWD/volmute.sh /usr/local/bin/volmute
+volmute
+volmute
+voldown
+voldown
+voldown
+voldown
+volup
+volup
+volup
+volup
+pacman -S light
+sudo pacman -S light
+light
+sudo ln -s $PWD/voldown.sh /usr/local/bin/vol-down
+sudo ln -s $PWD/volup.sh /usr/local/bin/vol-up
+sudo ln -s $PWD/volmute.sh /usr/local/bin/vol-mute
+ll
+rm /usr/local/bin/voldown
+sudo rm /usr/local/bin/voldown
+sudo rm /usr/local/bin/volup
+sudo rm /usr/local/bin/volmute
+ll
+ ll /usr/local/bin
+la
+touch backlight-up.sh
+touch backlight-down.sh
+chmod +x backlight-down.sh
+chmod +x backlight-up.sh
+ll
+vim backlight-down.sh
+vim backlight-up.sh
+ll
+sudo ln -s $PWD/backlight-up.sh /usr/local/bin/backlight-up
+sudo ln -s $PWD/backlight-down.sh /usr/local/bin/backlight-down
+ll /usr/local/bin
+vim .config/hypr/hyprland.conf
+pacman -Ss bottom
+sudo pacman -S bottom
+htop
+neofetch
+pf
+clear;pf
+clear;echo "";pf
+sudo pacman -S lxapp
+sudo pacman -S lxappearance
+cd repository/assets/icons
+ll
+mv cursors/* .
+ll
+rm -rf cursors
+ll
+cd ..
+sudo pacman -Syyu
+ll
+cllear
+clear
+ll
+cd repository
+ll
+cd assets
+ll
+cd icons
+ll
+mkdir cursors
+ll
+git clone https://github.com/alvatip/Borealis-cursors
+cd Borealis-cursors
+ll
+./install.sh
+ll
+ll ~/repository/assets
+ll ~/repository/assets/icons
+ll ~/repository/assets/icons/cursors
+ll ~/
+ll ~/.icons
+mv ~/.icons/Borealis-cursors ~/repository/assets/icons/cursors
+rm -rf ~/.icons
+ll
+cd ..
+rm -rf Borealis-cursors
+vim .config/hypr/hyprland.conf
+vim .config/hypr/bar/config
+sudo pacman -S nodejs
+npm
+sudo pacman -S npm
+pacman -Ss bun
+ll
+la
+bat ~/.config/alacritty/theme.yml
+v ~/.config/alacritty/theme.yml
+vim repository/scripts/volup.sh
+vim repository/scripts/voldown.sh
+vim repository/scripts/backlight-up.sh
+vim repository/scripts/backlight-down.sh
+vim .zshenv
+source .zshenv
+bemenu-run
+paru -S wev
+wev
+vim .config/hypr/hyprland.conf
+sudo pacman -S discord
+sudo pacman -S grim slurp
+slurp
+man grim
+man slurp
+slurp | xargs -r grim -g
+vim repository/scripts/selshot.sh
+sh repository/scripts/selshot.sh
+ll
+sxiv 20220806_02h41m12s_grim.png
+sudo ln -s $PWD/repository/scripts/selshot.sh /usr/local/bin/sel-takeshot
+chmod +x repository/scripts/selshot.sh
+vim .config/hypr/hyprpaper.conf
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+nvim +PackerSync
+nvim +PackerSync
+vim .config/hypr/bar/bar.css
+udisksctl --hel
+udisksctl status
+ll /dev/
+fd . "/dev" -d 1 -t f
+fd . /dev -d 1 -t f
+fd . /dev -d 1
+fd . /dev -d 1 | rg sd
+fd . /dev -d 1 | rg sd
+basename $(fd . /dev -d 1 | rg sd)
+basename "$(fd . /dev -d 1 | rg sd)"
+basename "$(fd . /dev -d 1 | rg sd)"
+( fd . /dev -d 1 | rg sd) | basename
+( fd . /dev -d 1 | rg sd) | xargs basename
+( fd . /dev -d 1 | rg sd)
+fd . /dev -d 1 | rg sd | sd '/dev/' ''
+fd . /dev -d 1 | rg sd | sd '/dev/' ''
+vim .config/hypr/hyprpaper.conf
+vim .config/hypr/hyprland.conf
+htop
+vim .config/hypr/hyprland.conf
+htop
+vim .config/hypr/hyprland.conf
+btm
+clear;pf;
+clear;echo "";pf;
+ff
+ff
+clear;printf "\n\n";ff;printf "\n\n"
+vim .zshenv
+source .zshenv
+bemenu-run
+man bshell
+bat .config/alacritty/theme.yml
+vim repository/scripts/shot.sh
+mkdir ~/Pictures/screenshots
+date +%i
+date +%I
+date +%T
+date +%d
+date +%F
+date +%F_%I-%M
+date +%F_%I%M
+date +%F_%I_%M
+date +%F_%I-%M
+pkill hyprpaper && hyprpaper
+pkill hyprpaper && hyprpaper &
+pkill hyprpaper
+wev
+pidof dunst
+clear
+ll
+pacman -Ss eww
+paru -Ss dunst
+paru -Ss eww
+man bemenu
+clear
+ll
+la
+vim .config/hypr/bar/bar.css
+ll /usr/local/bin
+ll /usr/bin 
+ll /usr/bin | rg polk
+ll /usr/bin | rg pol
+paru -Qq
+paru -Qq | pol
+paru -Qq | rg pol
+xfce-polkit
+paru -Rns xfce-polkit
+pacman -Ss polkit
+ll /usr/sbin
+ll /usr/sbin/ | rg polk
+paru -S xfce-polkit-git
+sudo updatedb
+locate polkit
+sudo pacman -Ss dunst
+backlight-down
+ll /sys/class/backlight/amdgpu_bl0/brightness
+pkexec light -U 10
+pacman -Ss polkit
+paru -Ss polkit
+paru -S xfce-polkit
+zsh
+man date
+sudo ln -s $HOME/repository/scripts/shot.sh /usr/local/bin/takeshot
+chmod +x repository/scripts/shot.sh
+vim .config/hypr/hyprpaper.conf
+sudo pacman -S polkit
+zsh
+procs
+neofetch
+clear
+ll
+la
+ll
+ff
+pf
+htop
+ff
+la
+ll
+tree /
+clear
+sudo pacman -S foot
+foot
+bat .config/alacritty/theme.yml
+light -U 10
+sudo chown wbr /sys/class/backlight/amdgpu_bl0/brightness
+vim .config/hypr/bar/bar.css
+vim .config/hypr/bar/config
+clear
+mkdir repository/scripts/powermenu
+vim repository/scripts
+cd repository/scripts/powermenu
+ll
+vim logout.sh
+hyprctl
+hyprctl exit
+hyprctl kill
+pidof Hyprland
+pidof dunst
+notify-send "name"
+echo $USER
+loginctl -h
+z power
+ll
+touch shutdown
+mv logout.sh logout
+ll
+touch reboot
+ll
+echo '#!/bin/sh' > reboot
+echo '#!/bin/sh' > shutdown
+ll
+vim logout
+man poweroff
+ll
+vim reboot
+vim logout
+vim shutdown
+ll
+chmod +x *
+ll
+sudo ln -s logout /usr/local/bin/powermenu-logout
+sudo ln -s $PWD/logout /usr/local/bin/powermenu-logout
+sudo ln -s $PWD/reboot /usr/local/bin/powermenu-reboot
+sudo ln -s $PWD/shutdown /usr/local/bin/powermenu-shutdown
+ll
+vim powermenu
+ll
+ll
+mv powermenu ..
+mv powermenu ../pwrmenu
+ll
+loginctl list-sessions
+loginctl list-users
+loginctl user-status
+ll
+vim ../pwrmenu
+chmod +x ../pwrmenu
+./../pwrmenu
+vim ../pwrmenu
+./../pwrmenu
+loginctl user-status
+loginctl
+loginctl --help
+vim ../pwrmenu
+vim logout
+cd ..
+ll
+./pwrmenu
+./pwrmenu
+vim .config/hypr/hyprland.conf
+fd . "$HOME/repository/scripts/powermenu"
+basename $(fd . "$HOME/repository/scripts/powermenu")
+basename $(fd . "$HOME/repository/scripts/powermenu")
+basename fd . "$HOME/repository/scripts/powermenu"
+fd . "$HOME/repository/scripts/powermenu"
+fd . "$HOME/repository/scripts/powermenu" | awk '{print $6}'
+fd . "$HOME/repository/scripts/powermenu" | awk '{print $5}
+fd . "$HOME/repository/scripts/powermenu" | awk '{print $5}'
+fd . "$HOME/repository/scripts/powermenu" | awk '{print $4}'
+fd . "$HOME/repository/scripts/powermenu" | awk -F '/' '{print $4}'
+fd . "$HOME/repository/scripts/powermenu" | awk -F '/' '{print $5}'
+fd . "$HOME/repository/scripts/powermenu" | awk -F "/" '{print $}'
+fd . "$HOME/repository/scripts/powermenu" | awk -F "/" '{print $1}'
+fd . "$HOME/repository/scripts/powermenu" | awk -F "/" '{print $2}'
+fd . "$HOME/repository/scripts/powermenu" | awk -F "/" '{print $3}'
+fd . "$HOME/repository/scripts/powermenu" | awk -F "/" '{print $4}'
+fd . "$HOME/repository/scripts/powermenu" | awk -F "/" '{print $5}'
+fd . "$HOME/repository/scripts/powermenu" | awk -F "/" '{print $6}'
+fd . "$HOME/repository/scripts/powermenu" | awk -F "/" '{print $7}'
+fd . "$HOME/repository/scripts/powermenu" | awk -F "/" '{print $7}'
+fd . "$HOME/repository/scripts/powermenu" | awk -F "/" '{print $7}' | bemenu
+fd . "$HOME/repository/scripts/powermenu" | awk -F "/" '{print $7}' | bemenu -p ''|
+fd . "$HOME/repository/scripts/powermenu" | awk -F "/" '{print $7}' | bemenu -p '' |
+fd . "$HOME/repository/scripts/powermenu" | awk -F "/" '{print $7}' | bemenu -P '' |
+fd . "$HOME/repository/scripts/powermenu" | awk -F "/" '{print $7}' | bemenu -P "" |
+fd . "$HOME/repository/scripts/powermenu" | awk -F "/" '{print $7}' | bemenu -P ""
+fd . "$HOME/repository/scripts/powermenu" | awk -F "/" '{print $7}' | bemenu -p ""
+fd . "$HOME/repository/scripts/powermenu" | awk -F "/" '{print $7}' | bemenu -p "" | perl -pe "s|^|powermenu-|g"
+pacman -Ss archlinux-tweak
+paru -Ss archlinux-tweak
+grub-customizer --help
+sudo grub-customizer
+ll
+la
+neofetch
+ff
+ll
+la
+ll /usr/share/fonts
+sudo rm -rf /usr/share/fonts/*
+sudo fc-cache -vf
+fc-cache -vf
+paru -S oomox-full-git
+paru -S themix-full-git
+pacman -Ss murrine
+sudo pacman -S gtk
+sudo pacman -S gtk2
+sudo pacman -S gtk3
+sudo pacman -S gtk5
+sudo pacman -S gtk4
+cd repo/assets
+ll
+cp -r fonts ~/.local/share
+rm ~/.local/share/fonts
+rm ~/.local/share/themes
+rm ~/.local/share/icons
+cp -r * ~/.local/share/
+ll
+sudo cp -r ~/.local/share/themes/* /usr/share/themes/
+la
+ll
+neofetch
+ff
+cd ~/repo/apps
+ll
+cd ..
+mv apps programs
+cd programs
+l
+git clone https://github.com/linusdierheimer/fastfetch
+cd fastfetch
+ll
+mkdir build;cd build
+ll
+cmake ..
+ll
+cmake --build . --target fastfetch --target flashfetch --prefix /usr
+cmake --build . --target fastfetch --target flashfetch
+ll
+bat Makefile
+sudo cmake --install . --prefix /usr
+ff
+zsh
+git clone git clone https://github.com/varlesh/oreo-cursors.git
+git clone https://github.com/varlesh/oreo-cursors.git
+cd oreo-cursors
+pacman -Ss inkscape
+pacman -Ss xcursorgen
+sudo pacman -S xorg-apps
+sudo pacman -S xorg
+ruby generator/convert.rb
+make build
+reboot
+fastfetch
+flashfetch
+chsh
+paru -Ss dash
+paru -Ss dash | rg symlink
+paru -Ss dash | rg link
+paru -Ss dash link
+paru -S dashbinsh
+which sh | xargs readlink
+ll
+ll
+la
+pf
+ff
+pf
+ll
+cd ..
+ll
+ll
+cd ..
+ll
+cd
+cd repo/assets/themes
+ll
+sudo pacman -S lxappearance
+cd ..
+ll
+cd icons
+ll
+wget -qO- https://git.io/papirus-icon-theme-install | sh
+vim .config/kitty/kitty.conf
+vim .config/bspwm/sxhkdrc
+cp -r ~/endeavour-backup/config/alacritty ~/.config
+vim .config/alacritty/alacritty.yml
+ll
+la
+ll
+ll
+la
+ll
+cd oreo-cursors
+l
+l
+ll
+make build
+sudo make install
+cd repo/programs
+l
+la
+git clone https://github.com/Cloudef/bemenu.git
+cd bemenu
+ll
+make all
+cd ..
+rm -rf bemenu
+ll
+git clone https://github.com/Cloudef/bemenu.git
+cd bemenu
+ll
+la
+sudo pacman -S doxygen scdoc asciidoc asciidoctor xclip xsel
+sudo su
+sudo groupadd video
+groups
+id
+usermod -a -G video wbr
+sudo usermod -a -G video wbr
+groups
+getent group
+cd repo/programs/bemenu
+ll
+ll
+make all
+sudo make install PREFIX=/usr
+bemenu
+bemenu-run
+sudo vim /etc/ld.so.conf
+sudo ldconfig
+source .zshenv
+ldconfig -p
+ldconfig -p | rg bem
+bemenu-run -v
+bemenu-run -V
+bemenu-run --verbose
+man bemenu-run
+man bemenu
+vim .config/bspwm/sxhkdrc
+neo
+neofetch
+sudo pacman -S light
+sudo usermod -aG video wbr
+light -A 10
+sudo light -A 10
+sudo light -A 100
+zsh
+groups
+zsh
+bemenu-run
+env
+man pkg-config
+vim ~/.zshenv
+source ~/.zshenv
+ll
+bemenu-run
+sudo ldconfig
+bemenu-run
+vim .zshenv
+vim /etc/environment
+sudo vim /etc/environment
+export PKG_CONFIG_PATH=/usr/lib/
+export PKG_CONFIG_PATH=/usr/lib
+bemenu-run
+unset PKG_CONFIG_PATH
+ll
+man ldconfig
+cd repo/programs
+ll
+l
+la
+ll
+cd bemenu
+ll
+la
+sudo make uninstall
+ll
+cd ..
+rm -rf bemenu
+git clone https://github.com/Cloudef/bemenu.git
+cd bemenu
+make
+make clean
+make libdir=/usr/lib PREFIX=/usr
+make clean
+make libdir=/usr PREFIX=/usr
+make clean
+make DESTDIR=/usr
+make clean
+make libdir=/usr PREFIX=/usr
+sudo make install PREFIX=/usr libdir=/usr
+bemenu-run
+cd
+bemenu-run
+cd repo/programs/bemenu
+ll
+la
+make clean
+sudo make uninstall
+sudo make uninstall PREFIX=/usr
+sudo make uninstall PREFIX=/usr libdir=/usr
+sudo make uninstall PREFIX=/usr libdir=/
+sudo make uninstall PREFIX=/usr
+sudo make uninstall PREFIX=/usr
+make
+make clean
+ll
+make PREFIX=/usr
+sudo make install
+sudo make uninstall
+sudo make install PREFIX=/usr
+bemenu-run
+clear
+ll
+ll /usr/lib
+la /usr/lib
+ll /usr/lib | most
+ll /usr/lib/bemenu | most
+zsh
+bat ~/.config/bspwm/polybar.ini
+cd repo/programs
+ll
+âƒ½¯ git clone --single-branch --branch next-rebase --depth=1 https://github.com/ibhagwan/picom
+ git clone --single-branch --branch next-rebase --depth=1 https://github.com/ibhagwan/picom
+cd picom
+l
+make
+ll
+meson
+mkdir build
+meson build
+sudo pacman -S libev
+meson build
+pacman -Ss evdev
+pacman -S xorg-drivers
+sudo pacman -S xorg-drivers
+ll
+rm -rf build
+mkdir build
+meson build
+sudo updatedb
+locate libev
+pacman -Ss uthash
+sudo pacman -S uthash
+sudo ldconfig
+rm -rf build
+mkdir build
+mkdir build
+meson build
+sudo pacman -S libconfig
+meson build
+ninja -C build
+sudo ninja -C build install PREFIX=/usr
+sudo ninja -C build install prefix=/usr
+sudo ninja -C build install --prefix=/usr
+sudo ninja -C build install
+which picom
+picom
+pkill picom
+clear
+ll
+cd
+vim .config/bspwm/bar.sh
+vim .config/bspwm/bar.sh
+chmod .config/bspwm/
+ll .config/bspwm
+chmod +x .config/bspwm/bar.sh
+vim .config/bspwm/bspwmrc
+ll
+ll
+la
+ll
+la
+ll
+ll
+rm .wget-hsts
+ll
+ll
+sudo ln -s /usr/lib/bemenu /usr/local/lib/bemenu 
+bemenu-run
+rm -rf /usr/local/lib/bemenu
+sudo rm -rf /usr/local/lib/bemenu
+ll
+sudo updatedb
+locate picom.conf
+locate picom
+sudo pacman -S compi
+sudo pacman -S compiz
+sudo pacman -Ss compiz
+paru -Ss compiz
+xfce4-settings-manager
+man picom
+sudo mandb
+man picom
+locate picom.1
+sudo updatedb
+locate picom.1
+cd repo/programs/picom/man
+ll
+meson
+meson .
+asciidoc picom.1.asciidoc
+ll
+man asciidoc
+asciidoc picom.1.asciidoc -d manpage
+asciidoc picom.1.asciidoc -d manpage
+asciidoc --help manpage
+ll
+bat meson.build
+asciidoc picom.1.asciidoc --format manpage
+asciidoc picom.1.asciidoc --format=manpage
+asciidoc --format manpage picom.1.asciidoc
+asciidoc --format=manpage picom.1.asciidoc
+clear
+ll
+la
+rm *html
+ll
+ll
+vim meson.build
+ll
+clear
+l
+ll
+cd 
+meson man
+meson build man
+ll
+cd repo/programs/picom/man
+ll
+cd ..
+meson man
+ll
+ll
+doxygen
+ll
+ll m
+ll man
+cd man
+ll
+asciidoc --format manpage
+asciidoc -D manpage
+asciidoc -f manpage
+asciidoc -d manpage
+asciidoc -d manpage picom.1.asciidoc
+ll
+asciidoc -F manpage picom.1.asciidoc
+asciidoc -f manpage picom.1.asciidoc
+asciidoc -d manpage picom.1.asciidoc
+asciidoc -D manpage picom.1.asciidoc
+ll
+man asciidoc
+ll
+rm picom.1.html
+l
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+la
+asciidoctor
+asciidoctor -b manpage -d manpage picom.1.asciidoc
+ll
+man ./picom.1
+asciidoctor -b manpage -d manpage picom-trans.1.asciidoc
+ll
+man ./picom-trans.1.1
+ll
+rm picom-trans.1.1
+rm picom.1
+ll
+ll
+asciidoctor -b manpage -d manpage picom-trans.1.asciidoc
+ll
+rm picom-trans.1.1
+ll
+ll
+ll
+ll
+ll
+la
+ll
+ll
+ll
+ll
+la
+la
+la
+la
+ll
+ll
+ll
+la
+ll
+ll
+ll
+ll
+clear
+ll
+cear
+ll
+man picom
+ll
+cd ..
+sudo ninja -C build uninstall
+ll
+git submodule update --init --recursive
+meson --buildtype=release . build
+rm -rf build
+meson --buildtype=release . build
+meson configure -Dprefix=/usr build
+ninja -C build
+sudo ninja -C build install
+which picom
+picom
+picom
+make doxygen
+meson man
+clear
+meson setup man
+meson configure man
+meson subprojects
+ninja -C man
+meson man
+meson ./man/meson.build
+meson ./man
+cd man
+meson build .
+ll
+ll build
+ll
+rm -rf build
+ll
+meson .
+meson men
+cd ..
+meson
+meson .
+asciidoc --help
+asciidoc --help manpage
+a2x --help
+a2x --doctype=manpage
+a2x --doctype=manpage man/picom.1.asciidoc
+cd man
+ll
+a2x --doctype=manpage picom.1.asciidoc
+sudo pacman -R lxappearance
+sudo pacman -S xfce4-settings
+sudo pacman -S xfce4-settings
+asciidoc picom.1.asciidoc
+ll
+rm *xml
+ll
+asciidoc picom-trans.1.asciidoc
+ll
+pkill picom;picom -b
+pkill picom;picom -b
+pkill picom;picom -b
+pkill picom;picom -b
+pkill picom;picom -b
+pkill picom;picom -b
+pkill picom;picom -b
+pkill picom;picom -b
+pkill picom;picom -b
+pkill picom;picom -b
+pkill picom;picom -b
+pkill picom && picom -b
+clear
+ll
+pkill picom
+pidof xsettingsd
+pidof xsettings
+clear
+procs settings
+procs
+ll ~/Downloads
+vim repo/scripts/comp-start
+man picom
+vim .config/bspwm/bspwmrc
+cd Downloads/
+ll
+man ./vertopal.com_picom.1.1
+man ./vertopal.com_picom-trans.1.1
+mv vertopal.com_picom.1.1 picom.1
+mv vertopal.com_picom-trans.1.1 picom-trans.1
+ll
+gzip -9 *.1
+ll
+sudo cp picom* /usr/share/man/man1/
+man picom
+ll
+cd
+l
+lll
+ll
+mkdir .config/picom
+vim .config/picom/picom.conf
+locate picom.conf
+locate picom
+paru -S picom-ibhagwan-git
+sudo rm /usr/bin/compton
+sudo rm /usr/bin/compton-trans
+sudo rm /usr/bin/picom
+sudo rm /usr/bin/picom-trans
+sudo rm /usr/share/applications/compton.desktop
+sudo rm /usr/share/applications/picom.desktop
+sudo rm /usr/share/icons/hicolor/48x48/apps/compton.png
+sudo rm /usr/share/icons/hicolor/scalable/apps/compton.png
+sudo rm /usr/share/icons/hicolor/scalable/apps/compton.svg
+sudo rm /usr/share/man/man1/picom*
+paru -S picom-ibhagwan-git
+sudo updatedb
+locate picom.conf
+cp /etc/xdg/picom.conf.example .config/picom/picom.conf
+ll
+vim .config/picom/picom.conf
+vim .config/bspwm/bspwmrc
+vim bar.sh
+vim .config/bspwm/bar.sh
+vim .config/bspwm/bar.sh
+cd repo/programs
+ll
+$ git clone --depth=1 https://github.com/adi1090x/polybar-themes.git
+ git clone --depth=1 https://github.com/adi1090x/polybar-themes.git
+ll
+cd polybar-themes
+ll
+./setup.sh
+bash ~/.config/polybar/launch.sh
+bash ~/.config/polybar/launch.sh --material
+sudo pacman -S mpd
+pkill polybar
+pkill polybar
+pkill polybar
+pkill polybar
+pkill polybar
+systemctl --user disable mpd
+mpd
+sudo rm /run/mpd/mpd.pid
+sudo chown wbr /run/mpd
+mpd
+pkill polybar
+pkill polybar
+pacman -Ss material icons
+paru -Ss material icons
+paru -S ttf-material-icons-git
+cd .config/polybar
+ll
+./launch.sh
+./launch.sh --material
+systemctl --user enable mpd
+systemctl --user start mpd
+systemctl --user status mpd
+mpd
+pidof mpd
+clear
+ll
+./launch.sh
+./launch.sh --forest
+./launch.sh --
+./launch.sh --cuts
+./launch.sh --
+./launch.sh --panels
+./launch.sh --pwidgets
+./launch.sh --hack
+./launch.sh -
+./launch.sh --colorblocks
+./launch.sh --
+./launch.sh --docky
+man picom
+man picom-trans
+cp /usr/share/endeavouros/backgrounds/eos_wallpapers_community/Endy_vector_EOS-planet.png ~
+ll
+cp -r endeavour-backup/Pictures/* ~/Pictures
+mv Endy_vector_EOS-planet.png ~/Pictures/wallpapers/eos.png
+ll
+man hsetroot
+hsetroot
+hsetroot --help
+hsetroot --help -tile $HOME/Pictures/wallpapers/eos.png
+hsetroot --help -tile $HOME/Pictures/wallpapers/eos.png
+hsetroot --help -tile /home/wbr/Pictures/wallpapers/eos.png
+hsetroot -tile /home/wbr/Pictures/wallpapers/eos.png
+vim .config/bspwm/bar.sh
+vim .config/bspwm/polybar.ini
+sudo pacman -Syyu
+paru -R picom-ibhagwan-git
+pkill picom
+pkill picom && picom -b --experimental-backends
+pkill picom; picom -b --experimental-backends
+pkill picom
+picom -b
+ll
+la
+nvim .config/bspwm/polybar.ini
+cd repo/programs
+ll
+rm -rf picom
+ll
+sudo rm -rf picom
+git clone https://github.com/jonaburg/picom
+cd picom
+ll
+meson --buildtype=release . build
+ninja -C build
+sudo ninja -C build install
+picom
+picom
+man picom
+ll
+ll
+bat picom.sample.conf
+cp picom.sample.conf ~/.config/picom/picom.conf
+vim ~/.config/picom/picom.conf
+sudo pacman -S lxappearance
+paru -S sddm-sugar-dark
+locate sddm.conf
+sudo vim /usr/lib/sddm/sddm.conf.d/default.conf
+sudo systemctl restart sddm
+sudo pacman -S ttf-dejavu
+sudo vim /usr/share/sddm/themes/sugar-dark/theme.conf
+sudo systemctl restart sddm
+hsetroot -cursor /usr/share/icons/oreo_white_cursors/cursors/pointing_hand
+xsetroot -cursor /usr/share/icons/oreo_white_cursors/cursors/pointing_hand
+xsetroot -cursor_name /usr/share/icons/oreo_white_cursors/cursors/pointing_hand
+xsetroot -cursor_name /usr/share/icons/oreo_white_cursors/cursors/pointing_hand
+xsetroot -cursor /usr/share/icons/oreo_white_cursors/cursors/pointing_hand default
+xsetroot -cursor /usr/share/icons/oreo_white_cursors/cursors/pointing_hand 12
+ff
+ff
+kitty
+kitty +kitten themes
+ll
+cd .config/kitty/
+ll
+mv Kaolin\ Aurora.conf kaolin-aurora.conf
+ll
+vim kitty.conf
+vim .config/kitty/kitty.conf
+ll
+la
+neofetch
+ff
+pf
+ff
+vim
+nvim
+nvim .config/alacritty/theme.yml
+vim .config/kitty/kitty.conf
+cd repo/assets
+ll
+cd ..
+ll
+mkdir other
+cd other
+ll
+ll
+la
+git clone https://github.com/EliverLara/terminator-themes.git
+ll
+cd terminator-themes
+ll
+cd ll
+ll
+ll
+cd schemes
+ll
+la
+la
+ll
+vim Sick.config
+bat Sick.config
+ll
+neofetch
+clear
+ll
+la
+ff
+vim .config/alacritty/theme.yml
+neofetch
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+nvim +PackerSync
+nvim +Packer
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+nvim
+cp -r ~/endeavour-backup/config/nvim ~/.config
+nvim +PackerSync
+sudo pacman -S python-pip nodejs npm
+nvim +PackerSync
+cp -r endeavour-backup/config/kitty/kitty.conf ~/.config/kitty/
+\:
+sudo pacman -R vim
+sudo ln -s /usr/bin/nvim /usr/bin/vim
+vim
+neofetch
+ll
+pf
+pf --help
+pf -v
+pf -d
+ll
+neofetch
+vim .zshenv
+source ~/.zshenv
+nim
+nim
+ll
+la
+wget -qO - https://nim-lang.org/choosenim/init.sh | sh
+wget -qO - https://nim-lang.org/choosenim/init.sh | sh
+curl https://nim-lang.org/choosenim/init.sh -sSf | sh\
+
+v
+paru -Ss fetch
+paru -S fetch
+paru -S fetcho
+fetcho
+fetcho
+paru -S sysfex
+sysfex
+pacman -Ss fetch
+sudo pacman -S screenfetch
+sudo pacman -S scrot
+screenfetch
+screenfetch
+vim .config/bspwm/polybar.ini
+pacman -Q | rg vesa
+sudo pacman -R xf86-video-vesa
+groups
+light -U 10
+sudo pacman -S acpilight
+xbacklight -d 1
+xbacklight -d
+xbacklight -dec 10
+xbacklight -dec 10
+xbacklight -dec 10
+xbacklight -dec 10
+xbacklight -dec -10
+xbacklight -get
+xbacklight -get
+xbacklight -set 50%
+xbacklight -set 50
+sudo pacman -S acpilight
+xbacklight -get
+xbacklight -set 50
+vim repo/other/terminator-themes/schemes/Sick.config
+vim Sick.toml
+vim Sick.yml
+vim /etc/udev/rules.d/
+light -U 10
+xbacklight -set 50
+sudo updatedb
+locate 90-b
+locate 90-b | xargs cat
+xbacklight -set 50
+locate 90-b | xargs nvim
+locate 90-b | xargs sudo nvim
+reboot
+light -U 10
+light -U 10
+light -U 10
+light -U 10
+light -U 10
+light -A 100
+clear
+ll
+la
+ll
+la
+rm -rf man
+rm -rf oreo-cursors
+ll
+la
+rm -rf build
+ll
+ll .icons
+ll .icons/default/index.theme
+ll .icons/default/
+la
+ll
+la
+rm Sick.toml
+la
+ll
+la
+firefox
+pkill firefox
+pkill firefox
+paru -S font-manager
+sudo pacman -S icomoon
+paru -S icomoon
+paru -Ss icomoon
+paru -Ss ttf-icomoon-feather
+paru -S ttf-icomoon-feather
+paru -S ttf-unicons ttf-font-awesome-5 siji-git
+sudo pacman -Ss xorg-xfd
+sudo pacman -S xorg-xfd
+ll
+la
+neofetch
+neofetch
+sudo pacman -Ss powerline
+sudo pacman -S powerline-fonts
+ll
+la
+ll
+la
+la
+la
+la
+la
+sudo pacman -Syyu
+paru -Ss icon
+paru -Ss icon font
+sudo fc-cache -vf
+fontq icom
+fontq ico
+picom
+man date
+vim .config/bspwm/polybar.ini
+vim .config/bspwm/polybar.ini
+vim Sick.yml
+vim .config/bspwm/bspwmrc
+paru -Ss nitch
+paru -S nitch
+nitch
+checkupdates
+polybar -c ~/.config/bspwm/polybar.ini
+polybar -c ~/.config/bspwm/polybar.ini
+pacman -U
+cd .config/bspwm/\ 
+cd .config/bspwm/
+ll
+pkill polybar
+./bar.sh
+pkill polybar
+./bar.sh
+pkill polybar
+./bar.sh
+ifconfig
+ip
+ip link
+vim .config/alacritty/alacritty.yml
+bat .config/alacritty/theme.yml
+source ~/.zshenv
+bemenu-run
+vim .zshenv
+man bemenu
+btm
+neofetch
+htop
+htop
+sudo pacman -S htop bottom
+neofetch
+clear;neofetch
+vim .config/bspwm/polybar.ini
+ll
+./endeavour-backup/repository/scripts/pwrmenu
+pkill $USER
+loginctl --kill $USER
+loginctl --kill $(whoami)
+loginctl --kill
+loginctl --kill wbr
+loginctl --kill-user $USER
+loginctl --killuser
+loginctl --kill-who=$USER
+loginctl --kill-who=wbr
+loginctl --help
+loginctl kill-user $USER
+checkupdates
+checkupdates | wc -l
+pidof mpd
+systemctl --user status mpd
+systemctl --user enable --now mpd
+sudo systemctl enable mpd
+sudo systemctl start mpd
+pidof mpd
+sudo pacman -S pavucontrol
+xfsettingsd
+xfsettingsd
+sudo pacman -S xfce4-session-manager
+sudo pacman -S xfce4-session
+xfsettingsd
+xfce4-settings-manager
+cd ~/repo/programs/xfce-polkit
+ll
+sudo ninja -C build uninstall
+sudo pacman -S lxsession
+pkill polybar
+cd
+cd .config/bspwm
+ll
+./bar.sh
+xfsettingsd
+pkill lxsession
+man alacritty
+git clone git clone https://github.com/alvatip/Nordzy-cursors\
+cd Nordzy-cursors
+git clone https://github.com/alvatip/Nordzy-cursors\
+cd Nordzy-cursors
+sudo ./install
+sudo ./install.sh
+vim Sick.yml
+sudo pacman -Syyu
+pidof dunst
+sudo pacman -S dunst
+neofetch
+date +%F_%I-%M
+man date
+sxiv . &
+sudo pacman -S maim
+man maim
+vim .config/bspwm/polybar.ini
+vim .config/bspwm/sxhkdrc
+date +%F_%I-%M
+man date
+date +%F_%I-%M-%S
+date +%F_%I-%M-%S
+date +%F_%I-%M-%S
+maim --format=png -m 8 --hidecursor $(date +%F_%I-%M-%S).png
+ll
+sudo pacman -S sxiv feh
+sxiv
+sxiv .
+maim --format=png -m 10 --hidecursor $(date +%F_%I-%M-%S).png
+maim --format=png -m 1 --hidecursor $(date +%F_%I-%M-%S).png
+ll
+sudo ln -s $PWD/repo/scripts/screenshot-xorg /usr/local/bin/
+ll /usr/local/bin
+chmod +x repo/scripts/screenshot-xorg
+vim repo/scripts/screenshot-xorg
+ll Pictures/screenshots
+rm Pictures/screenshots/*
+cd Pictures/screenshots
+la
+ll
+ll
+ll
+la
+ll ~
+sudo pacman -S pamixer
+ll
+ll
+ll
+ll
+rm 2022-08-08_02-38-04.png
+vim ~/repo/scripts/screenshot-xorg
+ll
+ll
+ll ~
+xev
+xev
+ll Pictures/screenshots
+ll Pictures/screenshots
+rm -rf Pictures/screenshots/*
+lll
+l
+vim .config/bspwm/sxhkdrc
+xev
+vim .config/bspwm/bspwmrc
+vim .config/bspwm/bspwmrc
+vim .config/bspwm/bspwmrc
+ll
+nim
+clear
+pf
+ff
+ll
+cd .config/bspwm
+ll
+./bspwmrc
+vim bar.sh
+vim .config/bspwm/bspwmrc
+vim .config/bspwm/bspwmrc
+systemctl --user enable --now dunst
+systemctl enable --now dunst
+vim .config/bspwm/bspwmrc
+pidof xfsettingsd
+pidof lxsession
+pidof lxpolkit
+man dunst
+vim .config/bspwm/bspwmrc
+mkdir git-repositories
+cd git-repositories
+l
+gh auth login
+clear
+ll
+la
+mkdir wbr-linux
+cd wbr-linux
+ll
+env
+fc-list : family
+ll
+ll ~/.config
+vim .config/user-dirs.dirs
+cd endeavour-backup
+ll
+cd repository
+ll
+ll scripts
+cp -r scripts/* ~/repo/scripts
+ll
+cd ..
+l
+ll
+ll config
+ff
+ff
+ff
+ff
+screenfetch
+kitty +kitten themes
+ll
+vim .config/kitty/kitty.conf
+vim .config/kitty/kitty.conf
+vim .config/kitty/current-theme.conf
+vim Sick.yml
+vim .config/dunst/dunstrc
+ll /usr/share/icons
+ll /usr/share/icons/Papirus-Dark
+ll /usr/share/icons/Papirus-Dark/24x24/
+ll /usr/share/icons/Papirus-Dark/24x24/status
+man dunst
+vim .config/bspwm/polybar.ini
+light
+light --help
+light -L
+light -G
+notify-send "name" $'s\ns'
+notify-send Packages to update:'
+notify-send $'Packages to update:\n$(checkupdates)'
+notify-send $'Packages to update:\n$(checkupdates)'"$(checkupdates)"
+notify-send $'Packages to update:\n'"$(checkupdates)"
+notify-send $'Packages to update:\n'"$(checkupdates)"
+checkupdates | xargs -r notify-send
+checkupdates | xargs -r notify-send
+checkupdates | xargs notify-send
+checkupdates | notify-send
+notify-send $'Packages to update:\n'"$(checkupdates)"
+notify-send $'Packages to update:\n\n'"$(checkupdates)"
+notify-send $'Packages to update:\n '"$(checkupdates)"
+notify-send $'Packages to update:\n' "$(checkupdates)"
+notify-send $'Packages to update:\n' "$(checkupdates)"
+notify-send $'Packages to update:\n' "$(checkupdates)"
+notify-send $'Packages to update:' "$(checkupdates)"
+notify-send $'Packages to update:' "$(checkupdates)"
+brightness-down
+brightness-up
+vim brightness-up
+fd . "/usr/local/bin/powermenu-"
+fd . "/usr/local/bin/powermenu-*"
+fd . /usr/local/bin/powermenu-*
+fd . /usr/local/bin/
+fd . /usr/local/bin/ | perl -pe 's|/usr/local/bin/||g'
+fd . /usr/local/bin/ | perl -pe 's|/usr/local/bin/||g' | rg powermenu
+fd . /usr/local/bin/ | perl -pe 's|/usr/local/bin/||g' | rg powermenu-*
+fd . /usr/local/bin/ | perl -pe 's|/usr/local/bin/||g' | grep powermenu-*
+fd . /usr/local/bin/ | perl -pe 's|/usr/local/bin/||g' | grep powermenu-
+fd . /usr/local/bin/ | perl -pe 's|/usr/local/bin/||g' | rg powermenu-
+fd . /usr/local/bin/ | perl -pe 's|/usr/local/bin/||g' | rg powermenu- | perl -pe 's|powermenu-||g'
+fd . /usr/local/bin/ | perl -pe 's|/usr/local/bin/||g' | rg powermenu- | perl -pe 's|powermenu-||g'
+fd . /usr/local/bin/ | perl -pe 's|/usr/local/bin/||g' | rg powermenu- | perl -pe 's|powermenu-||g'
+powermenu
+powermenu
+powermenu
+powermenu
+powermenu
+cd repo/scripts/powermenu.d
+ll
+vim powermenu-nevermind
+chmod +x powermenu-nevermind
+sudo ln -s $PWD/powermenu-nevermind /usr/local/bin/
+powermenu
+powermenu
+sudo ln -s $PWD/powermenu-whoops-nevermind /usr/local/bin/
+mv powermenu-nevermind powermenu-whoops-nevermind
+ll
+ll /usr/local/bin
+rm /usr/local/bin/powermenu-nevermind
+sudo rm /usr/local/bin/powermenu-nevermind
+ll
+powermenu
+powermenu
+powermenu
+clear
+ll
+cd ..
+ll
+sudo ln -s $PWD/volume-* /usr/local/bin/
+sudo ln -s $PWD/brightness-* /usr/local/bin/
+sudo ln -s $PWD/screenshot-* /usr/local/bin/
+ll /usr/local/bin
+la /usr/local/bin
+zsh
+cp /usr/share/icons/ePapirus* -r ~/repo/assets/icons
+cp /usr/share/icons/Papirus* -r ~/repo/assets/icons
+sudo pacman -S lolcat
+lolcat doas
+lolcat
+lolcat -h
+doas pacman -Ss neofetch | lolcat
+doas lolcat
+clear
+ll
+dunstify "fuckyou"
+dunstify "fuckyou" 'nigger'
+dunstify 'fuckyou' "nigger"
+dunstify 'fuckyou' "nigger" "$(checkupdates)"
+dunstify 'fuckyou' "nigger" "$(checkupdates)"
+dunstify 'fuckyou' "$(checkupdates)"
+vim .config/bspwm/polybar.ini
+pacman -Ss icon viewer
+paru -Ss icon viewer
+paru -Ss icon view
+paru -S ikona app-icon-preview
+paru -S app-icon-preview
+pacman -Ss geeqie
+doas pacman -S geeqie
+dunstify --help
+dunstify -I /home/wbr/Pictures/screenshots/2022-08-08_04-14-14.png
+dunstify -I /home/wbr/Pictures/screenshots/2022-08-08_04-14-14.png "fuck"
+dunstify -I /home/wbr/Pictures/screenshots/2022-08-08_04-14-14.png "screenshot taken" 'click to view it'
+dunstify -i /home/wbr/Pictures/screenshots/2022-08-08_04-14-14.png "screenshot taken" 'click to view it'
+env
+dunstify -I ~/repo/assets/icons/pacmanghost.png
+dunstify -I ~/repo/assets/icons/pacmanghost.png 
+dunstify -I ~/repo/assets/icons/pacmanghost.png "$(checkupdates)"
+dunstify -I ~/repo/assets/icons/pacmanghost.png "$(checkupdates)"
+dunstify -I ~/repo/assets/icons/pacmanghost.png "$(checkupdates)"
+dunstctl --help
+dunstctl context
+dunstify -h string:x-dunst-stack-tag:test Test -A 'tested,default'
+dunstify -h string:x-dunst-stack-tag:test Test -A 'tested,default'
+dunstify -h string:x-dunst-stack-tag:test Test -A 'tested,default'
+dunstify -h string:x-dunst-stack-tag:test Test -A 'tested,default'
+man dunstify
+dunstify --help
+dunstify -c
+dunstify -A
+dunstify -A --help
+vim .config/bspwm/bspwmrc
+pamixer
+pamixer -h
+vim repo/scripts/brightness-down
+cp repo/scripts/brightness-down repo/scripts/brightness-up
+vim repo/scripts/brightness-up
+vim repo/scripts/volume-up
+locate dunst
+systemctl --user enable dunst.service
+systemctl --user disable dunst.service
+dunstify -h=volume
+dunstify -h volume
+dunstify -h volume "$(pamixer --get-volume)"
+dunstify -h string:x-dunst-stack-tag:volume "$(pamixer --get-volume)"
+dunstify -h string:x-dunst-stack-tag:brightness "$)"
+dunstify -h string:x-dunst-stack-tag:brightness "$(light)"
+brightness-down
+brightness-down
+brightness-down
+brightness-down
+brightness-down
+xbacklight -inc 10
+xbacklight -dec 10
+xbacklight -dec 10
+xbacklight -dec 10
+xbacklight -dec 5
+xbacklight
+xbacklight -get
+ll /home/wbr/repo/assets/icons/Papirus-Dark/64x64/categories
+ll /home/wbr/repo/assets/icons/Papirus-Dark/64x64/categories | rg audio
+ll /home/wbr/repo/assets/icons/Papirus-Dark/64x64/categories | rg pipe
+vim ~/.config/bspwm/polybar.ini
+ll /home/wbr/repo/assets/icons/Papirus-Dark/64x64/categories | rg volume
+ll /home/wbr/repo/assets/icons/Papirus-Dark/64x64/categories | rg geonkick
+vim .config/dunst/dunstrc
+man notify-send
+screenshot-xorg
+maim "fuck.png"
+ll
+ll Pictures/screenshots
+maim -m 10 --format=png --hidecursor "$HOME/Pictures/screenshots/$(date +%F_%I-%M-%S).png"
+ll
+screenshot-xorg
+screenshot-xorg
+screenshot-xorg
+screenshot-xorg
+printf "$(date +%F_%I-%M-%S)"
+printf "$(date +%F_%I-%M-%S).png"
+printf "$(date +%F_%I-%M-%S).png\n"
+printf "$(date +%F_%I-%M-%S).png"
+printf "(date +%F_%I-%M-%S).png"
+printf "$(date +%F_%I-%M-%S).png"
+maim "$(date +%F_%I-%M-%S).png"
+ll
+printf "$HOME/Pictures/screenshots/$(date +%F_%I-%M-%S).png"
+maim "$HOME/Pictures/screenshots/$(date +%F_%I-%M-%S).png"
+ll
+ll
+maim "$HOME/Pictures/screenshots/$(date +%F_%I-%M-%S).png"
+ll
+ll Pictures/screenshots
+screenshot-xorg
+dunstify -I /home/wbr/Pictures/screenshots/2022-08-08_06-46-51.png
+dunstify -I /home/wbr/Pictures/screenshots/2022-08-08_06-46-51.png 
+screenshot-xorg
+screenshot-xorg
+cd Pictures/screenshots
+ll
+dunstify -I ./2022-08-08_06-48-01.png
+dunstify -I ./2022-08-08_06-48-01.png "gawl"
+screenshot-xorg
+screenshot-xorg
+clear
+ll
+rm -rf *
+ll
+rm .png
+ll
+screenshot-xorg
+screenshot-xorg
+screenshot-xorg
+ll
+screenshot-xorg
+screenshot-xorg
+powermenu
+vim powermenu
+cd ..
+ll
+la
+ll
+vim brightness-down
+vim brightness-up
+vim screenshot-xorg
+vim screenshot-xorg
+vim screenshot-xorg
+db
+locate dunstrc
+mkdir ~/.config/dunst
+locate dunstrc | xargs cp $ .
+locate dunstrc | xargs cp _ .
+cp /etc/dunst/dunstrc ~/.config/dunst/
+cd repo/scripts
+ll
+vim volmute.sh
+./volmute.sh
+ping google.com
+ping google.com
+ll
+ll powermenu
+mv powermenu powermenu.d
+ll
+ll
+mv pwrmenu powermenu
+ll /usr/local/bin
+sudo rm /usr/local/bin/compton*
+ll
+mv selshot.sh screenshot-select-wayland
+mv shot screenshot-wayland
+mv shot.sh screenshot-wayland
+mv volup.sh volume-up
+mv voldown.sh volume-down
+mv volmute.sh volume-mute
+ll
+ll
+cp screenshot-xorg screenshot-select-xorg
+vim screenshot-select-xorg
+./screenshot-select-xorg
+ll ~/Pictures/screenshots
+sxiv ~/Pictures/screenshots
+ll
+mv backlight-up.sh brightness-up
+mv backlight-down.sh brightness-down
+ll
+ll powermenu.d
+cd powermenu.d
+ll
+mv logout powermenu-logout
+mv logout powermenu-reboot
+mv reboot powermenu-reboot
+mv shutdown powermenu-shutdown
+ll
+mv ../powermenu .
+ll
+sudo ln -s $PWD/powermenu /usr/local/bin/
+sudo ln -s $PWD/powermenu-* /usr/local/bin/
+ll
+ll /usr/local/bin
+ll
+vim powermenu-logout
+vim powermenu-shutdown
+vim powermenu-reboot
+ll
+zsh
+vim repo/scripts/screenshot-xorg-perl
+vim repo/scripts/screenshot-xorg-perl
+chmod +x repo/scripts/screenshot-xorg-perl
+./repo/scripts/screenshot-xorg-perl
+vim repo/scripts/screenshot-xorg-perl
+./repo/scripts/screenshot-xorg-perl
+vim repo/scripts/screenshot-xorg-perl
+./repo/scripts/screenshot-xorg-perl
+vim repo/scripts/screenshot-xorg-perl
+./repo/scripts/screenshot-xorg-perl
+vim repo/scripts/screenshot-xorg-perl
+./repo/scripts/screenshot-xorg-perl
+vim repo/scripts/screenshot-xorg-perl
+./repo/scripts/screenshot-xorg-perl
+vim repo/scripts/screenshot-xorg-perl
+./repo/scripts/screenshot-xorg-perl
+vim repo/scripts/screenshot-xorg-perl
+./repo/scripts/screenshot-xorg-perl
+vim repo/scripts/screenshot-xorg-perl
+./repo/scripts/screenshot-xorg-perl
+vim repo/scripts/screenshot-xorg-perl
+./repo/scripts/screenshot-xorg-perl
+vim repo/scripts/screenshot-xorg-perl
+./repo/scripts/screenshot-xorg-perl
+vim repo/scripts/screenshot-xorg-perl
+./repo/scripts/screenshot-xorg-perl
+vim repo/scripts/screenshot-xorg-perl
+./repo/scripts/screenshot-xorg-perl
+vim repo/scripts/screenshot-xorg-perl
+./repo/scripts/screenshot-xorg-perl
+vim repo/scripts/screenshot-xorg-perl
+neofetch
+ll
+la
+ff
+screenfetch
+screenfetch
+notify-send "gay"
+notify-send "$(checkupdates | wc -l)"
+notify-send "$(checkupdates | wc -l) packages can be updated"
+notify-send "$(checkupdates)"
+notify-send "$(checkupdates | wc -l) packages can be updated\n$(checkupdates)"
+notify-send "$(checkupdates | wc -l) packages can be updated $(checkupdates)"
+notify-send "$(checkupdates | wc -l) packages can be updated w$(checkupdates)"
+notify-send "$(checkupdates | wc -l) packages can be updated w$(checkupdates)"
+notify-send "$(checkupdates)"
+notify-send "$(checkupdates)"
+pkill dunst; dunst &
+notify-send "$(checkupdates)"
+pkill dunst; dunst &
+pkill dunst; dunst &
+notify-send "$(checkupdates)"
+notify-send "$(checkupdates)"
+vim .config/bspwm/bspwmrc
+notify-send "$(checkupdates)"
+vim .config/bspwm/sxhkdrc
+checkupdates
+checkupdates
+checkupdates
+checkupdates --help
+checkupdates -n
+checkupdates -d
+ll
+checkupdates
+checkupdates
+checkupdates
+notify-send "$(lsblk)
+notify-send "$(lsblk)"
+vim .config/bspwm/sxhkdrc
+vim .config/dunst/dunstrc
+vim .config/bspwm/sxhkdrc
+neofetch
+neofetch
+ll
+neofetch
+ff
+clear
+la
+vim .config/kitty/kitty.conf
+neofetch
+htop
+pidof hsetroot
+picom --experimental-backends
+pkill picom
+picom --experimental-backends
+picom --experimental-backends -b
+clear
+ll
+pkill picom
+picom --experimental-backends -b &>/dev/null
+pkill xfsettingsd
+xfsettingsd &>/dev/null
+xfsettingsd &>/dev/null &
+pidof xfsettingsd
+pidof lxpolkit
+pidof lxsession
+vim .config/bspwm/starup
+vim .config/bspwm/starup
+perl .config/bspwm/starup
+perl .config/bspwm/starup
+pkill lxsession
+perl .config/bspwm/starup
+vim .config/bspwm/starup
+chmod +x vim .config/bspwm/starup
+chmod +x .config/bspwm/starup
+cd .config/bspwm
+ll
+ll
+./starup
+vim starup
+./starup
+pidof xfsettingsd
+vim starup
+pkill lxsession
+pkill xfsettingsd
+./starup
+vim starup
+./starup
+pidof lxsession
+lxpolkit
+pkill lxsession
+pidof lxpolkit
+vim starup
+pkill lxsession
+pkill lxpolkit
+pkill xfsettingsd
+./starup
+l
+ll
+chmod +x sxhkdrc
+ll
+vim bspwmrc
+vim .config/bspwm/bspwmrc
+vim .config/bspwm/bspwmrc
+ll
+rm -rf Nordzy-cursors
+ll
+rm -rf *.png
+ll
+la
+cat ~/.config/bspwm/bspwm.log
+vim .config/bspwm/bspwmrc
+ll .config/bspwm
+mv ~/.config/bspwm/starup .config/bspwm/startup
+ll
+ll
+cat bspwm.log
+rm bspwm.log
+ll
+vim .config/bspwm/bspwmrc
+cd .config/bspwm
+ll
+vim bspwm.log
+./bspwmrc
+$XDG_CONFIG_HOME/bspwm/startup
+vim .config/bspwm/startup
+$XDG_CONFIG_HOME/bspwm/startup
+vim .config/bspwm/startup
+$XDG_CONFIG_HOME/bspwm/startup
+vim .config/bspwm/bspwmrc
+htop
+vim .config/dunst/dunstrc
+pkill dunst; dunst &
+vim .config/dunst/dunstrc
+pkill dunst; dunst &
+pkill dunst; dunst &
+vim .config/dunst/dunstrc
+pkill dunst; dunst &
+vim .config/dunst/dunstrc
+pkill dunst; dunst &
+vim .config/dunst/dunstrc
+paru -Ss dunst
+paru -S dunst-git
+du
+pkill dunst; dunst &
+vim .config/dunst/dunstrc
+pkill dunst; dunst &
+vim ~/repo/scripts/brightness-up
+vim ~/repo/scripts/brightness-down
+vim ~/repo/scripts/brightness-down
+vim ~/repo/scripts/brightness-up
+vim ~/repo/scripts/volume-down
+vim ~/repo/scripts/volume-up
+vim ~/repo/scripts/volume-mute
+vim .config/dunst/dunstrc
+vim .config/bspwm/polybar.ini
+./.config/bspwm/startup
+pkill polybar
+./.config/bspwm/startup
+pkill polybar
+./.config/bspwm/startup
+pkill polybar
+./.config/bspwm/startup
+vim .config/bspwm/polybar.ini
+neofetch
+htop
+vim .config/kitty/kitty.conf
+htop
+pkill firefox
+firefox
+firefox
+cd Pictures/wallpapers
+ll
+sxiv jellyfish.jpg
+convert jellyfish.jpg jellyfish.png
+ll
+ll
+hsetroot -fill jellyfish.png
+convert ghost.jpg ghost.png
+ll
+hsetroot -fill ghost.png
+hsetroot -tile ghost.png
+hsetroot -center ghost.png
+hsetroot -extend ghost.png
+hsetroot --help
+pf
+ff
+pkill polybar; ~/.config/bspwm/bar.sh
+cd Pictures/wallpapers
+ll
+hsetroot -fill solarsystem.jpg
+sudo ln -s $PWD/.config/bspwm/bar.sh /usr/local/bin/reload-bspwm-bar
+vim .config/bspwm/startup
+pacman -Ss voko
+sudo pacman -S vokoscreen
+sudo pacman -S obs-studio
+sudo pacman -S sndio
+cd Downloads
+ll
+chmod +x kdenlive-22.04.3-x86_x64.AppImage
+ll
+./kdenlive-22.04.3-x86_x64.AppImage
+ll
+mv kdenlive-22.04.3-x86_x64.AppImage ~/repo/programs
+cd ~/repo/scripts/
+vim kdenlive
+vim kdenlive
+mv ../programs/kdenlive-22.04.3-x86_x64.AppImage ../programs/kdenlive.appimage
+sudo ln -s $PWD/kdenlive /usr/local/bin/
+kdenlive
+cd repo/programs
+ll
+mv kdenlive.appimage kdenlive.AppImage
+./kdenlive.AppImage
+ll
+vim ../scripts/kdenlive
+kdenlive
+sudo kdenlive
+cd repo/programs
+ll
+./kdenlive.AppImage
+sudo vim /usr/local/bin/kdenlive
+kdenlive
+./kdenlive.AppImage &
+cd Pictures/wallpapers
+ll
+hsetroot -extend planet.jpg
+hsetroot -fill solarsystem.jpg
+sudo pacman -S discord
+vim .config/bspwm/startup
+vim .config/bspwm/polybar.ini
+vim .config/bspwm/sxhkdrc
+vim .zshenv
+htop
+btm
+pmv
+mpv
+mpv Videos/desktop.mp4 &
+mpv 2022-08-08\ 23-09-29.mkv
+neofetch
+btm
+htop
+mpv 2022-08-08_23-15-56.avi
+paru -S recapp
+man recapp
+recapp
+gpu-screen-recorder
+gpu-screen-recorder-gtk
+ll
+paru -Ss screen record
+paru -Ss screen record
+paru -S gpu-screen-recorder-gtk
+zsh
+mpv Videos/RecApp-2022-08-08-23:27:20.webm
+mpv Videos/RecApp-2022-08-08-23:28:42.mkv
+mpv Videos/mydesktop.mp4
+./repo/programs/kdenlive.AppImage
+./repo/programs/kdenlive.AppImage
+xflock4
+xflock4 -h
+xflock4 --help
+man xflock4
+pacman -Ss xfce screensave
+pacman -Ss xfce4-screensaver
+sudo pacman -S xfce4-screensaver
+xflock4
+ll
+la
+rm *mkv
+rm *avi
+ll
+la
+xfce4-screensaver-preferences
+vim .config/bspwm/startup
+ll
+neofetch
+ll
+la
+la
+vim .config/kitty/kitty.conf
+htop
+paru -S picom-arian8j2-git
+ll
+ll
+la
+paru -S picom-conf-git
+cd repo/programs/picom
+ll
+sudo ninja -C build uninstall
+ll /usr/local/share/applications
+bat /usr/local/share/applications/mimeinfo.cache
+ll
+cd
+paru -Ss picom
+pkill picom
+vim .config/bspwm/sxhkdrc
+db
+locate picom.conf
+cp /usr/share/picom-conf/picom.conf.example .
+ll
+vim picom.conf.example
+cp /etc/xdg/picom.conf.example .
+vim picom.conf.example
+picom -c picom.conf.example -b
+picom --config picom.conf.example -b
+pkill picom
+picom --config picom.conf.example -b
+vim picom.conf.example
+paru -Ss picom
+paru -S picom-ibhagwan-git
+pkill polybar; ~/.config/bspwm/bar.sh
+picom --config picom.conf -b
+picom-trans --config picom.conf -b
+picom-trans
+picom-trans -g
+picom-trans -g-t
+picom-trans -t
+picom-trans -w
+picom-trans -n
+picom-trans -g -c
+picom-trans -g -c -o 10
+picom-trans -c -o 10
+picom-trans -c -o 90
+picom-trans -c -o 80
+pkill picom
+picom --config picom.conf -b
+bat /etc/xdg/picom.conf.example
+ff
+sxiv Pictures/screenshots
+sxiv Pictures/screenshots &
+sxiv Pictures/screenshots & disown
+ll
+ll Pictures/screenshots
+ll
+ll Pictures/screenshots
+ll
+ll Pictures/screenshots
+sxiv Pictures/screenshots & disown
+rm Pictures/screenshots/*
+ll
+pkill picom
+picom --config picom.conf -b
+neofetch
+rm picom.conf.example
+db
+locate picom.conf
+cp /etc/xdg/picom.conf.example picom.conf
+ll
+vim picom.conf
+sudo pacman -Ss xf86
+sudo pacman -S xorg-drivers
+reboot
+pacman -Ss shotgun
+sudo pacman -S shotgun
+sudo pacman -S hacksaw
+shotgun --help
+shotgun --single-screen --format png --geometry $(hacksaw) test.png
+shotgun --format png --geometry $(hacksaw) test.png
+sxiv test.png
+slop
+hacksaw
+hacksaw -c #6AA1FD
+hacksaw -c '#6AA1FD'
+hacksaw -c '#f47375'
+hacksaw -c '#f47375' -n
+hacksaw -c '#f47375' -n -s 2
+hacksaw -c '#f47375' -n -s 2 -r
+man shotgun
+sudo mandb
+man shotgun
+shotgun -h
+vim repo/scripts/screenshot-xorg
+vim repo/scripts/screenshot-select-xorg
+cp repo/scripts/screenshot-xorg repo/scripts/screenshot-select-xorg
+vim repo/scripts/screenshot-select-xorg
+clear
+ll
+vim .config/alacritty/theme.yml
+xwininfo
+xprop
+hacksaw --help
+shotgun -h
+hacksaw --help
+hacksaw -n -s 2 -c '#F47375'
+mv picom.conf ~/.config/picom/picom.conf
+vim .config/bspwm/startup
+pkill picom
+picom -b
+vim .config/picom/picom.conf
+pkill picom; picom -b --config ~/.config/picom/picom.conf
+neofetch
+ll
+neo
+neofetch
+screenfetch

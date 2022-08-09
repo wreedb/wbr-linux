@@ -1,0 +1,4 @@
+#!/bin/sh
+
+area=$(slurp);
+grim -g "$area" $HOME/Pictures/screenshots/$(date +%F_%I-%M-%S).png

@@ -1,0 +1,4 @@
+#!/bin/bash
+imgname=($HOME/Pictures/screenshots/$(date +%F_%I-%M-%S).png)
+shotgun --format png $imgname
+dunstify -I $imgname "Screenshot taken" "$imgname"

@@ -1,0 +1,3 @@
+#!/bin/sh
+pamixer -t
+dunstify "Volume (un)muted"
