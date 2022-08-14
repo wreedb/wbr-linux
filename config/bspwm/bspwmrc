@@ -18,4 +18,4 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a Pavucontrol state=floating
 
-$XDG_CONFIG_HOME/bspwm/startup &>$XDG_CONFIG_HOME/bspwm/bspwm.log &
+$XDG_CONFIG_HOME/bspwm/autostart &

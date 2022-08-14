@@ -1,0 +1,5 @@
+#!/bin/sh
+
+wall=$(fd . $WALLPAPERS_DIR | shuf | head -n 1)
+
+hsetroot -fill $wall > /dev/null

@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+
+my $curbrt = `light -G`;
+my $newbrt = $curbrt - 10;
+
+system("light -S $newbrt");
+
+my $output = `light -G`;
+$output =~ s|..[0-9]$||;
+system("dunstify -a light -t 500 -h string:x-dunst-stack-tag:brightness 'Brightness: $output%'");

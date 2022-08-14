@@ -58,8 +58,6 @@ thunar
 udisks2
 xdg-utils
 xdg-user-dirs
-xdg-desktop-portal
-xdg-desktop-portal-wlr
 libxdg-basedir
 rustup
 pacman-contrib
@@ -106,4 +104,17 @@ lxsession
 lxappearance
 amd-ucode
 ufw
+yad
+xterm
+xss-lock
+xcompmgr
+tk
+asp
+devtools
+unzip
+scrot
+numlockx
+most
+glow
+discord
 

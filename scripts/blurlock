@@ -1,0 +1,5 @@
+#!/bin/sh
+rm $XDG_CACHE_HOME/lock.png
+scrot -q 50 $XDG_CACHE_HOME/lock.png;
+convert $XDG_CACHE_HOME/lock.png -filter Gaussian -blur 0x8 $XDG_CACHE_HOME/lock.png;
+i3lock -i $XDG_CACHE_HOME/lock.png --nofork;

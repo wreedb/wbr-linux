@@ -1,3 +1,2 @@
 #!/bin/sh
-
-sxhkd -c $HOME/.config/bspwm/sxhkdrc &
+pkill sxhkd; sxhkd -c $HOME/.config/$DESKTOP_SESSION/sxhkdrc &

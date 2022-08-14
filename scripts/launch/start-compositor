@@ -1,0 +1,4 @@
+#!/bin/sh
+
+pkill picom;
+exec picom --daemon --config $XDG_CONFIG_HOME/picom/$DESKTOP_SESSION.conf;

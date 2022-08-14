@@ -1,0 +1,6 @@
+#!/bin/bash
+
+while :; do
+  echo "$(checkupdates | wc -l)" > $XDG_CONFIG_HOME/.updates-available
+  sleep 60
+done

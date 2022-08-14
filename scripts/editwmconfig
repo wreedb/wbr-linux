@@ -1,0 +1,23 @@
+#!/bin/sh
+
+. "$SCRIPTS_DIR/editwmconfig-env";
+
+EDIT="$TERMINAL $EDITOR"
+
+if [ $DESKTOP_SESSION = "spectrwm" ]; then
+  $EDIT $SPECTRWM;
+elif [ $DESKTOP_SESSION = "bspwm" ]; then
+  $EDIT $BSPWM;
+elif [ $DESKTOP_SESSION = "xmonad" ]; then
+  $EDIT $XMONAD;
+elif [ $DESKTOP_SESSION = "awesome" ]; then
+  $EDIT $AWESOME;
+elif [ $DESKTOP_SESSION = "berry" ]; then
+  $EDIT $BERRY;
+elif [ $DESKTOP_SESSION = "herbstluftwm" ]; then
+  $EDIT $HERBSTLUFTWM;
+elif [ $DESKTOP_SESSION = "leftwm" ]; then
+  $EDIT $LEFTWM;
+else
+  exit;
+fi

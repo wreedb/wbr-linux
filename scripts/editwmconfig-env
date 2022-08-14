@@ -1,0 +1,9 @@
+#!/bin/sh
+
+SPECTRWM=$XDG_CONFIG_HOME/spectrwm/spectrwm.conf
+BSPWM=$XDG_CONFIG_HOME/bspwm/bspwmrc
+AWESOME=$XDG_CONFIG_HOME/awesome/rc.lua
+XMONAD=$XDG_CONFIG_HOME/xmonad/xmonad.hs
+BERRY=$XDG_CONFIG_HOME/berry/autostart
+HERBSTLUFTWM=$XDG_CONFIG_HOME/herbstluftwm/autostart
+LEFTWM=$XDG_CONFIG_HOME/leftwm/config.toml

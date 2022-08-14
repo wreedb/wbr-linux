@@ -10,21 +10,17 @@ super + Return
 super + p
 	bemenu-run
 
-super + shift + p
-  notify-send "$(checkupdates)"
-  #notify-send "$(checkupdates | wc -l) packages can be updated $(checkupdates)"
 
 # make sxhkd reload its configuration files:
 super + Escape
 	xhotkey-daemon-reload
 	# pkill -USR1 -x sxhkd -c ~/.config/bspwm/sxhkdrc
 
-#
-# bspwm hotkeys
-#
-
 Print
   screenshot-xorg
+
+super + Print
+  screenshot-select-xorg
 
 @XF86MonBrightnessUp
   brightness-up

@@ -1,0 +1,1 @@
+/home/wbr/.config/awesome/theme/tokyonight-theme.lua

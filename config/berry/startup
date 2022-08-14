@@ -1,0 +1,41 @@
+#!/usr/bin/perl
+#
+
+my $home = $ENV{"HOME"};
+my $conf = $ENV{"XDG_CONFIG_HOME"};
+my $walls = $ENV{"WALLPAPERS_DIR"};
+
+my $lxsessionpid = `pidof lxsession`;
+my $picompid = `pidof picom`;
+my $dunstpid = `pidof dunst`;
+my $polybarpid = `pidof polybar`;
+
+system("hsetroot -fill $walls/girl.png");
+
+if ($lxsessionpid) {
+  print "lxsession already running- not restarting\n";
+} else {
+  print "starting lxsession...\n";
+  system("lxsession &>/dev/null &");
+}
+
+if ($picompid) {
+  print "picom already running- not restarting\n";
+} else {
+  print "starting picom...\n";
+  system("picom --daemon --config $conf/berry/picom.conf &>/dev/null &");
+}
+
+if ($dunstpid) {
+  print "dunst already running- not restarting\n";
+} else {
+  print "starting dunst...\n";
+  system("dunst &>/dev/null &");
+}
+
+if ($polybarpid) {
+  print "polybar already running- not restarting\n";
+} else {
+  print "starting polybar...\n";
+  system("/bin/bash $conf/berry/bar.sh &>/dev/null &");
+}

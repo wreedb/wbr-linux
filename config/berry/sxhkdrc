@@ -1,0 +1,82 @@
+#
+# wm independent hotkeys
+#
+
+# terminal emulator
+super + Return
+	kitty
+
+# program launcher
+super + p
+	bemenu-run
+
+super + Escape
+	xhotkey-daemon-reload
+	# pkill -USR1 -x sxhkd -c ~/.config/bspwm/sxhkdrc
+
+Print
+  screenshot-xorg
+
+super + Print
+  screenshot-select-xorg
+
+@XF86MonBrightnessUp
+  brightness-up
+
+@XF86MonBrightnessDown
+  brightness-down
+
+XF86AudioRaiseVolume
+  volume-up
+
+XF86AudioLowerVolume
+  volume-down
+
+XF86AudioMute
+  volume-mute
+
+super + shift + x
+  powermenu
+
+#
+# berry hotkeys
+#
+
+super + {h, j, k, l}
+    berryc window_move {-50 0, 0 50, 0 -50, 50 0}
+
+super + shift +  {h, j, k, l}
+    berryc window_resize {-50 0, 0 50, 0 -50, 50 0}
+
+super + {1-9}
+    berryc switch_workspace {0-9}
+
+super + shift + {1-9}
+    berryc send_to_workspace {0-9}
+
+super + m
+    berryc window_monocle
+
+super + f
+    berryc fullscreen
+
+super + Right
+    berryc snap_right
+
+super + Left 
+    berryc snap_left
+
+super + n
+    berryc toggle_decorations
+
+super + Tab
+    berryc cycle_focus
+
+super + shift + c
+    berryc window_close
+
+super + g
+    berryc window_center
+
+~button1
+    berryc pointer_focus

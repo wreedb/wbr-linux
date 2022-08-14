@@ -15,3 +15,5 @@ alias rm='rm -Iv'
 alias cd='z'
 alias nv=nvim
 alias v=nvim
+alias pac='sudo pacman -S'
+alias pacs='pacman -Ss'

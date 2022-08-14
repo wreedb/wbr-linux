@@ -3,9 +3,9 @@
 
 unset COLORTERM
 export TYPEWRITTEN_PROMPT_LAYOUT="pure"
-export TYPEWRITTEN_SYMBOL='$'
-export TYPEWRITTEN_CURSOR='terminal'
-export TYPEWRITTEN_RELATIVE_PATH='adaptive'
+export TYPEWRITTEN_SYMBOL="λ"
+export TYPEWRITTEN_CURSOR="terminal"
+export TYPEWRITTEN_RELATIVE_PATH="adaptive"
 
 HISTFILE=$ZDOTDIR/history
 HISTSIZE=5000
@@ -15,7 +15,7 @@ unsetopt beep
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/wbr/.zshrc'
+zstyle :compinstall filename "$ZDOTDIR/.zshrc"
 fpath+=$ZDOTDIR/plugins/typewritten
 autoload -U compinit promptinit
 compinit; promptinit
@@ -26,17 +26,16 @@ zstyle ':completion::complete:*' use-cache 1
 
 
 if [[ -r $ZDOTDIR/aliases.zsh ]]; then
-    . $ZDOTDIR/aliases.zsh
+    . "$ZDOTDIR/aliases.zsh"
 fi
 
 if [[ -r $ZDOTDIR/functions.zsh ]]; then
-    . $ZDOTDIR/functions.zsh
+    . "$ZDOTDIR/functions.zsh"
 fi
 
 if [[ -r $ZDOTDIR/plugins.zsh ]]; then
-    . $ZDOTDIR/plugins.zsh
+    . "$ZDOTDIR/plugins.zsh"
 fi
 
 eval "$(zoxide init zsh)"
-pfetch
 fpath+=${ZDOTDIR:-~}/.zsh_functions

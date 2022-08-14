@@ -1,0 +1,4 @@
+#!/bin/sh
+
+chmod +x $1;
+sudo ln -ivsT $PWD/$1 /usr/local/bin/$1;

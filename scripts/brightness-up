@@ -1,4 +1,0 @@
-#!/bin/sh
-
-xbacklight -inc 5
-#dunstify -a xbacklight -t 500 -h string:x-dunst-stack-tag:brightness-up "Brightness: $(xbacklight -get)%"

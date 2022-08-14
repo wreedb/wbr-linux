@@ -1,0 +1,4 @@
+#!/bin/sh
+
+pamixer -i 10
+dunstify -i geonkick -a Pipewire -t 750 -h string:x-dunst-stack-tag:volume "Volume: $(pamixer --get-volume)"
