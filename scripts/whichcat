@@ -1,0 +1,4 @@
+#!/usr/bin/sh
+
+SW=$(which $1);
+readlink $SW | xargs -r bat

@@ -1,13 +1,14 @@
+-- vim:ft=haskell
 Config { font = "xft:Play Nerd Font:pixelsize=18:antialias=true:hinting=true"
-       , additionalFonts = []
+       , additionalFonts = ["xft:Symbols Nerd Font:pixelsize=22:antialias=true:hinting=true","xft:Roboto Mono:pixelsize=18:antialias=true:hinting=true"]
        , borderColor = "#C481FF"
        , border = BottomB
-       , bgColor = "#2E3436"
+       , bgColor = "#272935"
        , fgColor = "#EEEEEC"
        , alpha = 255
        , position = Top
        , textOffset = -1
-       , iconOffset = -1
+       , iconOffset = 0
        , lowerOnStart = True
        , pickBroadest = False
        , persistent = False
@@ -18,9 +19,11 @@ Config { font = "xft:Play Nerd Font:pixelsize=18:antialias=true:hinting=true"
        , commands = [ Run Weather "KSTL" ["-t","<tempF>F"] 36000
                     , Run Cpu ["-L","3","-H","50", "--normal","#6BF1BE","--high","#F47375"] 10
                     , Run Memory ["-t","Mem: <usedratio>%"] 10
+                    , Run UnsafeStdinReader
+                    , Run Com "pacupdates" [] "pacman" 120
                     , Run Date "%I:%M %p" "date" 10
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = " %cpu% | %memory% }{ %KSTL%  <fc=#EEEEEC>%date%</fc> "
+       , template = " <fn=1></fn> %UnsafeStdinReader% }{   %pacman%   %cpu%   %memory%   %KSTL%   %date% "
        }

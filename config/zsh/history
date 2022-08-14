@@ -1,194 +1,3 @@
-picom -b
-pkill picom
-picom -b
-pkill picom
-picom -b
-pkill picom
-picom
-picom
-picom
-pac libvdpau-va-gl opencsg mupdf-gl python-glfw  glm glbindings vlur-effect opengl-man-pages gtkglext glu glslang glew ftgl freeglut
-pac libvdpau-va-gl opencsg mupdf-gl python-glfw  glm gl-bindings blur-effect opengl-man-pages gtkglext glu glslang glew ftgl freeglut
-pac libvdpau-va-gl opencsg mupdf-gl python-glfw  glm glbinding blur-effect opengl-man-pages gtkglext glu glslang glew ftgl freeglut
-pacs opengl
-pacman -Ss opengl
-vim ~/.config/zsh/aliases.zsh
-zsh
-picom
-most .config/picom/picom.log
-man picom
-man picom
-picom
-man xprop
-sudo vim /etc/xdg/picom.conf
-xprop >> /home/wbr/xpropoutput
-ll
-cat xpropoutput
-vim .repo/scripts/key-xprop
-sudo ln -s $SCRIPTS_DIR/key-xprop /usr/local/bin/
-chmod +x .repo/scripts/key-xprop
-cd .config/picom
-ll
-mv picom.conf backup.conf
-vim picom.conf
-vim picom.conf
-vim ~/.config/alacritty/theme.yml
-vim .config/spectrwm/spectrwm.conf
-neofetch
-clear
-ll
-picom -b
-hsetroot -fill $WALLPAPERS_DIR/eos.png
-lxpolkit
-clear
-pacs murrine
-sudo pacman -S gtk-engine-murrine
-lxpolkit
-pacman -Ss adwaita
-sudo pacman -S libadwaita
-celar
-clear
-lxpolkit
-lxpolkit
-lxpolkit &
-disown
-jobs
-ll
-pidof lxpolkit
-cat .xinitrc
-dunst &
-disown
-./.config/spectrwm/baraction.sh
-polkitd-start
-pidof lxpolkit
-polkitd-start
-pidof lxpolkit
-ll /usr/local/bin
-vim .repo/scripts/compositor-start
-vim .repo/scripts/compositor-start
-sudo ln -s $SCRIPTS_DIR/compositor-start /usr/local/bin/
-chmod +x $SCRIPTS_DIR/compositor-start
-compositor-start
-compositor-start
-compositor-start
-which compositor-start | xargs readlink | xargs nvim
-compositor-start
-clear
-vim .repo/scripts/notificationd-start
-chmod +x .repo/scripts/notificationd-start
-sudo ln -s $SCRIPTS_DIR/notificationd-start /usr/local/bin/
-zsh
-notificationd-start
-vim .repo/scripts/notificationd-start
-notificationd-start
-vim .repo/scripts/notificationd-start
-notificationd-start
-notificationd-start
-pidof dunst
-notificationd-start
-pidof dunst
-clear
-vim .repo/scripts/polkitd-start
-chmod +x .repo/scripts/polkitd-start
-sudo ln -s $SCRIPTS_DIR/polkitd-start /usr/local/bin/
-zsh
-nim
-nimble
-nimble search lsp
-nimble refresh
-nimble search lsp
-nimble install nimlsp
-wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh
-nitch
-nitch
-ll
-which nitch
-nitch
-clear;nitch
-pac font-manager
-sudo pacman -S nitch
-paru -S nitch
-wget -qO - https://nim-lang.org/choosenim/init.sh | sh
-zsh
-dunstify "faggot"
-clear
-vim .config/spectrwm/spectrwm.conf
-vim .config/spectrwm/spectrwm.conf
-vim .config/alacritty/theme.yml
-vim ~/.config/spectrwm/baraction.sh
-cd .repo/scripts
-ll
-chmod +x start-wallpaper
-ll
-mv polkitd-start start-polkitd
-mv notificationd-start start-notificationd
-ll
-ll
-ll
-mv compositor-start start-compositor
-ll
-sudo ln -s $PWD/start-* /usr/local/bin/
-ll /usr/local/bin
-sudo rm /usr/local/bin/compositor-start
-sudo rm /usr/local/bin/polkitd-start
-sudo rm /usr/local/bin/notificationd-start
-ll /usr/local/bin
-nitch
-nitch
-clear; nitch
-cd ../clones
-ll
-gh repo clone ryanoasis/nerd-fonts
-gh repo clone ryanoasis/nerd-fonts --depth=1
-gh repo clone ryanoasis/nerd-fonts -d 1
-git clone https://github.com/ryanoasis/nerd-fonts --depth=1
-git clone https://github.com/ryanoasis/nerd-fonts --depth 1
-git clone --depth 1https://github.com/ryanoasis/nerd-fonts
-git clone --depth 1 https://github.com/ryanoasis/nerd-fonts
-git clone --depth 0 https://github.com/ryanoasis/nerd-fonts
-git clone --depth 1 https://github.com/ryanoasis/nerd-fonts
-ll
-cd nerd-fonts
-ll
-rm readme_*
-ll
-ll
-la
-ll
-cat 10-nerd-font-symbols.conf
-ll
-cp ~/.repo/assets/fonts/font-play -r .
-l
-cd font-play
-ll
-../font-patcher --help
-sudo pacman -Ss font patcher
-sudo pacman -Ss font forge
-sudo pacman -S fontforge
-sudo pacman -S fontforge
-ll
-../font-patcher --help
-../font-patcher -c -ext otf Play-Regular.ttf
-../font-patcher -c -ext otf Play-Bold.ttf
-ll
-mv Play\ Regular\ Nerd\ Font\ Complete.otf play-regular-nf.otf
-mv Play\ Bold\ Nerd\ Font\ Complete.otf play-bold-nf.otf
-ll
-sudo cp play-bold-nf.otf /usr/share/fonts/
-sudo cp play-regular-nf.otf /usr/share/fonts/
-ll
-cd
-ll
-db
-vim ~/.config/spectrwm/baraction.sh
-man date
-man date
-printf "$(date +%I:%M)"
-printf "$(date +%I:%M)\n"
-printf "$(date +%I:%M%p)\n"
-printf "$(date +%I:%M %p)\n"
-printf "$(date +%I:%M%%p)\n"
-printf "$(date +%I:%M_%p)\n"
 printf "$(date +%I:%M%_%p)\n"
 printf "$(date +%I:%M%_p)\n"
 printf "$(date +%I:%M%__p)\n"
@@ -2573,3 +2382,311 @@ ln -sf xmonad/xmonad.hs ~/.config/xmonad
 dotfile zsh
 ll
 zsh
+mv ~/.config/picom/spectrwm .config/picom/spectrwm.conf
+vim ~/.repo/scripts/launch/start-compositor
+ll
+rm .config/spectrwm/hotkeys.conf
+ll
+mv ~/.config/spectrwm/start-bar ~/.config/polybar/launch.sh
+mv ~/.config/spectrwm/bar.ini ~/.config/polybar/spectrwm.ini
+vim ~/.config/spectrwm/spectrwm.conf
+vim ~/.config/spectrwm/spectrwm.conf
+ll
+rm -rf .icons
+la
+ll .mozilla
+la
+la
+ll
+cat .Xauthority
+vim .Xauthority
+la
+ll
+cd wbr-linux
+ll
+mv ~/.repo/scripts .
+ln -s $PWD/scripts $HOME/.repo/scripts
+ll
+editconfig
+editwmconfig
+la
+du -h .
+ll
+la
+la
+ll picom
+rm picom/picom.log
+ll
+git add .
+ll
+la
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+ll
+git push origin master
+git push -U origin master
+git push -u origin master
+ll
+git push -u origin
+git push -u https://github.com/wreedb/wbr-linux
+git push
+ll
+git remote add origin https://github.com/wreedb/wbr-linux
+git remote add origin https://github.com/wreedb/wbr-linux
+git remote set-url origin https://github.com/wreedb/wbr-linux
+ll
+git push
+git branch -M master
+git push -u origin master
+ll
+git remote add origin https://github.com/wreedb/wbr-linux.git
+git remote
+git remote -h
+git remote remove origin
+ll
+git remote add origin https://github.com/wreedb/wbr-linux.git
+git push -u origin master
+git push -u https://github.com/wreedb/wbr-linux.git master
+git add .
+git commit -m "what the fuck is git"
+git config --global user.email "wreedb@yandex.com"
+git config --global user.name "Will Reed"
+ll
+ll
+git commit -m "overhaul file structure"
+ll
+git remote add origin https://github.com/wreedb/wbr-linux.git
+git remote remove origin
+git remote add origin https://github.com/wreedb/wbr-linux.git
+git push -u origin master
+ll
+vim wbr-linux/deploy.sh
+ll
+cd wbr-linux
+ll
+chmod +x *.sh
+ll
+ll
+chmod +x .zshenv
+ll
+ll
+git add .
+ll
+git origin
+git --help
+git show
+git status
+ll
+git commit -m "overhauling file layout"
+env
+env 
+env | rg GIT
+export GIT_CONFIG_SYSTEM=/home/wbr/.config/git/gitconfig
+git push
+ll
+rm -rf wbr-linux-backup
+ll
+rm .config-att
+lll
+rm .config-att -rf
+ll
+la
+sudo pacman -Rdd vscode-bin
+sudo pacman -Rdd code-bin
+sudo pacman -Qq | rg code
+sudo pacman -Rdd visual-studio-code-bin
+pkill picom
+pkill picom
+clear
+exec xcompmgr
+vim test.pl
+perl test.pl
+perl test.pl &
+perl test.pl & disown
+pkill xcompmgr
+perl test.pl & disown
+pidof xcompmgr
+perl test.pl & disown
+disown
+jobs
+ll
+pidof xcompmgr
+cp ~/Downloads/xmonad.hs ~/.config/xmonad/xmonad.hs
+cp ~/Downloads/xmonad.hs ~/wbr-linux/config/xmonad/xmonad.hs
+ll
+xmonad --recompile
+vim .config/xmonad/xmonad.hs
+ll .config
+ll .config/xmonad
+ln -sf $HOME/wbr-linux/config/xmonad/xmonad.hs ~/.config/xmonad
+xmonad --recompile
+man fork
+man spectrwm
+man fork
+fork()\
+wait
+clear
+jobs
+killall *
+ll
+rm test.pl
+btm
+htop
+pidof xcompmgr
+pkill xcompmgr
+pkill xcompmgr
+pkill xcompmgr
+pkill xcompmgr
+pkill xcompmgr
+pkill xcompmgr
+man import
+vim test.py
+mv test.py test.sh
+vim test.sh
+dash test.sh
+vim test.sh
+dash test.sh
+dash
+vim test.sj
+vim test.sh
+pidof xcompmgr
+vim .config/picom/spectrwm.conf
+killall xcompmgr
+killall xcompmgr
+start-compositor
+htop
+08;10u
+clear
+btm
+vim .config/xmonad/xmonad.hs
+xmonad --recompile
+cat .config/alacritty/theme.yml
+vim .config/alacritty/theme.yml
+vim .config/picom/spectrwm.conf
+pkill picom
+pkill picom
+start-compositor
+pacs fork
+cp ~/.config/picom/spectrwm.conf ~/.config/picom/xmonad.conf
+ll ~/.config
+ll wbr-linux/config/picom
+polybar mainbar-xmonad
+polybar
+vim .repo/scripts/whichbat
+vim .repo/scripts/whichbat
+mv .repo/scripts/whichbat .repo/scripts/whichcat
+chmod +x .repo/scripts/whichcat
+sudo ln -s $SCRIPTS_DIR/whichcat /usr/local/bin/
+whichcat start-compositor
+whichcat start-notificationd
+whichcat start-polkitd
+whichcat start-compositor
+vim .config/alacritty/theme.yml
+vim .config/xmobar/xmobarrc
+locate xmobarrc
+db
+locate xmobarrc
+locate xmobarrc | head -n1
+locate xmobarrc | head -n1 | xargs nvim
+vim .config/xmonad/xmonad.hs
+vim .config/xmonad/xmonad.hs
+vim .config/xmonad/xmonad.hs
+vim .config/xmonad/xmonad.hs
+vim .config/xmonad/xmonad.hs
+ll
+ll .config
+xmobar
+xmobar
+neofetch
+vim .config/alacritty/theme.yml
+vim .config/spectrwm/spectrwm.conf
+vim .config/xmobar/xmobarrc
+vim .config/xmobar/xmobarrc
+vim .config/xmonad/xmonad.hs
+xmobar
+xmobar & disown
+pkill xmobar
+killall xmobar
+pidof xmobar
+kill -9 146558
+editwmconfig
+vim .config/xmobar/xmobarrc
+xmobar
+cp ~/.config/xmonad/xmonad.hs ./backup.xmonad
+cp ~/Downloads/Jaami\'s\ xmonad\ config.txt .config/xmonad/xmonad.hs
+vim Downloads/Jaami\'s\ xmonad\ config.txt
+vim .config/xmonad/xmonad.hs
+vim .config/xmonad/xmonad.hs
+vim .config/xmonad/xmonad.hs
+xmobar
+vim .config/xmobar/xmobarrc
+xmobar --recompile
+vim .config/xmonad/xmonad.hs
+pidof picom
+vim .config/alacritty/theme.yml
+pkill xmobar
+cd .repo/clones
+ll
+cd nerd-fonts
+./install.sh
+./install.sh a
+./install.sh JetBrainsMono
+ll
+./install.sh JetBrainsMon
+./install.sh RobotoMono
+ll
+ll
+pkill xmobar
+xmobar
+xmobar --recompile
+fontq ubu
+sudo fc-cache -vf
+fontq ubu
+xmobar &
+disown
+cd .repo/clones
+cd nerd-fonts
+./install.sh UbuntuMono
+checkupdates | wc -l
+vim .config/xmonad/xmonad.hs
+vim .config/xmobar/xmobarrc
+vim ~/.repo/scripts/pacupdates
+chmod +x .repo/scripts/pacupdates
+sudo ln -s $SCRIPTS_DIR/pacupdates /usr/local/bin/
+vim .config/kitty/kitty.conf
+neofetch
+neofetch
+pkill picom
+picom -b
+pkill xcompmgr
+feh --bg-fill ~/Pictures/wallpapers/red.png
+rm .fehbg
+ll
+vim .config/picom/xmonad.conf
+vim .config/xmobar
+cat .config/alacritty/theme.yml
+fontq mono
+vim .config/xmobar/xmobarrc
+fontq m
+cat .config/alacritty/theme.yml
+vim .config/picom/xmonad.conf
+ll
+sudo pacman -Syy
+sudo pacman -Su
+vim .config/picom/xmonad.conf
+vim .config/xmobar/xmobarrc
+man xmonad
+cd .config/xmonad/xmonad
+ll
+readme
+htop
+btm
+ff
+nitch
+neofetch
+nitch
+clear
+ff
+pfetch
+btm
+neofetch
