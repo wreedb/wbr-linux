@@ -2,22 +2,32 @@
 
 . "$SCRIPTS_DIR/editwmconfig-env";
 
-EDIT="$TERMINAL $EDITOR"
+EDIT="$TERMINAL $EDITOR -p"
 
 if [ $DESKTOP_SESSION = "spectrwm" ]; then
-  $EDIT $SPECTRWM;
+  $EDIT $SPECTRWM &
+
 elif [ $DESKTOP_SESSION = "bspwm" ]; then
-  $EDIT $BSPWM;
+  $EDIT $BSPWM &
+
 elif [ $DESKTOP_SESSION = "xmonad" ]; then
-  $EDIT $XMONAD;
+  $EDIT $XMONAD $XDG_CONFIG_HOME/xmobar/xmobar.hs &
+
 elif [ $DESKTOP_SESSION = "awesome" ]; then
-  $EDIT $AWESOME;
+  $EDIT $AWESOME $XDG_CONFIG_HOME/awesome/theme/theme.lua &
+
 elif [ $DESKTOP_SESSION = "berry" ]; then
-  $EDIT $BERRY;
+  $EDIT $BERRY &
+
 elif [ $DESKTOP_SESSION = "herbstluftwm" ]; then
-  $EDIT $HERBSTLUFTWM;
+  $EDIT $HERBSTLUFTWM &
+
 elif [ $DESKTOP_SESSION = "leftwm" ]; then
-  $EDIT $LEFTWM;
+  $EDIT $LEFTWM &
+
+elif [ $DESKTOP_SESSION = "qtile" ]; then
+  $EDIT $QTILE &
+
 else
   exit;
 fi

@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+
+xmonad --recompile; exec xmonad

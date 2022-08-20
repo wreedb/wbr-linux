@@ -1,3 +1,13 @@
-#!/bin/sh
-pamixer -t
-dunstify "muted"
+#!/usr/bin/sh
+
+pamixer -t;
+
+ISMUTE=$(pamixer --get-mute);
+
+if [ "$ISMUTE" = "true" ]; then
+  dunstify -i geonkick -a Pipewire -t 750 -h string:x-dunst-stack-tag:volume "Muted";
+
+elif [ "$ISMUTE" = "false" ]; then
+  dunstify -i geonkick -a Pipewire -t 750 -h string:x-dunst-stack-tag:volume "Unmuted";
+
+fi

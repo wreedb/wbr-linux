@@ -13,8 +13,8 @@ return require('packer').startup(function()
   use { 'folke/tokyonight.nvim' }
   use { 'sainnhe/everforest', as = 'everforest' }
   use { 'shaunsingh/nord.nvim', as = 'nord' }
-  use { 'ap/vim-css-color' }
 
+  use { 'brenoprata10/nvim-highlight-colors' }
   -- eww syntax support
   use { 'elkowar/yuck.vim' }
 

@@ -4,6 +4,7 @@
 unset COLORTERM
 export TYPEWRITTEN_PROMPT_LAYOUT="pure"
 export TYPEWRITTEN_SYMBOL="λ"
+# export TYPEWRITTEN_SYMBOL=" "
 export TYPEWRITTEN_CURSOR="terminal"
 export TYPEWRITTEN_RELATIVE_PATH="adaptive"
 

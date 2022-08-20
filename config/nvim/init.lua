@@ -1,6 +1,11 @@
-require('plugins')
-require('theme')
-require('lualine').setup()
+require("plugins")
+require("theme")
+require("lualine").setup()
+require("nvim-highlight-colors").setup
+{
+  render = "background",
+  enable_tailwind = false,
+}
 
 vim.g.mapleader = " "
 vim.opt.encoding = "utf-8"
@@ -27,6 +32,9 @@ vim.opt.showtabline = 2
 vim.opt.signcolumn = 'yes'
 vim.opt.mouse = 'a'
 vim.opt.guifont = 'JetBrainsMono Nerd Font:h12'
+vim.cmd([[:set t_Co=256]])
+vim.cmd([[:set termguicolors]])
+
 
 vim.api.nvim_set_keymap('n', '<leader>s',       ':%s/',                               { noremap = true }) -- Substitute mode
 vim.api.nvim_set_keymap('n', '<leader>y',       '"+y',                                { noremap = true }) -- Yank to clip

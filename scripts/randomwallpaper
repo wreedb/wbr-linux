@@ -1,0 +1,6 @@
+#!/usr/bin/sh
+
+PAPER=$(getrandomwallpaper);
+RANDOMWALL=$WALLPAPERS_DIR/$PAPER;
+
+ln -s $RANDOMWALL $XDG_CONFIG_HOME/awesome/background.png;

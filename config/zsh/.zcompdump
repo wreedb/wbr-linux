@@ -1,4 +1,4 @@
-#files: 842	version: 5.9
+#files: 847	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -258,6 +258,7 @@ _comps=(
 'designate' '_openstack'
 'devtodo' '_devtodo'
 'df' '_df'
+'dfrs' '_dfrs'
 'dhclient' '_dhclient'
 'dhclient3' '_dhclient'
 'dict' '_dict'
@@ -672,6 +673,7 @@ _comps=(
 'keystone' '_openstack'
 'keytool' '_java'
 'kfmclient' '_kfmclient'
+'khal' '_khal'
 'kill' '_kill'
 'killall' '_killall'
 'killall5' '_killall'
@@ -739,6 +741,7 @@ _comps=(
 'ltrace' '_ltrace'
 'lua' '_lua'
 'luarocks' '_luarocks'
+'luarocks-admin' '_luarocks-admin'
 'lynx' '_lynx'
 'lz4' '_lz4'
 'lz4c' '_lz4'
@@ -1747,10 +1750,11 @@ bindkey '^[~' _bash_complete-word
 
 autoload -Uz _alacritty _archinstallscripts _asp _bat _bootctl \
             _bspc _btm _busctl _bwrap _cargo \
-            _checkupdates _coredumpctl _curl _devtools _exa \
-            _fd _foot _footclient _gh _hg \
-            _hostnamectl _journalctl _kernel-install _kitty _libinput \
-            _localectl _loginctl _machinectl _meson _mkinitcpio \
+            _checkupdates _code _coredumpctl _curl _devtools \
+            _dfrs _exa _fd _foot _footclient \
+            _gh _hg _hostnamectl _journalctl _kernel-install \
+            _khal _kitty _libinput _localectl _loginctl \
+            _luarocks _luarocks-admin _machinectl _meson _mkinitcpio \
             _networkctl _ninja _nnn _oomctl _paccache \
             _pacdiff _paclist _paclog-pkglist _pacman _pacscripts \
             _pacsearch _pacsort _pactree _paru _pkgfile \

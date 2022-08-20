@@ -1,2206 +1,3 @@
-printf "$(date +%I:%M%_%p)\n"
-printf "$(date +%I:%M%_p)\n"
-printf "$(date +%I:%M%__p)\n"
-printf "$(date +%I:%M%-p)\n"
-printf "$(date +%I:%M%0p)\n"
-printf "$(date +%I:%M%+p)\n"
-printf "$(date +%I:%_M%+p)\n"
-printf "$(date +%_I:%_M%+p)\n"
-printf "$(date +%I:%_M+%_p)\n"
-printf "$(date +%I:%_M%_p)\n"
-printf "$(date +%I:%_M %_p)\n"
-printf "$(date +%I:%_M +%_p)\n"
-printf "$(date +%I:%_M +%p)\n"
-printf "$(date +%I:%_M%p)\n"
-cd .repo/clones
-ll
-git clone https://github.com/conformal/spectrwm.git
-cd spectrwm
-ll
-la
-ll
-cd .repo/clones
-ll
-cd spectrwm
-ll
-ll
-echo $DESKTOP_SESSION
-vim .repo/scripts/spectrwm-sxhkd
-chmod +x .repo/scripts/spectrwm-sxhkd
-vim .repo/scripts/spectrwm-sxhkd
-feh ~/Pictures/screenshots
-xprop | grep WM_CLASS
-vim .config/bspwm/bspwm
-vim .config/bspwm/bspwmrc
-feh ~/Pictures/screenshots
-vim .config/spectrwm/baraction.sh
-ll
-pamixer -h
-pamixer --get-volume
-pamixer --get-volume-human
-pamixer --get-volume-human
-printf "$(pamixer --get-volume-human)"
-cd .config/spectrwm
-vim baraction.sh
-vim .config/spectrwm/spectrwm.conf
-ll
-pkill spectrwm
-vim .config/spectrwm/spectrwm.conf
-vim .xinitrc
-startx
-startx
-man spectrwm
-cd .config/spectrwm
-ll
-chmod +x baraction.sh
-ll
-vim baraction.sh
-fontq pla
-vim spectrwm.conf
-locate baraction.sh
-cp /usr/share/spectrwm/baraction.sh ~/.config/spectrwm/baraction.sh
-nitch
-db
-polybar
-vim .config/spectrwm/spectrwm.conf
-vim .config/spectrwm/baraction.sh
-pacman -Ss sysstat
-sudo pacman -S sysstat
-sudo pacman -S sysstat libsysstat
-sudo pacman -S tk gnuplot
-sar
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-mpstat
-sar
-sar 4
-sar 1
-sar 1 | awk '{print $9}'
-sar 1 | awk '{print $9}'
-sar 1 1
-clear
-ll
-sar 1 5 | grep "Average" | sed 's/^.* //'
-CPU=$(printf "%.0f" $(sar 1 5 | grep "Average" | sed 's/^.* //'))
-sudo pacman -S nmon
-nmon
-man nmon
-nmon --help
-vmstat
-top -b -n 1
-expr 100 - $(top -b -n 1 | grep Cpu | awk '{print $8}'|cut -f 1 -d ".")
-expr 100 - $(top -b -n 1 | grep Cpu | awk '{print $8}'|cut -f 1 -d ".")
-expr 100 - $(top -b -n 1 | grep Cpu | awk '{print $8}'|cut -f 1 -d ".")
-expr 100 - $(top -b -n 1 | grep Cpu | awk '{print $8}'|cut -f 1 -d ".")
-expr 100 - $(top -b -n 1 | grep Cpu | awk '{print $8}'|cut -f 1 -d ".")
-expr 100 - $(top -b -n 1 | grep Cpu | awk '{print $8}'|cut -f 1 -d ".")
-expr 100 - $(top -b -n 1 | grep Cpu | awk '{print $8}'|cut -f 1 -d ".")
-expr 100 - $(top -b -n 1 | grep Cpu | awk '{print $8}'|cut -f 1 -d ".")
-expr 100 - $(top -b -n 1 | grep Cpu | awk '{print $8}'|cut -f 1 -d ".")
-echo '$(expr 100 - $(top -b -n 1 | grep Cpu | awk '{print $8}'|cut -f 1 -d ".")
-echo "$(expr 100 - $(top -b -n 1 | grep Cpu | awk '{print $8}'|cut -f 1 -d '.')"
-echo "$(expr 100 - $(top -b -n 1 | grep Cpu | awk '{print $8}'|cut -f 1 -d '.')"
-echo "$(expr 100 - $(top -b -n 1 | grep Cpu | awk '{print $8}'|cut -f 1 -d .")"
-echo "$(expr 100 - $(top -b -n 1 | grep Cpu | awk '{print $8}'|cut -f 1 -d ".")"
-echo "$(expr 100 - $(top -b -n 1 | grep Cpu | awk '{print $8}|cut -f 1 -d ".")"
-echo "$(expr 100 - $(top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d ".")"
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d ".
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "."
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "."
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "."
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "."
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "."
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "."
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "."
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "."
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "."
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $8}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $8}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}' | sed 's/$/%$/'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}' | sed 's/$/%/'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}' | sed 's/$/%/'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}' | sed 's/$/ %/'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}' | sed 's/$/ %/'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}' | sed 's/$/%/' 's/^/CPU /'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}' | sed 's/$/%/', 's/^/CPU /'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}' | sed 's/$/%/', 's/^/CPU /'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}' | sed 's/$/%/'; 's/^/CPU /'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}' | sed 's/$/%/'; s/^/CPU /'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}' | sed 's/$/%/; s/^/CPU /'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}' | sed 's/$/%/; s/^/CPU /'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}' | sed 's/$/%/; s/^/CPU /'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}' | sed 's/$/%/; s/^/CPU /'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}' | sed 's/$/%/; s/^/CPU /'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}' | sed 's/$/%/; s/^/CPU /'
-top -b -n 1 | grep Cpu | awk "{print $8}"|cut -f 1 -d "." | awk '{print $2}' | sed 's/$/%/; s/^/CPU /'
-vim ~/.config/spectrwm/baraction.sh
-cat /proc/cpuinfo
-uptime
-uptime | sed 's/.*://; s/,//
-uptime | sed 's/.*://; s/,//'
-uptime | sed 's/.*://; s/,//'
-uptime | sed 's/.*://; s/,//'
-pkill lemonbar
-cp .config/spectrwm -r .config/backup.spectrwm
-ll
-ll
-cd .repo/clones
-git clone https://github.com/axyl-os/axyl-spectrwm.git
-cd axyl-spectrwm
-ll
-ll etc
-ll etc/skel
-clear
-ll
-cp -r etc/skel/.config/spectrwm ~/.config
-ll ~/.config/spectrwm
-cp -r etc/skel/.config/spectrwm ~/.config
-cd ~/.config
-cd spectrwm
-ll
-rm sxhkdrc
-ll
-rm hotkeys.conf
-ll
-vim .config/spectrwm/spectrwm.conf
-./.config/spectrwm/baraction.sh
-rm ~/.config/spectrwm -rf
-mv ~/.config/backup.spectrwm ~/.config/spectrwm
-pkill spectrwm
-./.config/spectrwm/baraction.sh
-./.config/spectrwm/baraction.sh
-sudo pacman -Ss leftwm
-sudo pacman -Ss left
-sudo pacman -Ss wm
-sudo pacman -S wmname
-paru -Ss wm
-paru -Ss left
-paru -Ss leftwm
-paru -S leftwm-git
-paru -S leftwm-git
-mkdir .config/leftwm
-db
-sudo pacman -S wmctrl herbstluftwm
-sudo pacman -S wmctrl herbstluftwm
-sudo pacman -Syy
-sudo pacman -S wmctrl herbstluftwm
-db
-locate herbstluft
-vim .repo/scripts/brightness-down
-vim .repo/scripts/brightness-down
-cp .repo/scripts/brightness-down .repo/scripts/brightness-up
-vim .repo/scripts/brightness-up
-ll
-la
-neofetch
-clear
-neofetch | grep WM:
-neofetch | grep WM
-neofetch | grep WM\:
-neofetch | grep WM*
-neofetch | grep WM.*
-neofetch | grep WM
-neofetch | grep WM | awk '{print $2}'
-neofetch | grep WM | awk '{print $2}'
-light -h
-light -G
-vim .config/spectrwm/spectrwm.conf
-man spectrwm.conf
-man 5 spectrwm.conf
-man spectrwm
-clear
-vim .config/spectrwm/baraction.sh
-perl -e 'system("checkupdates")'
-perl -e 'system("checkupdates | wc -l")'
-perl -e 'system("checkupdates | wc -l")'
-vim .repo/scripts/available-updates
-chmod +x .repo/scripts/available-updates
-sudo ln -s $SCRIPTS_DIR/available-updates /usr/local/bin/
-vim .repo/scripts/available-updates
-source ~/.zshenv
-vim .repo/scripts/available-updates
-source ~/.zshenv
-bc
-light
-light | sed 's|.*||'
-light | sed 's|[0-9].*||'
-light | sed 's|[0-9]*||'
-light | sed 's|[0-9]||'
-light | sed 's|[1-9]||'
-light | sed 's|^[0-9]||'
-light | sed 's|^[0-9]*||'
-light | sed 's|.[0-9]$||'
-light | sed 's|..[0-9]$||'
-light | sed 's|..[0-9]$||'
-light | perl -pe 's|..[0-9]$||'
-xev
-vim .zshenv
-source ~/.zshenv
-disown
-cat .config/.updates-available
-vim .repo/scripts/available-updates
-pkill available-updates
-pkill available-updat
-ll /usr/local/bin
-source ~/.zshenv
-ps 371810
-glances
-clear
-ll
-htop
-vim .config/spectrwm/spectrwm.conf
-killall spectrwm
-vim .config/spectrwm/baraction.sh
-vim .repo/scripts/start-wallpaper
-vim .config/spectrwm/spectrwm.conf
-vim .config/spectrwm/hotkeys.conf
-start-wallpaper
-start-wallpaper
-fd . $WALLPAPERS_DIR
-fd . $WALLPAPERS_DIR | shuf
-fd . $WALLPAPERS_DIR | shuf | head -n 1
-htop
-powermenu
-powermenu
-sudo pacman -Syy
-sudo pacman -Syy
-checkupdates
-vim .config/spectrwm/baraction.sh
-vim .config/spectrwm/spectrwm.conf
-sudo pacman -Syy archlinux-keyring
-sudo pacman -Su
-vim .config/spectrwm/spectrwm.conf
-vim .config/spectrwm/hotkeys.conf
-xmenu --help
-xmenu -h
-ls
-ls | xmenu
-ls | xmenu
-clear
-ll
-vim .repo/scripts/start-wallpaper
-cd .repo/scripts/
-mv start-wallpaper wallpaper
-sudo rm /usr/local/bin/start-wallpaper
-sudo ln -s $SCRIPTS_DIR/wallpaper /usr/local/bin/
-pimenu
-paru -Ss pimenu
-db
-locate pimenu
-man pimenu
-ls /usr/bin | grep menu
-pmenu
-man pmenu
-man moonwm
-paru -S moonwm-git
-pacs pimenu
-paru -Ss pimenu
-paru -S pimenu
-ll
-zsh
-paru -S frankenwm wmrc wtftw-git
-paru -S frankenwm wmrc
-wmrc
-wmrc --init
-hostname
-sudo pacman -S hostname
-sudo pacman -Ss hostname
-paru -Ss window manager
-man init
-locate initscr
-bat /usr/share/doc/spectrwm/examples/initscreen.sh
-sudo pacman -S net-tools
-hostname
-man net-tools
-net
-sudo pacman -S inetutils
-hostname
-man wmname
-wmname
-wmname --help
-wmname -h
-sudo pacman -R wmname
-cd Downloads
-ll
-rm wmname-0.1\(1\).tar.gz
-ll
-tar xf wmname-0.1.tar.gz wmname
-tar xf wmname-0.1.tar.gz > wmname
-ll
-rm wmname
-rm -rf wmname-0.1
-ll
-bsdtar -xvf wmname-0.1.tar.gz
-ll
-mv wmname-0.1 wmname
-ll
-cd wmname
-ll
-cd ..
-mv wmname ~/.repo/clones
-cd ~/.repo/clones
-ll
-l
-cd wmname
-ll
-make
-ll
-sudo make install
-wmname -h
-man wmname
-man hostname
-hostnamectl --help
-hostnamectl status
-hostnamectl status --pretty
-hostnamectl --help
-hostnamectl
-hostnamectl --pretty
-hostnamectl --help
-hostnamectl --location
-hostnamectl location
-hostnamectl deployment
-hostnamectl hostname
-hostname
-cd .repo/scripts/
-vim setwmname
-chmod +x setwmname
-sudo ln -s $PWD/setwmname /usr/local/bin/
-nvim -p
-nvim -p $XDG_CONFIG_HOME/spectrwm/spectrwm.conf $XDG_CONFIG_HOME/spectrwm/hotkeys.conf
-nvim
-kitty htop
-kitty --detatch nvim $XDG_CONFIG_HOME/spectrwm/spectrwm.conf
-kitty --hold --detach nvim $XDG_CONFIG_HOME/spectrwm/spectrwm.conf
-nvim fuck
-nvim fuck +tabnew
-nvim fuck +tabnew +e
-nvim fuck +tabnew +e faggot
-nvim fuck +tabnew +e=faggot
-nvim fuck +tabnew +efaggot
-nvim fuck +tabnew +./faggot
-vim .repo/scripts/setwmname
-vim test.pl
-perl test.pl
-vim test.pl
-perl test.pl
-cpan install say
-sudo -i
-vim test.pl
-sudo -i
-perl test.pl
-perl test.pl
-vim test.pl
-perl test.pl
-vim test.pl
-perl test.pl
-vim test.pl
-vim test.pl
-perl test.pl
-perl test.pl
-vim test.pl
-perl test.pl
-vim test.pl
-perl test.pl
-perl test.pl
-perl test.pl
-vim test.pl
-vim $XDG_CONFIG_HOME/$DESKTOP_SESSION/CONFIG_FILE
-tad
-yad
-yad --entry
-yad --html
-yad --html "<h1>fuck you</h1>"
-yad --html <h1>fuck you</h1>
-yad --html <h1>fuck you</h1>'
-yad --html '<h1>fuck you</h1>'
-man spectrwm
-man spectrwm
-man xprofile
-man xinit
-man xorg.conf
-env
-vim .repo/scripts/bemenu-xlogin
-env
-export $WM_CONFIG_DIR=$XDG_CONFIG_HOME/$DESKTOP_SESSION
-export WM_CONFIG_DIR=$XDG_CONFIG_HOME/$DESKTOP_SESSION
-echo $WM_CONFIG_DIR
-vim $WM_CONFIG_DIR/spectrwm.conf
-unset XDG_SESSION_DESKTOP
-env
-vim test.sh
-sh test.sh
-env
-vim test.sh
-env
-sh test.sh
-env
-vim .xprofile
-vim .xprofile
-vim .xinitrc
-env
-env | most
-cd .repo/scripts/
-l
-ll
-vim editwmconfig
-vim editwmconfig
-perl editwmconfig
-vim editwmconfig
-perl editwmconfig
-vim editwmconfig
-perl editwmconfig
-vim editwmconfig
-perl editwmconfig
-vim editwmconfig
-perl editwmconfig
-vim editwmconfig
-perl editwmconfig
-vim editwmconfig
-perl editwmconfig
-vim editwmconfig
-perl editwmconfig
-perl editwmconfig
-perl editwmconfig\ 
-perl editwmconfig\\
-perl editwmconfig
-perl editwmconfig
-vim ~/.zshenv
-perl editwmconfig
-source ~/.zshenv
-setwmname
-env
-vim ~/.zshenv
-vim editwmconfig
-perl editwmconfig
-setwmname
-env
-which setwmname | xargs readlink | xargs bat
-export WM_CONFIG_DIR=$XDG_CONFIG_HOME/$DESKTOP_SESSION
-env
-ll
-wallpaper
-ll
-env
-perl editwmconfig
-which setwmname | xargs readlink | xargs nvim
-setwmname
-env
-unset $WM_CONFIG_DIR
-unset WM_CONFIG_DIR
-env
-setwmname
-env
-sh
-which setwmname | xargs readlink | xargs nvim
-sh
-which setwmname | xargs readlink | xargs nvim
-setwmname
-vim editwmconfig
-which setwmname | xargs readlink | xargs nvim
-setwmname
-env
-vim setwmname
-cp setwmname sh-setwmname
-vim sh-setwmname
-vim sh-setwmname
-chmod +x sh-setwmname
-./sh-setwmname
-env
-vim sh-setwmname
-./sh-setwmname
-env
-ll
-. setwmname
-. sh-setwmname
-. $PWD/sh-setwmname
-env
-vim sh-setwmname
-source sh-setwmname
-env
-vim sh-setwmname
-./sh-setwmname
-vim sh-setwmname
-./sh-setwmname
-vim sh-setwmname
-./sh-setwmname
-bat fixenv
-./sh-setwmname
-bat fixenv
-vim sh-setwmname
-./sh-setwmname
-vim sh-setwmname
-./sh-setwmname
-vim sh-setwmname
-./sh-setwmname
-vim sh-setwmname
-./sh-setwmname
-bat fixenv
-vim sh-setwmname
-./sh-setwmname
-bat fixenv
-vim sh-setwmname
-./sh-setwmname
-vim sh-setwmname
-./sh-setwmname
-env
-unset WM_CONFIG_DIR
-./sh-setwmname
-env
-vim .config/spectrwm/hotkeys.conf
-kitty --help
-kitty -h
-cd .config/spectrwm
-ll
-ln -s $PWD/spectrwm.conf $PWD/.config-file
-ll
-ls
-la
-ll
-ll
-ln -s $PWD/spectrwm.conf $PWD/CONFIG_FILE
-rm .config-file
-ll
-rm CONFIG_FILE
-ln -s $PWD/spectrwm.conf $PWD/CONFIG_MAIN
-ln -s $PWD/hotkeys.conf $PWD/CONFIG_KEYS
-ll
-env EDITOR
-env $EDITOR
-env perl -v
-env perl
-clear
-ll
-pacs yad
-pac yad
-man yad
-bat ~/.repo/scripts/editwmconfig
-env
-cat ~/.repo/scripts/fixenv
-readlink ~/.config/spectrwm/CONFIG_MAIN
-cat .config/.updates-available
-cat .config/.updates-available
-cat .config/.updates-available
-vim .config/spectrwm/baraction.sh
-clear
-ll
-source ~/.zshenv
-clear
-ll
-vim .xinitrc
-pkill available-updat 
-ps -aux | grep avail
-ps -aux | grep 'avail' 
-procs
-BEMENU_BACKEND=curses bemenu-run
-clear
-ll
-rm xpropoutput
-ll
-zsh --login
-pidof dunst
-./.config/spectrwm/baraction.sh
-ll
-htop
-vim .zshenv
-man startx
-source ~/.zshenv
-env
-zsh
-vim .repo/scripts/sh-setwmname
-pkill available-updates
-pkill available-updat
-./.config/spectrwm/baraction.sh | lemonbar -g 1920x24
-./.config/spectrwm/baraction.sh | lemonbar -g 1920x22+0+0
-./.config/spectrwm/baraction.sh | lemonbar -g 1920x22+0+0 -d -f 'Play Nerd Font'
-./.config/spectrwm/baraction.sh | lemonbar -g 1920x22+0+0 -d -f /usr/share/fonts/play-regular-nf.otf
-./.config/spectrwm/baraction.sh | lemonbar -g 1920x22+0+0 -d -f '/usr/share/fonts/play-regular-nf.otf'
-./.config/spectrwm/baraction.sh | lemonbar -g 1920x22+0+0 -d -f '/usr/share/fonts/play-regular-nf.otf'
-./.config/spectrwm/baraction.sh | lemonbar -g 1920x22+0+0 -d -f '/usr/share/fonts/play-regular-nf.otf'
-fontq play
-./.config/spectrwm/baraction.sh | lemonbar -g 1920x22+0+0 -d -f 'Play Nerd Font'
-./.config/spectrwm/baraction.sh | lemonbar -g 1920x40+0+0 -d -f 'Play Nerd Font'
-./.config/spectrwm/baraction.sh | lemonbar -g 1920x40+0+0 -d -f 'Play Nerd Font'
-man dzen2
-man dzen
-dzen2 --help
-dzen2 -slave-name
-dzen2 -slave-name .xprop-output
-./.config/spectrwm/baraction.sh | dzen2 -fn 'Play Nerd Font'
-vim .config/spectrwm/baraction.sh
-./.config/spectrwm/baraction.sh | dzen2
-vim .config/spectrwm/baraction.sh
-./.config/spectrwm/baraction.sh | dzen2
-./.config/spectrwm/baraction.sh | lemonbar
-man lemonbar
-man lemonbar
-paru -S lemonbar-xft-git
-xinit
-sudo usermod -a -G audio wbr
-groups
-zsh
-groups
-pkill baraction.sh
-vim .config/spectrwm/CONFIG_MAIN
-vim .config/spectrwm/CONFIG_MAIN
-bat /usr/bin/startx
-ll
-bemenu-xlogin
-exit
-bemenu-run
-BEMENU_RENDERER=curses bemenu-run
-BEMENU_BACKEND=curses bemenu-run
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions"
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F '/' '{print $1}'
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F / '{print $1}'
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F "/" '{print $1}'
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F "/" '{print $2}'
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F "/" '{print $3}'
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F "/" '{print $5}'
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F "/" '{print $4}'
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F "/" '{print $5}'
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F "/" '{print $4}'
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F "/" '{print $5}'
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F "/" '{print $5}'
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F "/" '{print $5}' | perl -pe 's|.*||g'
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F "/" '{print $5}' | perl -pe 's|.*$||g'
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F "/" '{print $5}' | perl -pe 's|.d*||g'
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F "/" '{print $5}' | perl -pe 's|.desktop||g'
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F "/" '{print $5}' | perl -pe 's|.desktop||g'
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F "/" '{print $5}' | perl -pe 's|.desktop||g'
-BEMENU_BACKEND=curses fd . "/usr/share/xsessions" | awk -F "/" '{print $5}' | perl -pe 's|.desktop||g' | bemenu
-fd . "/usr/share/xsessions" | awk -F "/" '{print $5}' | perl -pe 's|.desktop||g' | BEMENU_BACKEND=curses bemenu
-fd . "/usr/share/xsessions" | awk -F "/" '{print $5}' | perl -pe 's|.desktop||g' | BEMENU_BACKEND=curses bemenu
-vim .repo/scripts/login
-rm .repo/scripts/login
-vim .repo/scripts/bemenu-xlogin
-vim .repo/scripts/bemenu-xlogin
-sh .repo/scripts/bemenu-xlogin
-sh .repo/scripts/bemenu-xlogin
-vim .repo/scripts/bemenu-xlogin
-sh .repo/scripts/bemenu-xlogin
-basename /usr/share/xsessions/spectrwm.desktop
-basename /usr/share/xsessions/spectrwm.desktop --suffix=desktop
-basename /usr/share/xsessions/spectrwm.desktop --suffix=.*
-basename /usr/share/xsessions/spectrwm.desktop -s desktop
-basename /usr/share/xsessions/spectrwm.desktop --suffix='.desktop'
-basename /usr/share/xsessions/spectrwm.desktop --suffix='.desktop'
-basename /usr/share/xsessions/spectrwm.desktop -s '.desktop'
-basename /usr/share/xsessions/spectrwm.desktop -s'.desktop'
-basename /usr/share/xsessions/spectrwm.desktop -s''
-basename /usr/share/xsessions/spectrwm.desktop desktop
-basename /usr/share/xsessions/spectrwm.desktop .desktop
-basename /usr/share/xsessions/spectrwm.desktop .desktop
-basename -a /usr/share/xsessions .desktop
-basename -a /usr/share/xsessions/ .desktop
-basename /usr/share/xsessions/ .desktop
-basename /usr/share/xsessions/* .desktop
-basename -a /usr/share/xsessions/* .desktop
-basename -a /usr/share/xsessions/* -s .desktop
-basename -a /usr/share/xsessions/*.desktop
-basename -a /usr/share/xsessions/*.desktop
-basename -as .desktop /usr/share/xsessions/*
-basename -as .desktop /usr/share/xsessions/*
-vim .repo/scripts/bemenu-xlogin
-chmod +x ./.repo/scripts/bemenu-xlogin
-cd .repo/scripts/
-./bemenu-xlogin
-./bemenu-xlogin | BEMENU_BACKEND=curses bemenu
-vim bemenu-xlogin
-vim bemenu-xlogin
-./bemenu-xlogin
-man pademelon
-vim .xinitrc
-vim ~/.xinitrc
-vim bemenu-xlogin
-sudo ln -s $PWD/bemenu-xlogin /usr/local/bin/
-cd
-sudo systemctl disable sddm
-sudo systemctl stop sddm
-zsh
-exit
-man fd
-man xinit
-man basename
-man basename
-env
-wmname
-ll
-vim .xprofile
-vim .xprofile
-vim .xinitrc
-vim .repo/scripts/bemenu-xlogin
-wmname
-env
-wmname
-vim .repo/scripts/bemenu-xlogin
-env
-vim .xinitrc
-vim .xprofile
-clear
-htop
-pkill node
-sudo pkill node
-cat .cache/wmlogin
-startx
-startx
-printf "WM=bspwm" > .cache/wmlogin
-startx
-vim .xprofile
-startx
-vim .xprofile
-vim .config/spectrwm/CONFIG_MAIN
-sudo systemctl start sddm
-sudo systemctl stop sddm
-pkill spectrwm
-locate leftwm
-sudo pacman -R pademelon
-clear
-clear
-neofetch
-vim .repo/scripts/bemenu-xlogin
-vim .repo/scripts/bemenu-xlogin
-pkill moonwm
-pkill moonwm-git
-vim .repo/scripts/bemenu-xlogin
-bemenu-xlogin
-sudo vim /etc/vconsole.conf
-powermenu
-powermenu
-vim .repo/scripts/powermenu.d/powermenu
-htop
-clear
-man moonwm
-sudo pacman -Rdd moonwm-git 
-man leftwm
-leftwm --help
-leftwm help
-leftwm check
-locate leftwm
-mv ~/.config/spectrwm/leftwm.1 .
-gzip -9 leftwm.1
-ll
-man ./leftwm.1.gz
-perl -p
-ll
-dzen2
-dzen2
-ll
-ll .ghcup
-vim .zshenv
-source ~/.zshenv
-ghcup tui
-clear
-ll
-sudo mv leftwm.1.gz /usr/share/man/man1
-man leftwm
-man xmonad
-ll
-mempty
-sudo pacman -S mempty
-sudo pacman -Ss mempty
-sudo pacman -Ss mempt
-sudo pacman -Ss memp
-sudo pacman -Ss mem
-db
-locate xmonad.desktop
-bemenu-xlogin
-./.config/bspwm/bar.sh
-emv
-env
-cd .repo/clones
-ll
-git clone https://github.com/wreedb/switcheroo
-cd switcheroo
-ll
-bat LICENSE
-perl -pie 's|wvanisb|wreedb|g' LICENSE
-perl -pie LICENSE 's|wvanisb|wreedb|g'
-perl -pi LICENSE -e 's|wvanisb|wreedb|g'
-sed -i 's|wvanisb|wreedb|g' LICENSE
-ll
-bat LICENSE
-clear
-ll
-ll awesome
-cp -r awesome ~/.config
-ll
-cd
-ll
-vim .config/bspwm/bar.sh
-env
-cp ~/.config/bspwm/polybar.ini ~/.config/leftwm
-ll
-./.config/bspwm/startup
-./.config/bspwm/bar.sh
-echo "$XDG_CONFIG_HOME/$DESKTOP_SESSION"
-echo "$DESKTOP_SESSION"
-env
-vim .xprofile
-ll
-ll
-ll
-vim .config/leftwm/config.toml
-sudo systemctl enable sddm
-vim .zshenv
-vim .config/leftwm/config.toml
-sudo pacman -S xorg-xmessage
-sudo pacman -S libx11 libxft libxinerama libxrandr libxss pkgconf
-ll
-mkdir .config/xmonad
-cd .config/xmonad
-ll
-vim xmonad.hs
-git clone https://github.com/xmonad/xmonad
-git clone https://github.com/xmonad/xmonad-contrib
-ll
-cabal
-ll ~/.ghcup/bin
-la ~/.ghcup/bin
-source ~/.zshenv
-echo $PATH
-cabal update
-ll
-cabal install --package-env=$HOME/.config/xmonad --lib xmonad xmonad-contrib
-cabal install --package-env=$HOME/.config/xmonad xmonad
-ll
-ll
-ll
-vim ~/.zshenv
-source ~/.zshenv
-ll
-rm -rf xmonad
-rm -rf xmonad-contrib
-ll
-rm .ghc.environment.x86_64-linux-8.10.7
-ll
-git clone https://github.com/xmonad/xmonad-contrib && git clone https://github.com/xmonad/xmonad
-ll
-vim cabal.project
-cabal update
-cabal install --package-env=$HOME/.config/xmonad --lib xmonad xmonad-contrib
-cabal install --package-env=$HOME/.config/xmonad xmonad
-cabal install --package-env=$HOME/.config/xmonad xmonad --overwrite-policy=always
-ll
-ll xmonad
-xmonad --help
-ll xmonad-contrib
-ll xmonad
-ll xmonad/src
-man xmonad
-ll
-ll dist-newstyle
-ll dist-newstyle/sdist
-ll dist-newstyle/cache
-ll
-cd xmonad
-ll
-ll man
-bat man/xmonad.hs
-cp man/xmonad.hs ~/.config/xmonad
-cp man/xmonad.1 ../
-..
-ll
-gzip -9 xmonad.1
-sudo mv xmonad.1.gz /usr/share/man/man1
-man xmonad
-xmonad --recompile
-rm -rf *
-ll
-la
-rm .ghc.environment.x86_64-linux-8.10.7
-rm ~/.cabal/bin/xmonad
-ll
-git clone https://github.com/xmonad/xmonad-contrib && git clone https://github.com/xmonad/xmonad
-ll
-ll
-stack init
-lll
-ll
-vim stack.yaml
-vim stack.yaml
-cp xmonad/man/xmonad.hs .
-ll
-vim stack.yaml
-stack install
-ll
-which xmonad
-ll /home/wbr/.local/bin
-ll /home/wbr/.local
-ll /home/wbr/.local/state
-ll /home/wbr/.local/share
-ll /home/wbr/.local/share/xorg
-ll /home/wbr/.local/share
-ll /home/wbr/.local/share/xmonad
-ll /home/wbr/.local/share/xmonad/xmonad.errors
-cat /home/wbr/.local/share/xmonad/xmonad.errors
-ll
-sudo ln -s $HOME/.local/bin/xmonad /usr/bin/xmonad
-which xmonad
-xmonad --recompile
-ll
-vim xmonad.hs
-xmonad --recompile
-ll /usr/share/xsessions
-sudo pacman -Rdd pademelon
-sudo cp /usr/share/xsessions/spectrwm.desktop /usr/share/xsessions/xmonad.desktop
-sudo vim /usr/share/xsessions/xmonad.desktop
-clear
-ll
-la
-neofetch
-curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
-sudo systemctl enable sddm
-sudo systemctl enable --now sddm
-cd .repo/clones
-ll
-git clone https://codeberg.org/xmobar/xmobar
-cd xmobar
-ll
-ll
-cabal install --flags="all_extensions"
-ll
-cd ..
-rm -rf xmobar
-git clone https://codeberg.org/xmobar/xmobar
-cd xmobar
-ll
-stack install --flag xmobar:all_extensions
-ll
-vim stack.yaml
-stack install --flag xmobar:all_extensions
-stack install
-vim stack.yaml
-stack install
-stack install --flag xmobar:all_extensions
-sudo ln -s $HOME/.local/bin/xmobar /usr/bin/xmobar
-which xmobar
-which xmo*
-ll
-la
-ll
-la
-sudo pacman -S chronie
-sudo pacman -S chrony
-sudo systemctl enable --now chronyd
-clear
-xmobar
-pkill picom
-pacman -Syy
-ping google.com
-vim .config/picom/picom.conf
-vim .config/kitty/kitty.conf
-pkill xcompmgr
-db
-l
-la
-la
-locate xmobarrc
-locate xmobarrc | xargs nvim
-mkdir ~/.config/xmobar
-mv .xmobarrc ~/.config/xmobar
-cd .config/xmobar
-ll
-mv .xmobarrc xmobarrc
-man xmobar
-cd ~/.repo/clones
-ll
-cd xmobar
-ll
-ll doc
-ll doc/web
-ll doc/screenshots
-vim .confll
-ll
-ll app
-ll bench
-ll doc
-cat doc/plugins.org
-ls
-ll
-pkill xmobar
-vim .config/xmobar/xmobarrc
-alacritty
-vim .config/xmonad/xmonad.hs
-xmobar --help
-vim ~/.config/xmobar
-neofetch
-yes pee
-htop
-htop
-ll /usr/share/xsessions
-bat /usr/share/xsessions/
-bat /usr/share/xsessions/xmonad.desktop
-sudo cp /usr/share/xsessions/bspwm.desktop /usr/share/xsessions/xmonad.desktop
-sudo vim /usr/share/xsessions/xmonad.desktop
-sudo systemctl restart sddm
-man xmobar
-man xmonad
-vim ~/.config/xmobar/xmobarrc
-vim ~/.config/xmonad/xmonad.hs
-xmonad --recompile
-xmonad --restart
-vim ~/.config/xmonad/xmonad.hs
-env
-bat .zshenv
-vim ~/.config/xmobar/xmobarrc
-vim .config/alacritty/theme.yml
-xmobar --recompile
-xmobar --help
-xmobar --recompile $XDG_CONFIG_HOME/xmobar/xmobarrc
-vim ~/.repo/clones/xmobar/stack.yaml
-xmobar --help
-xmobar --recompile --verbose ~/.config/xmobar/xmobarrc
-xmobar --recompile --verbose ~/.config/xmobar/xmobarrc
-xmobar ~/.config/xmobar/xmobarrc --verbose
-xmobar ~/.config/xmobar/xmobarrc --verbose
-/usr/bin/xmobar
-pkill xmobar
-xmobar ~/.config/xmobar/xmobarrc --verbose --recompile
-pidof xmobar
-xmobar ~/.config/xmobar/xmobarrc --verbose --recompile
-xmobar ~/.config/xmobar/xmobarrc -v -r
-xmobar
-vim .config/xmonad/xmonad.hs
-xmobar --recompile --verbose ~/.config/xmobar/xmobarrc &
-disown
-vim .config/xmonad/xmonad.hs
-xmobar --recompile --verbose ~/.config/xmobar/xmobarrc &
-vim .config/xmobar/xmobarrc
-wallpaper
-xmobar --recompile
-xmobar --recompile
-vim .repo/scripts/reload-xmonad
-chmod +x .repo/scripts/reload-xmonad
-sudo ln -s $SCRIPTS_DIR/reload-xmonad /usr/local/bin/
-reload-xmonad
-xmobar --recompile --verbose ~/.config/xmobar/xmobarrc
-xmobar --recompile --verbose ~/.config/xmobar/xmobarrc
-vim .config/xmonad/xmonad.hs
-vim .config/xmonad/xmonad.hs
-xmonad --recompile && xmonad --restart
-xmonad --recompile && xmonad --restart
-ll
-xmobar
-reload-xmonad
-xmobar -vr
-xmobar -vr ~/.config/xmobar/xmobarrc
-pkill xmobar && xmobar -vr ~/.config/xmobar/xmobarrc
-clear
-vim .config/xmobar/xmobarrc
-vim .config/xmonad/xmonad.hs
-vim .repo/scripts/reload-xmonad
-pidof xmobar
-vim .config/xmonad/xmonad.hs
-xmobar -vr ~/.config/xmobar/xmobarrc
-vim .config/xmobar/xmobarrc
-xmobar -vr ~/.config/xmobar/xmobarrc
-xmobar -vr ~/.config/xmobar/xmobarrc
-xmobar -vr ~/.config/xmobar/xmobarrc
-xmobar -vr
-xmobar -vr
-xmobar --recompile
-vim .config/xmobar/xmobarrc
-uname -s -r
-uname-r
-uname -r
-uname -s
-uname -a
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-xmobar --recompile
-neofetch
-neofetch
-vim .config/xmobar/xmobarrc
-neofetch
-vim .config/neofetch/config.conf
-unset XDG_SESSION_DESKTOP
-env
-neofetch
-en
-env
-env | rg leftwm
-unset DESKTOP_SESSION
-neofetch
-vim .xprofile
-neofetch
-vim .repo/scripts/available-updates
-vim .repo/scripts/available-updates
-vim .config/xmobar/xmobarrc
-neofetch
-env
-vim .xprofile
-ll .config
-vim .repo/scripts/available-updates
-vim .repo/scripts/xmobar-pacman
-sudo ln -s $SCRIPTS_DIR/xmobar-pacman /usr/local/bin/
-chmod +x .repo/scripts/xmobar-pacman
-xmobar-pacman
-xmobar-pacman
-xmobar-pacman
-vim .repo/scripts/available-updates
-xmobar-pacman
-xmobar-pacman
-xmobar-pacman
-vim .config/xmonad/xmonad.hs
-vim .config/alacritty/theme.yml
-vim .config/xmobar/xmobarrc
-cd .repo/clones
-ll
-cd xmobar
-ll
-ll doc
-ll
-pidof dunst
-neofetch
-xmobar
-xmobar
-xmobar --recompile
-vim .config/xmonad/xmonad.hs
-pkill compton
-pkill picom
-vim .repo/scripts/reload-xmonad
-cp .config/bspwm/polybar.ini .config/
-mv .config/polybar.ini .config/xmonad
-ll
-pkill polybar
-polybar --config ~/.config/xmonad/polybar.ini
-polybar -c ~/.config/xmonad/polybar.ini
-vim .config/xmonad/polybar.ini
-polybar -c ~/.config/xmonad/polybar.ini
-xmobar
-vim .config/xmobar/xmobarrc
-xmobar --recompile
-vim .config/xmobar/xmobarrc
-vim .config/alacritty/theme.yml
-xmobar --recompile
-xmonad --recompile && xmonad --restart
-vim .config/xmonad/xmonad.hs
-vim .config/xmonad/xmonad.hs
-vim .config/xmonad/xmonad.hs
-vim .config/xmonad/xmonad.hs
-reload-xmonad
-vim .repo/scripts/reload-xmonad
-vim .repo/scripts/reload-xmonad
-firefox
-killall firefox
-xmobar &
-procs xmobar
-vim .repo/scripts/start-xmobar
-chmod +x .repo/scripts/start-xmobar
-sudo ln -s $SCRIPTS_DIR/start-xmobar /usr/local/bin/
-start-xmobar
-start-xmobar
-vim .repo/scripts/start-xmobar
-cd .repo/scripts/
-l
-mv start-xmobar start-bar-xmonad
-sudo ln -s $SCRIPTS_DIR/start-bar-xmonad /usr/local/bin/
-sudo rm /usr/local/bin/start-xmobar
-vim .xprofile
-pkill picom
-picom --config $XDG_CONFIG_HOME/xmonad/picom.conf
-picom --config $XDG_CONFIG_HOME/xmonad/picom.conf --daemon
-picom --config $XDG_CONFIG_HOME/xmonad/picom.conf --daemon
-cp /etc/xdg/picom.conf ~/.config/xmonad/picom.conf
-vim .config/xmonad/picom.conf
-vim .xprofile
-vim .config/xmobar/xmobarrc
-vim .config/alacritty/theme.yml
-curl -o ~/.xmobarrc https://raw.githubusercontent.com/jaor/xmobar/master/examples/xmobar.config
-ll
-cp ll
-ll
-vim .xmobarrc
-rm .xmobarrc
-ll
-vim .config/xmobar/xmobarrc
-vim .config/xmonad/xmonad.hs
-vim .config/xmonad/xmonad.hs
-vim .config/xmobar/xmobarrc
-vim .config/xmonad/xmonad.hs
-xmobar --help
-pkill xmobar
-xmobar -d
-vim .repo/scripts/start-xmobar
-vim .repo/scripts/start-bar-xmonad
-pkill xmonad
-vim .config/xmonad/xmonad.hs
-xmobar -d
-xmobar
-xmobar -d
-dzen2 -dock -fn "Play Nerd Font 12"
-~/.config/spectrwm/baraction.sh dzen2 -dock -fn "Play Nerd Font 12"
-~/.config/spectrwm/baraction.sh | dzen2 -dock -fn "Play Nerd Font 12"
-man dzen
-man dzen2
-dzen2 --help
-cd .config/spectrwm
-ll
-ll
-cp spectrwm.conf backup.conf
-vim CONFIG_MAIN
-cp ~/.config/bspwm/bar.sh ~/.config/spectrwm
-cp ~/.config/bspwm/polybar.ini ~/.config/spectrwm
-vim bar.sh
-cd .config/spectrwm
-ll
-vim bar.sh
-vim .config/spectrwm/CONFIG_MAIN
-polybar -c ~/.config/spectrwm/polybar.ini
-pkill polybar
-polybar -c ~/.config/spectrwm/polybar.ini
-vim .config/spectrwm/polybar.ini
-vim .config/spectrwm/CONFIG_MAIN
-vim .config/spectrwm/CONFIG_MAIN
-vim .config/spectrwm/CONFIG_MAIN
-ll
-ll
-la
-vim .config/spectrwm/CONFIG_MAIN
-vim .config/spectrwm/polybar.ini
-mv ~/.config/spectrwm ~/.config/backup.spectrwm
-sudo pacman -R spectrwm
-ll
-la
-sudo pacman -Syyu
-vim .config/spectrwm/polybar.ini
-vim .config/spectrwm
-vim .config/spectrwm
-vim .spectrwm.conf
-mv .spectrwm.conf ~/.config/spectrwm/spectrwm.conf
-sudo pacman -S numlockx
-vim .config/spectrwm/scripts/start-sxhkd.sh
-bat .config/spectrwm/scripts/start-sxhkd.sh
-bat .config/spectrwm/sxhkd/sxhkdrc
-pkill sxhkd
-kitty
-vim ~/.config/spectrwm.conf
-vim ~/.config/spectrwm/spectrwm.conf
-vim .config/spectrwm/picom.conf
-vim .config/polybar/launch.sh
-mv ~/.config/backup.spectrwm/ .
-mv ~/.config/spectrwm ~/.config/arco-spectrwm
-mv backup.spectrwm ~/.config/spectrwm
-vim .config/polybar/launch.sh
-vim .config/polybar/config
-vim .config/spectrwm/polybar.ini
-pkill polybar
-vim .config/spectrwm/bar.sh
-vim .xprofile
-vim ~/.repo/scripts/setwmname
-vim ~/.repo/scripts/setwmname
-env
-env
-cp ~/.config/bspwm/polybar.ini ~/.config/spectrwm/bar.ini
-vim .config/spectrwm/bar.ini
-vim .config/spectrwm/polybar.ini
-man polybar
-vim .config/spectrwm/bar.sh
-vim .config/spectrwm/CONFIG_MAIN
-vim .config/spectrwm/spectrwm.conf
-vim .config/spectrwm/spectrwm.conf
-vim .config/spectrwm/spectrwm.conf
-vim .repo/scripts/start-bar-spectrwm
-chmod +x .repo/scripts/start-bar-spectrwm
-sudo ln -s $SCRIPTS_DIR/start-bar-spectrwm /usr/local/bin/
-start-bar-spectrwm
-chmod +x ~/.config/spectrwm/start-bar
-vim .config/spectrwm/bar.sh
-vim .config/arco-spectrwm
-vim .config/spectrwm/spectrwm.conf
-vim .config/polybar/config
-env | rg MONITOR
-xrandr
-vim .config/polybar/config
-vim .config/spectrwm/spectrwm.conf
-vim .config/spectrwm/spectrwm.conf
-vim .config/spectrwm/bar.ini
-htop
-paru -S bullshit
-bullshit
-bullshit -h
-bullshit --help
-bullshit
-bullshit
-bullshit
-bullshit
-bullshit
-bullshit
-bullshit
-bullshit
-clear;bullshit
-clear;bullshit | figlet
-clear;bullshit | figlet
-clear;bullshit | figlet
-figlet -h
-figlet --help
-figlet -h
-echo "fuck" | figlet -w 10
-echo "fuck" | figlet -w 10
-echo "fuck" | figlet -w 100
-echo "fuck yall" | figlet -w 100
-clear;echo "fuck yall" | figlet -w 100 | lolcat
-btm
-sudo pacman -S discord
-btm
-htop
-start-bar-spectrwm
-vim .config/spectrwm/bar.ini
-vim .config/arco-spectrwm/spectrwm.conf
-vim .repo/scripts/start-compositor-spectrwm
-chmod +x ~/.repo/scripts/start-compositor-spectrwm
-sudo ln -s $SCRIPTS_DIR/start-compositor-spectrwm /usr/local/bin/
-pacman -Ss screen lock
-betterlockscreen --help
-betterlockscreen
-cp ~/.config/xmonad/picom.conf ~/.config/spectrwm
-cd .config/spectrwm
-ll
-rm CONFIG_*
-ll
-l
-rm polybar.ini
-rm baraction.sh
-rm bar.sh
-rm backup.conf
-ll
-l
-ll
-clear;neofetch
-vim spectrwm.conf
-less /etc/profile
-echo $MANPATH
-clear
-ll
-echo $FUCK
-ll
-man less
-vim .profile
-mkdir .config/git
-ll
-mv .gitconfig ~/.config/git/gitconfig
-ll
-git
-env | rg GIT_CONFIG
-env | rg GIT
-man wget
-ll
-cat .wget-hsts
-rm .wget-hsts
-ll
-man git
-man git
-reflector --list-countries
-reflector --list-countries | most
-reflector --list-countries | less
-reflector --score 10
-reflector --score 10 --country US,CA --protocol https,http
-reflector --score 10 --country US,CA --protocol https,http --latest 100
-reflector --score 10 --country US,CA --protocol https,http --latest 100 --sort rate
-reflector --score 10 --country US,CA --protocol https,http --latest 100 --sort rate --exclude theash.xyz
-reflector --score 20 --country US,CA --protocol https,http --latest 100 --sort rate --exclude theash.xyz
-reflector --score 20 --country US,CA --protocol https,http --latest 100 --sort rate --exclude theash.xyz --delay 1
-reflector --score 20 --country US,CA --protocol https,http --latest 100 --sort rate --exclude theash.xyz --delay 1 --age 5
-reflector --score 20 --country US,CA --protocol https --latest 100 --sort rate --exclude theash.xyz --delay 1 --age 5
-reflector --score 20 --country US,CA --protocol https --latest 100 --sort rate --exclude theash.xyz --delay 1 --age 5 --save /etc/pacman.d/mirrorlist
-sudo reflector --score 20 --country US,CA --protocol https --latest 100 --sort rate --exclude theash.xyz --delay 1 --age 5 --save /etc/pacman.d/mirrorlist
-cat /etc/pacman.d/mirrorlist
-sudo pacman -Syy
-sudo pacman -Syyu
-sudo pacman -S luajit
-ll
-rm .zshrc*
-ll
-rm test*
-cat setup.sh
-rm setup.sh
-ll
-rm *.bak
-rm *bak
-rm *.*bak
-rm .bashrc.bak
-ll
-rm .bash*
-ll
-rm .lesshst
-ll
-echo "--score 20 --country US,CA --protocol https --latest 100 --sort rate --exclude theash.xyz --delay 1 --age 5 --save /etc/pacman.d/mirrorlist" | sed 's/ --/\n--/'
-echo "--score 20 --country US,CA --protocol https --latest 100 --sort rate --exclude theash.xyz --delay 1 --age 5 --save /etc/pacman.d/mirrorlist" | sed 's/ --/\n--/g'
-echo "--score 20 --country US,CA --protocol https --latest 100 --sort rate --exclude theash.xyz --delay 1 --age 5 --save /etc/pacman.d/mirrorlist" | sed 's/ --/\n--/g'
-sudo vim /etc/xdg/reflector/reflector.conf
-sudo vim /etc/xdg/reflector/reflector.conf
-systemctl list-timers
-systemctl list-timers
-systemctl list-timers --all
-sudo systemctl enable reflector.timer
-sudo systemctl start reflector.timer
-systemctl list-timers --all
-ll
-sudo pacman -Syyu
-man reflector
-man reflector
-reflector --help
-man reflector
-ll .config/gtk-3.0
-ll
-rm .xprop-output
-ll
-man gtk
-mkdir ~/.config/gtk-2.0
-vim .zshenv
-vim .profile
-cat .config/gtk-3.0/settings.ini
-rmdir .config/gtk-2.0
-ll
-man stack
-ll .stack
-stack --help
-ll
-ll .choosenim
-ll .pki
-pidof numlockx
-pidof numlock
-man numlockx
-man numlock
-numlockx
-numlockx -h
-numlockx
-clear
-ll
-vim .profile
-cat .config/gtk-2.0
-ll .config/gtk-2.0/
-cat .gtkrc-2.0
-ll
-reboot
-vim .profile
-rm .profile
-powermenu
-powermenu
-vim .zshenv
-reboot
-vim .zshenv
-reboot
-vim .zshenv
-powermenu
-start-compositor
-cd .repo/scripts
-ll
-l
-ll
-vim setwmname
-vim editconfig-spectrwm
-chmod +x editconfig-spectrwm
-rm editwmconfig
-ll
-./editconfig-spectrwm
-sudo ln -s $PWD/editconfig-spectrwm /usr/local/bin/
-vim editconfig-xmonad
-vim editconfig-xmonad
-vim ec-template 
-chmod +x ec-template
-cp ec-template editconfig-bspwm
-vim editconfig-bspwm
-cp ec-template editconfig-awesome
-vim editconfig-awesome
-ll /usr/share/xsessions
-ll .config
-la .config
-ll
-vim .config/zsh/.zshrc
-ll
-ll .config/berry
-sudo ll /usr/bin | rg 'sh'
-ll /usr/bin | rg 'sh'
-sudo rm /usr/bin/sh
-sudo ln -s /usr/bin/dash /usr/bin/sh
-vim .repo/scripts/editconfig-env
-vim .repo/scripts/editconfig-env
-vim .repo/scripts/editconfig
-cd .repo/scripts
-ll
-chmod +x ./editconfig
-ll
-vim editconfig
-./editconfig --spectrwm
-vim editconfig
-./editconfig --spectrwm
-vim editconfig
-./editconfig --spectrwm
-vim editconfig
-./editconfig --spectrwm
-vim editconfig
-./editconfig --spectrwm
-vim editconfig
-./editconfig --spect
-vim editconfig
-./editconfig --spect
-./editconfig --spect
-vim editconfig
-./editconfig
-vim editconfig
-./editconfig
-./editconfig --spectrwm
-./editconfig --spectrwm
-ll
-vim editconfig
-ll
-./editconfig --spectrw
-./editconfig
-./editconfig 
-./editconfig -
-vim editconfig
-./editconfig --spectrwm
-./editconfig --spectrw
-vim editconfig
-sudo ln -s $SCRIPTS_DIR/editconfig /usr/local/bin/
-pacs vscode
-sudo pacman -S visual-studio-code-bin
-htop
-btm
-man spectrwm
-man spectrwm
-man spectrwm
-pkill spectrwm
-pkill spectr
-pkill spectrwm
-pkill X
-sudo pkill X
-pidof picom
-launch-terminal launch-editor $XDG_CONFIG_HOME/spectrwm/spectrwm.conf
-bat ~/.zshenv
-vim launch-launcher
-symlocalbin launch-launcher
-ll
-launch-launcher
-clear
-ll
-cd ~/.repo/scripts/
-mkdir launch
-cd launch
-vim launch-browser
-chmod +x ./launch-browser
-sudo ln -s $PWD/launch-browser /usr/local/bin/
-launch-browser
-vim launch-terminal
-chmod +x ./launch-terminal
-./launch-terminal
-./launch-terminal ~
-./launch-terminal nvim $XDG_CONFIG_HOME/spectrwm/spectrwm.conf
-sudo ln -s $PWD/launch-terminal /usr/local/bin/
-vim ../symlocalbin
-chmod +x ../symlocalbin
-sudo ln -s $SCRIPTS_DIR/symlocalbin /usr/local/bin/
-kk
-ll
-ll
-vim launch-browser
-./launch-browser pornhub.com
-ll
-vim launch-editor
-vim ../symlocalbin
-zsh
-symlocalbin launch-editor
-vim ../symlocalbin
-vim ../symlocalbin
-symlocalbin launch-editor
-vim ../symlocalbin
-zsh
-man ln
-ll .config
-vim .config/spectrwm/bar.ini
-pidof updated-available
-pidof updates-available
-pidof available-updates
-pidof available-updat
-htop
-vim .config/spectrwm/bar.ini
-clear
-vim .config/spectrwm/spectrwm.conf
-mv .config/spectrwm/picom.conf .config/spectrwm/compositor
-vim .config/spectrwm/compositor
-vim .config/spectrwm/compositor
-pidof picom
-readlink $(which start-bar-spectrwm)
-bat $(readlink $(which start-bar-spectrwm))
-rm /usr/local/bin/start-bar-spectrwm
-sudo rm /usr/local/bin/start-bar-spectrwm
-ll
-rm /usr/local/bin/editconfig-spectrwm
-sudo rm /usr/local/bin/editconfig-spectrwm
-cd .repo/scripts
-ll
-la
-cat fixenv
-rm fixenv
-la
-rm .xinitrc
-ll
-la
-rm sh-setwmname
-rm setwmname
-ll
-ll
-ll
-rm key-xprop
-ll
-la
-rm editconfig-awesome
-rm editconfig-bspwm
-rm editconfig-spectrwm
-rm ec-template
-ll
-mkdir fn-keys
-mv volume-* fn-keys
-mv screenshot-* fn-keys
-mv brightness-* fn-keys
-ll
-rm editconfig-xmonad
-ll
-la
-la
-la
-ll
-rm start-bar-spectrwm
-ll
-la
-la
-mv available-updates ./bar-pacman
-mv bar-pacman check-pacman
-ll
-ll
-ll
-ll
-ll
-rm start-bar-xmonad
-ll
-chmod +X editconfig-env
-ll
-chmod +x editconfig-env
-ll
-ll
-rm xmobar-pacman
-ll
-bat xhotkey-daemon-reload
-bat xhotkey-daemon
-rm xhotkey-daemon-reload
-vim xhotkey-daemon
-ll
-vim ~/.xprofile
-rm start-compositor-spectrwm
-vim start-compositor
-ll
-la
-ll
-cat .repo/scripts/editconfig
-pidof picom
-pidof xcompmgr
-mv .config/spectrwm/compositor .config/spectrwm/picom
-man exec
-htop
-pidof picom
-cd .repo/scripts/fn-keys
-ll
-sudo ln -sfivT $SCRIPTS_DIR/fn-keys/* /usr/local/bin/
-sudo ln -sfivT $SCRIPTS_DIR/fn-keys/brightness-up /usr/local/bin/
-sudo ln -sfiv $SCRIPTS_DIR/fn-keys/brightness-up /usr/local/bin/
-sudo ln -sfiv $SCRIPTS_DIR/fn-keys/* /usr/local/bin/
-ll
-ll /usr/local/bin
-sudo ln -sfiv $SCRIPTS_DIR/fn-keys/* /usr/local/bin/
-ll
-ll /usr/local/bin
-ll /usr/local/bin
-sudo rm /usr/local/bin/setwmname
-sudo rm /usr/local/bin/xhotkey-daemon-reload
-sudo rm /usr/local/bin/xmobar-pacman
-sudo rm /usr/local/bin/start-compositor-spectrwm
-ll /usr/local/bin
-sudo rm /usr/local/bin/key-xprop
-sudo rm /usr/local/bin/start-bar-xmonad
-ll
-ll /usr/local/bin
-sudo rm /usr/local/bin/available-updates
-ll
-ll ..
-sudo ln -s $SCRIPTS_DIR/check-pacman /usr/local/bin/
-ll ..
-ll /usr/local/bin
-nitch
-nitch
-nitch
-nitch
-nitch
-cd .repo/scripts
-ll
-rm bemenu-xlogin
-la /usr/local/bin
-sudo /usr/local/bin/bemenu-xlogin
-sudo rm /usr/local/bin/bemenu-xlogin
-la
-rm reload-xmonad
-rm spectrwm-sxhkd
-ll
-cat reload-polybar
-rm reload-polybar
-rm reload-compositor
-ll
-mv start-* launch
-ll
-sudo ln -sfiv $SCRIPTS_DIR/launch/* /usr/local/bin/
-ll
-ll
-ll
-ll
-vim .repo/scripts/start-compositor
-pidof picom
-start-compositor
-vim .repo/scripts/start-compositor
-start-compositor
-vim .repo/scripts/start-compositor
-pacs unclutter
-sudo pacman -S unclutter
-man unclutter
-man unclutter
-pidof picom
-xrdb -query -all
-feh ~/.cache
-feh ~/.cache/lockscreen.png
-vim .repo/scripts/blurlock
-vim .repo/scripts/blurlock
-chmod +x .repo/scripts/blurlock
-ll
-la
-sudo ln -siv $SCRIPTS_DIR/blurlock /usr/local/bin/
-blurlock
-ll ~/.cache
-cd .cache
-ll
-convert lockscreen.png -blur 0x8 blurred.png
-ll
-feh blurred.png
-convert lockscreen.png -filter Gaussian -blur 0x8 blurred.png
-feh blurred.png
-ll
-la
-betterlockscreen -u $XDG_CACHE_HOME/lockscreen.png
-betterlockscreen -u $XDG_CACHE_HOME/lockscreen.png -w
-betterlockscreen -u $XDG_CACHE_HOME/lockscreen.png -w -l
-betterlockscreen -u $XDG_CACHE_HOME/lockscreen.png -l
-which screenshot-xorg
-which screenshot-xorg | xargs bat
-shotgun --format png $XDG_CACHE_HOME/lockscreen.png
-convert $XDG_CACHE_HOME/lockscreen.png -filter Gaussian -blur 0x8 lockscreen.png
-convert $XDG_CACHE_HOME/lockscreen.png -blur 0x8 blur.png
-zsh
-vim .config/betterlockscreenrc
-betterlockscreen --help
-betterlockscreen --help | less
-pacman -Ss lockscreen
-pacman -Ss slock
-pkill picom
-start-compositor
-cd .cache
-ll
-scrot -q 50 lock.jpg
-feh lock.jpg
-scrot -q 50 lock.jpg -e "convert lock.jpg -filter Gaussian -blur 0x8 lock.jpg"
-ll
-feh lock.jpg
-scrot -q 50 $XDG_CACHE_HOME/lock.jpg -e "convert $XDG_CACHE_HOME/lock.jpg -filter Gaussian -blur 0x8 $XDG_CACHE_HOME/lock.jpg"
-rm lock.jpg
-scrot -q 50 $XDG_CACHE_HOME/lock.jpg -e "convert $XDG_CACHE_HOME/lock.jpg -filter Gaussian -blur 0x8 $XDG_CACHE_HOME/lock.jpg"
-feh lock.jpg
-ll
-scrot -q 50 $XDG_CACHE_HOME/lock.jpg -e "convert $XDG_CACHE_HOME/lock.jpg -filter Gaussian -blur 0x8 $XDG_CACHE_HOME/lock.jpg"; xss-lock --transfer-sleep-lock -- i3lock -i $XDG_CACHE_HOME/lock.jpg --nofork
-scrot -q 50 $XDG_CACHE_HOME/lock.jpg -e "convert $XDG_CACHE_HOME/lock.jpg -filter Gaussian -blur 0x8 $XDG_CACHE_HOME/lock.jpg";i3lock -i $XDG_CACHE_HOME/lock.jpg --nofork
-scrot -q 50 $XDG_CACHE_HOME/lock.png -e "convert $XDG_CACHE_HOME/lock.png -filter Gaussian -blur 0x8 $XDG_CACHE_HOME/lock.png";i3lock -i $XDG_CACHE_HOME/lock.png --nofork
-vim ~/.repo/scripts/blurlock
-sudo pacman -S i3lock
-sudo pacman -Rdd betterlockscreen
-sudo pacman -S i3lock
-man i3lock
-sudo pacman -S xss-lock
-sudo pacman -S scrot
-man scrot
-paru -Ss betterlock
-cp /usr/share/doc/betterlockscreen/examples/betterlockscreenrc ~/.config
-ll
-ll
-ka
-ll
-rm blur.png
-rm lockscreen.png
-ll
-vim .repo/scripts/blurlock
-wmname
-vim .repo/scripts/editconfig
-editconfig
-cd .repo/scripts
-mv editconfig editwmconfig
-mv editconfig-env editwmconfig-env
-vim editwmconfig
-sudo rm /usr/local/bin/editconfig
-sudo ln -siv $SCRIPTS_DIR/editwmconfig /usr/local/bin/
-xev
-xev
-man xss
-man xss-state
-man xss-lock
-ll /usr/share/kbd/consolefonts
-ll /usr/share/kbd/consolefonts | rg ter-
-paru -S aic94xx-firmware
-pacs bfa firmware
-pacs bfa
-vim Downloads/xmonad.hs
-cat /etc/spectrwm.conf
-cat /etc/spectrwm.conf | most
-cat /etc/spectrwm.conf
-cat /etc/spectrwm.conf | most
-btm
-loginctl lock-session
-man loginctl
-htop
-neofetch
-pf
-rm ~/.cache/lock.png
-vim ~/.repo/scripts/blurlock
-pacs linux
-sudo pacman -S linux linux-docs linux-headers
-sudo pacman -Syy
-sudo pacman -S linux linux-docs linux-headers
-sudo vim /etc/vconsole.conf
-pacs linux-atm
-pacs linux-
-sudo pacman -S linux linux-docs linux-headers
-htop
-editconfig
-vim .config/spectrwm/spectrwm.conf
-sudo vim /etc/grub.d/30_os-prober
-sudo -i
-htop
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-os-release
-ll
-la
-reboot
-btm
-sudo vim /boot/grub/grub.cfg
-sudo vim /etc/default/grub
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-reboot
-pidof picom
-htop
-la /usr/share/kbd/consolefonts
-la /usr/share/kbd/consolefonts | rg ter
-la /usr/share/kbd/consolefonts | rg ter | most
-setfont ter124n
-setfont ter-124n
-setfont ter-124b
-setfont ter-122b
-setfont ter-i22b
-ll
-la /usr/share/kbd/consolefonts | rg ter | most
-setfont ter-932b
-sudo pacman -Syy
-sudo vim /etc/vconsole.conf
-sudo vim /etc/vconsole.conf
-ll
-mkinitcpio -P
-sudo mkinitcpio -P
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-reboot
-sudo pacman -Rns linux-zen linux-zen-headers linux-zen-docs
-feh $WALLPAPERS_DIR
-ll $WALLPAPERS_DIR
-sudo vim /etc/default/grub
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-sudo vim /etc/vconsole.conf
-la /usr/share/kbd/consolefonts
-la /usr/share/kbd/consolefonts | rg ter
-la /usr/share/kbd/consolefonts | rg ter | most
-setfont ter124n
-setfont ter-124n
-setfont ter-124b
-setfont ter-122b
-setfont ter-i22b
-ll
-la /usr/share/kbd/consolefonts | rg ter | most
-setfont ter-932b
-sudo pacman -Syy
-sudo vim /etc/vconsole.conf
-sudo vim /etc/vconsole.conf
-ll
-mkinitcpio -P
-sudo mkinitcpio -P
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-reboot
-sudo pacman -S linux
-vim .config/kitty/kitty.conf
-neofetch
-xmonad
-vim .config/kitty/kitty.conf
-vim .config/kitty/kitty.conf
-vim .config/kitty/kitty.conf
-neofetch
-ff
-neofetch
-man pacman
-man alarm
-btm
-sudo pacman -S nnn
-nnn
-vim .config/kitty/kitty.conf
-man xz
-cd .repo/clones
-ll
-cd nerd-fonts
-ll
-./install.sh TerminessTTF
-./install.sh Terminus
-sudo fc-cache -vf
-vim .config/kitty/kitty.conf
-neofetch
-ll
-ll
-fontq term
-vim .config/kitty/kitty.conf
-neofetch
-ll
-la
-pf
-vim .config/kitty/kitty.conf
-neofetch
-neofetch
-neofetch
-neofetch
-ll
-la
-f
-clear
-la
-neofetch
-neofetch
-neofetch
-ff
-cd wbr-linux
-rm -rf *
-ll
-rm .zshenv
-ll
-git add .
-ll
-du -h ~/.config/xmonad/
-clear
-ll
-ll
-la
-ll
-neofetch
-cd wbr-linux
-ll
-cp -r ~/.zshenv .
-ll
-ln -sf $PWD/.zshenv ~
-ll ~
-rm .fehbg
-rm ~/.fehbg
-cp -r ~/.config/bspwm .
-ln -sf $PWD/bspwm ~/.config/
-ln -sf $PWD/bspwm ~/.config/bspwm
-ll
-ll ~/.config
-ll
-ll bspwm
-rm -rf ~/.config/bspwm
-ln -sf $PWD/bspwm ~/.config/bspwm
-cp -r ~/.config/fontconfig .
-rm -rf ~/.config/fontconfig
-ln -sf $PWD/fontconfig ~/.config/fontconfig
-vim ~/.repo/scripts/dotfile
-chmod +x ~/.repo/scripts/dotfile
-sudo ln -s $SCRIPTS_DIR/dotfile /usr/local/bin/
-zsh
-ll
-mv ~/.config/alacritty .
-dotfile alacritty
-mv ~/.config/dunst .
-dotfile dunst
-mv ~/.config/spectrwm .
-dotfile spectrwm
-mv ~/.config/awesome .
-dotfile awesome
-ll
-mv ~/.config/berry .
-dotfile berry
-mv ~/.config/picom .
-dotfile picom
-mv ~/.config/nvim .
-dotfile nvim
-mv ~/.config/kitty .
-dotfile kitty
-ll
-la
-mv ~/.config/xmonad/xmonad.hs .
-mkdir xmonad
-mv xmonad.hs xmonad/
-dotfile xmonad/xmonad.hs
-ll ~/.config
-ll ~/.config/xmonad
-ll
-mv ~/.config/leftwm .
-dotfile leftwm
-mv ~/.config/paru .
-dotfile paru
-mv ~/.config/xmobar .
-dotfile xmobar
-ll
-du -h .
-ll
-la
-ll
-l
-ll
-la
-la
-ls
-ls
-ls -alh
-rm ~/.config/betterlockscreenrc
-ll
-mv ~/.config/polybar .
-dotfile polybar
-ll
-mv ~/.config/zsh .
-dotfile zsh
-ll
-zsh
-cd .config
-la
-la
-la
-clear;la
-clear;la
-clear;la
-clear;la
-clear;la
-ll
-la
-ll
-ll
-nim
-ll
-cd Downloads/
-ll
-unzip Orbitron.zip
-ll
-sudo pacman -S unzio
-sudo pacman -S unzip
-unzip Orbitron.zip
-ll
-mkdir font-orbitron
-mv Orbitron-VariableFont_wght.ttf font-orbitron
-mv static/* font-orbitron
-ll
-ll
-mv font-orbitron /usr/share/fonts/
-sudo mv font-orbitron /usr/share/fonts/
-ll
-sudo fc-cache -vf
-fontq orb
-fontq ex
-cd Downloads/
-mkdir font-exo
-mv Exo_2.zip font-exo
-cd font-exo
-ll
-unzip Exo_2.zip
-ll
-rm README.txt
-rm Exo_2.zip
-rm OFL.txt
-ll
-cd ..
-mv font-exo /usr/share/fonts
-sudo mv font-exo /usr/share/fonts
-sudo fc-cache -vf
-vim .config/zsh/.zshrc
 fontq ex
 fontq exo
 vim .config/spectrwm/bar.ini
@@ -2690,3 +487,2073 @@ ff
 pfetch
 btm
 neofetch
+cd wbr-linux
+git add .
+git commit -m "working on xmonad"
+git push -u origin master
+ll
+pacs thunderbird
+nitch
+vim .config/xmobar/xmobarrc
+ll .repo/scripts/launch
+vim .repo/scripts/xmonad-reload
+chmod +x .repo/scripts/xmonad-reload
+sudo ln -s $SCRIPTS_DIR/xmonad-reload /usr/local/bin/
+xmonad-reload
+wmname
+xmonad-reload
+xmobar --help
+env
+neofetch
+ff
+neofetch
+vim .repo/scripts/editwmconfig
+vim .config/xmobar/xmobarrc .config/xmonad/xmonad.hs
+nvim -h
+nvim test.sh test.pl
+nvim test.sh test.pl
+nvim -0[2]
+nvim -02
+nvim -O[2] 
+nvim -O2
+nvim -O2 .config/xmonad/xmonad.hs .config/xmobar/xmobarrc
+vim .repo/scripts/editwmconfig
+vim .repo/scripts/editwmconfig
+nvim -h
+echo "ficl " | yad
+env | yad
+ll
+ll
+vim .repo/scripts/fn-keys/volume-up
+vim .repo/scripts/fn-keys/volume-mute
+cp .repo/scripts/fn-keys/volume-up .repo/scripts/fn-keys/volume-mute
+vim .repo/scripts/fn-keys/volume-mute
+vim .repo/scripts/fn-keys/volume-up
+vim .repo/scripts/fn-keys/volume-down
+vim .repo/scripts/fn-keys/volume-up
+vim .repo/scripts/fn-keys/volume-mute
+pamixer -h
+pamixer --get-mute
+pamixer --get-volume-human
+vim .repo/scripts/fn-keys/volume-mute
+vim .repo/scripts/fn-keys/volume-mute
+vim .repo/scripts/fn-keys/volume-mute
+volume-mute
+vim .repo/scripts/fn-keys/volume-mute
+volume-mute
+vim .repo/scripts/fn-keys/volume-mute
+volume-mute
+volume-mute
+vim .repo/scripts/fn-keys/volume-mute
+volume-mute
+volume-mute
+vim .repo/scripts/fn-keys/volume-mute
+volume-mute
+volume-mute
+volume-mute
+volume-mute
+volume-mute
+volume-mute
+volume-mute
+vim .repo/scripts/fn-keys/volume-mute
+volume-mute
+volume-mute
+volume-mute
+volume-mute
+vim .repo/scripts/fn-keys/volume-mute
+xmobar
+killall xmobar
+xmobar
+pamixer --get-mute
+pamixer --get-volume-human
+pamixer --get-volume-human | perl -pe 's|[m]|\U&|g'
+pamixer --get-volume-human | perl -pe 's|[m]|\U|g'
+pamixer --get-volume-human | perl -pe 's|[m]|\\u|g'
+pamixer --get-volume-human | perl -pe 's|[m]|\\U&|g'
+pamixer --get-volume-human | perl -pe 's|[m]|\U&|g'
+pamixer --get-volume-human | perl -pe 's|[m]|\^&|g'
+pamixer --get-volume-human | perl -pe 's|^([m])|\u$1|g'
+pamixer --get-volume-human | perl -pe 's|[m]|\^&|g'
+pamixer --get-volume-human | perl -pe 's|[m]|\^&|g'
+pamixer --get-volume-human | perl -pe 's|[m]|\^&|g'
+pamixer --get-volume-human | perl -pe 's|^([m])|\u$1|g'
+nvim .config/alacritty/theme.yml
+nitch
+vim .config/xmobar/xmobarrc
+vim .config/xmobar/xmobarrc
+cd .repo/scripts/
+mkdir bar
+cd bar
+vim bar-getmute
+vim bar-getmute
+chmod +x ./bar-getmute
+ll
+sudo ln -s $SCRIPTS_DIR/bar/bar-getmute /usr/local/bin/
+vim bar-getmute
+vim bar-getmute
+ll
+cd ..
+ll
+vim bar/bar-getmute
+fontq joy
+sudo pacman -S tree
+cd .repo/clones/xmobar
+ll
+ll etc
+ll src
+ll src/Xmobar
+tree src/Xmobar/
+ll
+ll doc
+ll doc/web
+ll doc/webll
+ll
+ll bench
+ll app
+lll
+ll
+ll
+bat license
+ll
+cd
+lll
+ll
+ll
+rm backup.xmonad
+clear
+doas su
+ls
+cd
+la
+whoami
+cd /usr/share/fonts
+ll
+rm OTF/*Nerd*
+ll
+ll awesome-terminal-fonts
+ll misc
+ll
+cd /usr/local/share/font
+cd /usr/local/share/fonts
+rm -rf /home/wbr/.local/share/fonts/NerdFonts/
+sudo pacman -S jgmenu
+zsh
+ll
+ll
+ll
+vim .config/zsh/.zshrc
+zsh
+pipewire --help
+man pipewire
+vim .repo/scripts/fn-keys/volume-mute
+printf "$(env)"
+printf "$(env)\n"
+printf "$(env)\n" | yad
+ll
+mv whoops ~/.repo/scripts/fn-keys/volume-mute
+vim .repo/scripts/fn-keys/volume-mute
+cd .repo/scripts/fn-keys
+./volume-mute
+ll
+chmod +x volume-mute
+cd .config/xmobar/
+ll
+ll
+vim xmobarrc
+xev
+fontq oct
+jgmenu
+clear
+killall xmobar
+xmobar
+pacs coretemp
+pacs temp
+fontq bit
+pacs bitstream
+sudo pacman -S ttf-bitstream-vera
+fontq dej
+pacs bitstream
+fontq dej
+fontq bit
+pamixer -h
+pamixer --get-mute
+pamixer --get-mute
+pamixer -t
+pamixer --get-mute
+pamixer --get-mute
+pamixer --get-mute
+pw-cat
+pw-mon
+pw-mon --help
+pw-cli
+pw-cli --help
+man pamixer
+xmobar
+cd .config/xmobar/
+mv xmobarrc bak.cfg
+mv backup.xmobarrc xmobarrc
+nvim -p bak.cfg xmobarrc
+xrdb -merge ~/.Xresources
+xrdb -query -all
+xmessage "fuck"
+vim ~/.Xresources
+vim ~/.Xresources
+xrdb -merge ~/.Xresources
+xrdb -query -all
+ls -la | xmessage -file - -center -default okay -font Xmessage*font: -adobe-*-*-r-*-*-*-100-*-*-p-*-*-* -center
+ls -la | xmessage -file - -center -default okay -font -adobe-*-*-r-*-*-*-100-*-*-p-*-*-* -center
+ls -la | xmessage -file - -center -default okay -center
+$ ls -la | xmessage -file - -center -default okay -font -bitstream-terminal-bold-r-normal--18-140-100-100-c-110-iso8859-1 -center
+ls -la | xmessage -file - -center -default okay -font -bitstream-terminal-bold-r-normal--18-140-100-100-c-110-iso8859-1 -center
+xmessage "Hello" -geometry <height>x<width>+<X>+<Y>
+xmessage "Hello" -geometry <height>x<width>+<X>+<Y>
+clear
+ll
+xmonad-wrapper
+la
+la
+la
+ll
+la
+ll
+la
+clear
+ll
+la
+vim .repo/scripts/xmonad-wrapper
+vim .repo/scripts/xmonad-wrapper
+chmod +x .repo/scripts/xmonad-wrapper
+sudo ln -s $SCRIPTS_DIR/xmonad-wrapper /usr/local/bin/
+echo 'Hi, mom!' | dzen2 -p 4
+ll
+la
+neofetch
+neofetch
+ll
+la
+ll
+neofetch
+urxvt
+neofetch
+ll
+la
+ff
+pf
+nitch
+ll
+la
+ff
+pf
+nitch
+clear
+xrdb -merge ~/.Xresources
+xrdb -load ~/.Xresources
+xrdb -query -all
+vim .Xresources
+xterm
+xrdb -merge ~/.Xresources
+xterm
+bat ~/.config/xmonad/xmonad.hs
+bat ~/.config/xmonad/xmonad.hs
+xmonad --recompile
+xmonad --recompile
+vim .Xresources
+xmonad --recompile
+pacs iosevka
+sudo pacman -S ttc-iosevka
+fontq io
+nm-applet
+trayer &
+nm-applet &
+killall trayer
+killall nm-applet
+ll
+ping google.com
+clear
+sudo pacman -S trayer nm-applet
+sudo pacman -S trayer nmapplet
+sudo pacman -S trayer
+pacs nm applet
+paru -Ss nm-applet
+paru -Ss nm applet
+NetworkManager --help
+nm applet
+nm
+ll
+man nm
+pacs nm connection
+pac nm-connection-editor
+zsh
+nm-applet
+pac network-manager-applet
+ll
+zsh
+pacs xfce4 power
+pac xfce4-power-manager
+vim .repo/scripts/launch/start-trayer
+chmod +x .repo/scripts/launch/start-trayer
+sudo ln -s $SCRIPTS_DIR/launch/start-trayer /usr/local/bin/
+gtk4-launch xmonad
+gtk4-launch XMonad
+gtk4-launch
+gtk4-launch --help
+gtk4-launch /usr/share/xsessions/xmonad.desktop
+gtk-launch xmonad
+gtk-launch Xmonad
+gtk-launch XMonad
+bat .config/xmonad/backup.xmonad
+bat .config/xmonad/backup.xmonad --help
+bat .config/xmonad/backup.xmonad -L
+bat .config/xmonad/backup.xmonad -l hs
+bat .config/xmonad/backup.xmonad -l hs -upp
+cd .config/xmobar
+ll
+mv xmobarrc bak.cfg
+vim xmobarrc
+vim xmobarrc
+ll
+cd
+ll
+la
+la
+la
+vim .config/xmobar/xmobarrc
+pacs xfont
+pac xorg-xfontsel
+xfontsel
+xfontsel --help
+xfontsel -fn "JetBrains Mono"
+xfontsel -fn
+ll
+cd .config/xmonad
+ll
+touch new.xmonad
+cp xmonad.hs backup.xmonad
+mv new.xmonad xmonad.hs
+ll
+vim xmonad.hs
+xmonad --recompile
+xmonad --recompile
+xmonad --recompile
+xmonad --recompile
+xmonad --recompile
+pacs xls
+pac xorg-xlsfonts
+xlsfonts
+xlsfonts | rg jetbrains
+xlsfonts | rg jet
+xlsfonts | BEMENU_BACKEND=curses bemenu
+xlsfonts | less
+vim
+xfce4-power-manager
+reload-xmonad
+xmonad-reload
+vim .config/xmonad/xmonad.hs
+vim .config/xmobar/xmobarrc
+vim .config/xmobar/xmobarrc
+rm .config/xmobar/xmobarrc
+vim .repo/scripts/editwmconfig
+neofetch
+ff
+pf
+neofetch
+vim .config/kitty/kitty.conf
+neofetch
+ll
+cd .repo/scripts
+ll
+cd launch
+ll
+mv launch-browser browser
+mv launch-editor editor
+mv launch-launcher launcher
+mv launch-terminal terminal
+ll
+sudo rm /usr/local/bin/launch-*
+sudo ln -s $SCRIPTS_DIR/launch/browser /usr/local/bin/
+sudo ln -s $SCRIPTS_DIR/launch/launcher /usr/local/bin/
+sudo ln -s $SCRIPTS_DIR/launch/editor /usr/local/bin/
+sudo ln -s $SCRIPTS_DIR/launch/terminal /usr/local/bin/
+vim .config/zsh/.zshrc
+nefo
+neofetch
+sudo pacman -S gimp
+xclock
+clear
+pacs clock
+pac xorg-xclock xorg-oclock
+xclock
+oclock
+paru -Ss clock
+paru -S clock-tui
+clock
+clock --help
+clock -h
+clock -i
+man clokc
+man clock
+man date
+vim .config/alacritty/theme.yml
+cd .config/xmonad
+l
+ll
+nvim -p backup.xmonad xmonad.hs
+clock seconds
+clock format
+clock format %I:%M
+clock format %I:%M:%P
+clock format %I:%M:%p
+clock format %I:%M%p
+clock format '%I:%M%p'
+date
+date -h
+date +%a
+date +%D
+date +%a%D
+date +%a%_D
+date +%_a%_D
+date +%_a %_D
+date +%_a %_D'
+date '+%_a %_D'
+date '+%_a %_D'
+date '+%_A %_D'
+date '+%_A %_D'
+date '+%A %D'
+date '+%A_%D'
+date '+%A %D'
+paru -S tty-clock
+alacritty htop
+alacritty -c htop
+alacritty -e htop
+systemctl poweroff --help
+vim .repo/scripts/powermenu.d/powermenu-shutdown
+vim .zshenv
+cat gg
+bemenu-run -l 10 -p 'run: ' -w -i --fn 'Play 15' -c -W 0.3 -B 2 --scrollbar never --bdr '#555753' --scf '#6BF1BE' --hb '#6BF1BE' --hf '#272935' --tb '#272935' --tf '#EEEEEC' --fork
+vim .zshenv
+./bem
+./bem
+./bem
+./bem
+./bem
+./bem
+BEMEN_BACKEND=c ./bem
+BEMEN_BACKEND=curses ./bem
+BEMEN_BACKEND=c ./bem
+./bem
+./bem
+./bem
+man neato
+./bem
+./bem
+./bem
+./bem
+./bem
+./bem
+./bem
+clear
+bemenu-run -l 10
+bemenu-run -l 10 --fn 'Roboto Condensed'
+bemenu-run -l 10 --fn 'Roboto Condensed 12'
+bemenu-run -l 10 --fn 'Roboto Condensed 14'
+bemenu-run -l 10 --fn 'Orbitron 14'
+bemenu-run -l 10 --fn 'Roboto 14'
+bemenu-run --fn 'Roboto 14'
+bemenu-run --fn 'Roboto 14' -c
+bemenu-run --fn 'Roboto 14' -w 0.5
+bemenu-run --fn 'Roboto 14' -W 0.5
+bemenu-run --fn 'Roboto 14' -W 1
+bemenu-run --fn 'Roboto 15' -W 1 -
+bemenu-run --fn 'Roboto 16' -W 1 -
+bemenu-run --fn 'Roboto 16' -W 1 -i
+bemenu-run --fn 'Roboto 16' -W 1 -i -w
+bemenu-run --fn 'Roboto 16' -W 1 -i -w -p 'run: '
+bemenu-run --fn 'Roboto 16' -W 1 -i -w -p 'run:'
+bemenu-run --fn 'Roboto 16' -W 1 -i -w -p 'run:' --scrollbar never
+bemenu-run --fn 'Roboto 16' -W 1 -i -w -p 'run:' --hf '#272935'
+bemenu-run --fn 'Roboto 16' -W 1 -I -w -p 'run:' --hf '#272935'
+bemenu-run --fn 'Play 16' -W 1 -I -w -p 'run:' --hf '#272935'
+bemenu-run --fn 'Play 17' -W 1 -I -w -p 'run:' --hf '#272935'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' --hf '#272935'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' --hf '#272935' -f
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' --hf '#272935' -H 17
+bemenu-run --fn 'Play 15' --wrap -I -p 'run:' --hf '#272935' -H 17
+bemenu-run --fn 'Play 15' --wrap -I -p 'run:' --hf '#272935' -H 17
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' --hf '#272935' -H 17
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' --hf '#272935' -H 17 -M 10
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' --hf '#272935' -H 17 -M 20
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' --hb '#272935' -H 17 
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' --sb '#272935' -H 17 --
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' --sb '#272935' -H 17 --sf 
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' --sb '#272935' -H 17 --sf '#000000'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf 
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#272935'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' -l 10
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' -l 7
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#EEEEEC' --tb '#6aa1fd'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#EEEEEC' --tb '#6aa1fd' -l 7
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#EEEEEC' --tb '#6aa1fd' -l 7 --cf '#000000'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' -l 7 --cf '#000000'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd'  --cf '#000000'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#0000000'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#0000000' --nf 
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#0000000' --nf '#00000000'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#0000000' --nf '#D3D7CF
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#0000000' --nf '#D3D7CF'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#0000000' --nf '#D3D7CF' 
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#0000000' --nf '#D3D7CF'  -l 10
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#2E3436' --nf '#D3D7CF' -l 10 -
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#2E3436' --nf '#D3D7CF' -l 10
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#2E3436' --nf '#D3D7CF' --af '#2E3436' --ab '#D3D7CF'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#2E3436' --nf '#D3D7CF' --ab '#2E3436' --af '#D3D7CF'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#2E3436' --nf '#D3D7CF' --ab '#2E3436' --af '#D3D7CF' -l
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#2E3436' --nf '#D3D7CF' --ab '#2E3436' --af '#D3D7CF' -l 10
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#272935' --nf '#D3D7CF' --ab '#272935' --af '#D3D7CF' -l 10
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#272935' --nf '#D3D7CF' --ab '#272935' --af '#D3D7CF' -l 10 --sf --sb '#000'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#272935' --nf '#D3D7CF' --ab '#272935' --af '#D3D7CF' -l 10 --sf '#EEEEEC' --sb '#000000'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' -l 10 --sf '#EEEEEC' --sb '#000000'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' -l 19
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' -l 5
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' -l 8
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb 
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#EEEEEC' -l 10
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#EEEEEC'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' -l 10
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' -l 10 -c
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#f47375'
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#f47375' --fb '#f47375' 
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#' --fb '#272' 
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#' --fb '#00000000' 
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#00000000' --fb '#00000000' 
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#0000000' --fb '#0000000' 
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#272935' --fb '#6AA1FD' 
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#272935' --fb '#6AA1FD'  -l 10
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#272935' --tb '#6aa1fd' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#272935' --fb '#6AA1FD' -l 9
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#EEEEEC' --hb '#272935' --tf '#6AA1FD' --tb '#272935' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#272935' --fb '#6AA1FD' -l 9
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#6BF1BE' --hb '#272935' --tf '#6AA1FD' --tb '#272935' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#272935' --fb '#6AA1FD' -l 9
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#6BF1BE' --hb '#272935' --tf '#6AA1FD' --tb '#272935' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#272935' --fb '#272935' -l 9
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#6BF1BE' --hb '#272935' --tf '#6AA1FD' --tb '#272935' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#EEEEEC' --fb '#272935' -l 9
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#6BF1BE' --hb '#272935' --tf '#D3D7CF' --tb '#000000' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#EEEEEC' --fb '#272935' -l 9
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#6BF1BE' --hb '#272935' --tf '#D3D7CF' --tb '#000000' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#EEEEEC' --fb '#000000' -l 9
+bemenu-run --fn 'Play 17' --wrap -I -p 'run:' -H 17 --hf '#6BF1BE' --hb '#272935' --tf '#D3D7CF' --tb '#000000' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#EEEEEC' --fb '#000000' -l 9
+bemenu-run --fn 'Play 17' --wrap -I --prompt 'run:' -H 17 --hf '#6BF1BE' --hb '#272935' --tf '#D3D7CF' --tb '#000000' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#EEEEEC' --fb '#000000' -l 9
+bemenu-run --fn 'Play 17' --wrap -I -H 17 --hf '#6BF1BE' --hb '#272935' --tf '#D3D7CF' --tb '#000000' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#EEEEEC' --fb '#000000' -l 9
+bemenu-run --fn 'Play 17' --wrap -I -H 17 --hf '#6BF1BE' --hb '#272935' --tf '#D3D7CF' --tb '#000000' --cf '#00000000' --nb '#000000' --nf '#D3D7CF' --ab '#000000' --af '#D3D7CF' --sf '#EEEEEC' --sb '#000000' --scb '#272935' --scf '#6AA1FD' --ff '#EEEEEC' --fb '#000000' -l 9
+vim .config/alacritty/theme.yml
+bat ggg
+bat gg
+man bemenu
+vim .config/zsh/.zprofile
+vim bem
+chmod +x bem
+bem
+./bem
+vim bem
+./bem
+ll
+la
+neofetch
+./bem
+vim bem
+./bem
+./bem
+./bem
+man bemenu
+./bem
+./bem
+./bem
+./bem
+man bemenu
+sudo vim /etc/sudoers
+sudo pacman -Syy
+sudo vim /etc/sudoers
+sudo pacman -Syy
+sudo pacman -Syy
+neofetch
+vim .repo/scripts/bemenu-xlogin
+rm $ZDOTDIR/path.zsh
+vim .config/zsh/aliases.zsh
+zsh
+vim .config/zsh/.zprofile
+vim .config/zsh/functions.zsh
+man basename
+zd
+vim .config/zsh/aliases.zsh
+fd .
+fd . -d1 -td
+fd . -d1 -td
+basename .
+basename .config
+basename ./*
+basename  ./*
+basename -a ./*
+basename -a ./.*
+ls -al
+ls -a
+ls -a --help
+man exa
+vim .config/zsh/path.zsh
+vim .config/zsh/.zprofile
+vim .zshenv
+echo $PATH
+echo $PATH
+env
+editor
+editor -p .zshenv .gtkrc-2.0
+clear
+sudo pac -Ss powerline
+vim .config/zsh/aliases.zsh
+vim .config/zsh/aliases.zsh
+pac -Ss powerline
+pac -S powerline-fonts
+nv
+zsh
+db
+ll
+rm bem
+rm gg
+rm test.sh
+ll
+mv .Xresources wbr-linux/
+ln -s $HOME/wbr-linux/.Xresources $HOME/.Xresources
+ll
+vim .Xresources
+sudo vim /etc/sudoers
+doas vim /etc/sudoers
+sudo vim /etc/sudoers
+clear
+ll
+clear
+la
+ll
+nf
+dd
+ff
+ff
+pf
+nitch
+which visudo
+whichcat visudo
+whichcat visudo | xargs bat
+which visudo | xargs bat
+clear
+cat test
+pidof unclutter
+pidof nm-applet
+pidof nm-applet
+man nm-applet
+nm-applet --help
+vim test.sh
+vim test
+chmod +x test
+./test
+chmod +x test
+vim test
+./test
+vim test
+./test
+vim test
+./test
+pidof nm-applet
+vim test
+./test
+pidof nm-applet
+vim test
+./test
+./test
+pidof nm-applet
+kill 105941
+pidof nm-applet
+clear
+vim test
+numlockx
+mkdir wbr-linux/config/stalonetray
+ln -s $HOME/wbr-linux/config/stalonetray $XDG_CONFIG_HOME/stalonetray
+xrandr
+pkill stalonetray
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+pidof stalonetray
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+nm-applet
+pkill stalonetray
+nm-applet
+paru -Ss stallone
+paru -Ss stalon
+sudo pacman -S stalonetray
+clear
+stalonetray
+man stalonetray
+man stalonetray
+hacksaw
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc\ 
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+pkill xmobar
+xmobar --recompile
+xmobar --recompile
+xmobar --recompile
+xmobar --recompile
+xmobar --recompile
+xmobar --recompile
+xmobar --recompile
+xmobar --recompile
+xmobar --recompile
+xmobar --recompile
+xmonad --recompile
+xmonad --recompile
+xmonad --recompile
+xmonad --recompile
+man exec
+vim .repo/scripts/launch/start-trayer
+bat .config/xmonad/backup.xmonad -l hs -upp
+setfont ter-932b
+vim .zshenv
+pkill xmonad
+vim .zshenv
+zsh
+pkill xmonad
+vim .config/zsh/.zprofile
+setfont ter-932b
+vim .config/zsh/.zprofile
+pkill xmonad
+vim .repo/scripts/agnostic-autostart
+xprop
+bc
+pidof stalonetray
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+hacksaw
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+stalonetray -c ~/.config/stalonetray/stalonetrayrc
+db
+locate stalonetray
+cp /etc/stalonetrayrc ~/.config/stalonetray
+vim .config/stalonetray/stalonetrayrc
+trayer &
+pkill trayer
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand true --width 10 --transparent true --tint 0x5f5f5f --height 18 &
+pkill trayer
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand true --width 5 --transparent true --tint 0x5f5f5f --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand true --width 2.5 --transparent true --tint 0x5f5f5f --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand true --width 3 --transparent true --tint 0x5f5f5f --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand true --width 4 --transparent true --tint 0x5f5f5f --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand true --width 4 --transparent true --tint 0x5f5f5f --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand true --width 5 --transparent true --tint 0x5f5f5f --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand true --width 5 --transparent true --tint 0x272935 --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand true --width 5 --tint 0x272935 --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand true --width 5 --tint 0x272935 --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand true --widthtype percent --width 5 --tint 0x272935 --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand true --widthtype pixel --width 380 --tint 0x272935 --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand true --widthtype pixel --width 384 --tint 0x272935 --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand true --widthtype pixel --width 10 --tint 0x272935 --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand true --widthtype pixel --width 100 --tint 0x272935 --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand true --widthtype pixel --width 96 --tint 0x272935 --height 29
+trayer --edge top --align center --SetDockType true --SetPartialStrut true \\
+ --expand true --widthtype pixel --width 96 --tint 0x272935 --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand true --widthtype pixel --width 96 --tint 0x272935 --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand false --padding 5 --widthtype pixel --width 96 --tint 0x272935 --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand false --padding 100 --widthtype pixel --width 96 --tint 0x272935 --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand false --padding 25 --widthtype pixel --width 96 --tint 0x272935 --height 29
+trayer --edge top --align right --SetDockType true --SetPartialStrut true \\
+ --expand false --alpha 256 --widthtype pixel --width 96 --tint 0x272935 --height 29
+trayer --edge top --align right --SetDockType true \\
+ --expand false --alpha 256 --widthtype pixel --width 96 --tint 0x272935 --height 29
+trayer --edge top --align right --SetDockType true \\
+ --expand false --alpha 256 --widthtype pixel --width 96 --tint 0x272935 --height 20
+trayer --edge top --align right --SetDockType true \\
+ --expand false --alpha 256 --widthtype pixel --width 96 --tint 0x272935 --height 30
+trayer --edge top --align right --SetDockType true \\
+ --expand false --alpha 256 --widthtype pixel --width 96 --tint 0x272935 --height 29 --SetPartialStrut
+trayer --edge top --align right --SetDockType true \\
+ --expand false --alpha 256 --widthtype pixel --width 96 --tint 0x272935 --height 29
+trayer --edge top --align right --SetDockType true \\
+ --expand false --alpha 256 --widthtype pixel --width 96 --tint 0x272935 --height 29 --SetPartialStrut false
+trayer --edge top --align right --SetDockType true \\
+ --expand false --alpha 256 --widthtype pixel --width 96 --tint 0x272935 --height 29 --SetPartialStrut true
+man trayer
+vim .repo/scripts/launch/start-trayer
+mkdir .config/awesomebackup
+mkdir .config/awesome
+ll .config/awesome
+pac -S gobject-introspection
+pac -S asciidoctor
+pac -Ss busted
+pac -S busted
+pac -S luackeck
+pac -Ss luackeck
+pac -Ss lua check
+pac -S luacheck
+pac -S lua-lanes
+pac -Ss lua cov
+pac -Ss luacov
+paru -Ss lua cov
+paru -S lua-luacov
+sudo pacman -Ss ldoc
+sudo pacman -S ldoc
+pacman -Ss xcb-errors
+pacman -Ss xcb errors
+pacman -Ss librsvg
+sudo pacman -S librsvg-docs
+sudo pacman -Ss gtk+
+sudo pacman -Ss libxdg
+sudo pacman -Ss gdk
+sudo pacman -S gdk-pixbuf-xlib
+sudo pacman -Ss xcb-util
+sudo pacman -Ss xkc
+sudo pacman -Ss xkb
+cd .repo/clones
+git clone https://github.com/awesomeWM/awesome
+cd awesome
+ll
+make
+pacman -Ss lgi
+sudo pacman -S lua54
+sudo pacman -S lua5-4
+sudo pacman -Ss lua 5 4
+lua --version
+lua -v
+pacman -Ss lgi
+sudo pacman -S lua-lgi
+make clean
+make
+sudo make install
+which awesome
+db
+locate doc/awesome
+ll /usr/local/share/doc/awesome
+ll /usr/local/share/doc/awesome/doc
+ll /usr/local/share/doc/awesome/doc/sample\ files/
+firefox /usr/local/share/doc/awesome/doc/sample\ files/rc.lua.html
+locate rc.lua
+cp /usr/local/etc/xdg/awesome/rc.lua ~/.config/awesome
+kitty -e vim
+man awesome
+awesome --help
+awesome --version
+bat .repo/scripts/editwmconfig-env
+vim .repo/scripts/editwmconfig
+vim .config/awesome/theme/theme.lua
+mkdir .config/awesomebackup
+mv cp -r .config/awesome .config/awesomebackup
+cp -r .config/awesome .config/awesomebackup
+ll
+rm -rf .config/awesome
+ll
+ll .config
+cd .config/awesome
+ll
+vim rc.lua
+locate zenburn
+cp -r /usr/local/share/awesome/themes/zenburn ~/.config/awesome/theme
+l
+ll
+ll theme/
+vim rc.lua
+lua
+awesome-client -h
+awesome-client
+ll
+ln -s $WALLPAPERS_DIR $XDG_CONFIG_HOME/awesome/theme/wallpapers
+ll .config/awesome
+ll .config/awesome/theme
+ll .config/awesome/theme/wallpapers
+getrandomwallpaper
+ll /usr/local/bin
+sudo rm /usr/local/bin/getrandomewallpaper
+cd .repo/scripts
+mv getrandomewallpaper getrandomwallpaper
+sudo ln -s $SCRIPTS_DIR/getrandomwallpaper /usr/local/bin/
+getrandomwallpaper
+getrandomwallpaper
+getrandomwallpaper
+getrandomwallpaper
+getrandomwallpaper
+getrandomwallpaper
+getrandomwallpaper
+getrandomwallpaper
+getrandomwallpaper
+getrandomwallpaper
+getrandomwallpaper
+getrandomwallpaper
+whichcat wallpaper
+basename -a $WALLPAPERS_DIR/*
+basename -a $WALLPAPERS_DIR/* | shuf | head -n 1
+vim .repo/scripts/getrandomewallpaper
+chmod +x .repo/scripts/getrandomewallpaper
+sudo ln -s $SCRIPTS_DIR/getrandomewallpaper /usr/local/bin/
+vim .repo/scripts/getrandomewallpaper
+getrandomwallpaper
+zsh
+getrandomwallpaper
+cd $WALLPAPERS_DIR
+ll
+convert darkspace.jpg darkspace.png
+convert forest.jpg forest.png
+convert nightcity.jpg nightcity.png
+convert planet.jpg planet.png
+convert saturn.jpg saturn.png
+convert solarsystem.jpg solarsystem.png
+convert system.jpg system.png
+ll
+rm *.jpg
+ll
+vim .config/awesome/randomwallpaper
+vim .repo/scripts/getrandomwallpaper
+chmod +x .config/awesome/randomwallpaper
+./.config/awesome/randomwallpaper
+./.config/awesome/randomwallpaper
+./.config/awesome/randomwallpaper
+./.config/awesome/randomwallpaper
+./.config/awesome/randomwallpaper
+./.config/awesome/randomwallpaper
+cd .config/awesome
+vim randomwallpaper
+lua
+ll .config/awesome/
+zsh --help
+zsh -t man awesome
+kitty -e man awesome
+kitty -e zsh -c man awesome
+kitty -e zsh -c (man awesome)
+kitty -e zsh -c $(man awesome)
+kitty -e zsh -c man
+kitty -e zsh -c neofetch
+kitty -e zsh
+ll .config/awesome/
+ll .config/awesome
+ll
+mv .config/awesome/randomwallpaper ~/.repo/scripts/
+ll
+sudo ln -s $SCRIPTS_DIR/randomwallpaper /usr/local/bin/
+Xephyr :5 & sleep 1 ; DISPLAY=:5 awesome
+clear
+notify-send "youre a fucking faggot dude"
+ll
+la
+vim .repo/scripts/editwmconfig
+sudo cp /usr/local/share/xsessions/awesome.desktop /usr/share/xsessions
+ll
+ll
+ls
+ls -al
+neofetch
+ll
+la
+ff
+pf
+pd
+pf
+ls
+la
+ll
+checkupdates
+neofetch
+vim .repo/scripts/agnostic-autostart
+chmod +x .repo/scripts/agnostic-autostart
+sudo ln -s $SCRIPTS_DIR/agnostic-autostart /usr/local/bin/
+cp .config/picom/xmonad.conf ~/.config/picom/awesome.conf
+pidof picom
+pidof numlockx
+pidof unclutter
+pac -Ss vs code
+sudo pacman -S visual-studio-code-bin
+rm /usr/bin/code
+sudo rm /usr/bin/code
+sudo pacman -S visual-studio-code-bin
+cd Downloads
+ll
+rm *.jpg
+rm *.txt
+rm xmonad.hs
+rm wmname-0.1.tar.gz
+rm *.zip
+rm static -rf
+ll
+tar xf code-stable-x64-1660113585.tar.gz
+ll
+ll VSCode-linux-x64
+sudo mv VSCode-linux-x64 /opt/
+ll /opt
+which discord
+which discord | readlink
+which discord | xargs readlink
+ll /opt/VSCode-linux-x64
+ll /opt/VSCode-linux-x64/bin
+sudo ln -s /usr/bin/code /opt/VSCode-linux-x64/bin/code
+code
+sudo ln -s /opt/VSCode-linux-x64/bin/code /usr/bin/code
+ll
+code
+pidof dunst
+cp ~/Pictures/wallpapers/darkspace.png ~/.config/awesome/theme/background.png
+locate rc.lua
+bat /usr/local/etc/xdg/awesome/rc.lua
+bat /usr/local/etc/xdg/awesome/rc.lua -pp
+bat /usr/local/etc/xdg/awesome/rc.lua -u
+bat /usr/local/etc/xdg/awesome/rc.lua -up
+vim .config/alacritty/theme.yml
+ll /usr/share/icons
+fd .  /usr/share/icons/Papirus-Dark/
+fd .  /usr/share/icons/Papirus-Dark/ | grep code
+ll /usr/share/applications
+vim /usr/share/applications/firefox.desktop
+vim
+vim test.nim
+vim test.nim
+mkdir .config/herbstluftwm
+cp -r /etc/xdg/herbstluftwm/* .config/herbstluftwm
+locate herbst
+sudo pacman -S luarocks
+luarocks search argparse
+luarocks install argparse
+sudo luarocks install argparse
+sudo luarocks install argparse luafilesystem lua_cliargs lua
+sudo luarocks install lua
+luarocks install argparse --local
+vim test.lua
+chmod +x test.lua
+./test.lua a b c
+vim test.lua
+./test.lua a b c
+vim test.lua
+./test.lua a b c
+vim test.lua
+./test.lua a b c
+vim test.lua
+./test.lua a b c
+vim test.lua
+./test.lua a b c
+ll
+luajit
+which luajit
+vim .repo/scripts/launch/terminal
+vim .repo/scripts/launch/terminal
+vim .repo/scripts/launch/terminal
+terminal
+vim .repo/scripts/launch/terminal
+terminal
+vim .repo/scripts/launch/terminal
+terminal
+jobs
+terminal
+jobs
+clear
+vim .repo/scripts/launch/browser
+vim .repo/scripts/launch/editor
+vim .repo/scripts/launch/launcher
+launcher
+vim .config/herbstluftwm/autostart
+vim .config/alacritty/theme.yml
+ll .config/herbstluftwm
+./.config/herbstluftwm/panel.sh
+vim .config/herbstluftwm/autostart
+vim .config/herbstluftwm/autostart
+vim .config/herbstluftwm/autostart
+vim .config/alacritty/theme.yml
+launcher
+vim .config/spectrwm/spectrwm.conf
+mkdir .config/dwm
+cd .repo
+cd clones
+ll
+cd dwm
+ll
+cd 
+rm -rf dwm
+cd .repo/clones
+ll
+tar xf dwm-6.3.tar.gz
+ll
+mv dwm-6.3 /opt
+sudo mv dwm-6.3 /opt
+ll /opt
+cd /opt/dwm-6.3
+ll
+sudo make
+ll
+vim config.h
+vim config.h
+vim .config/xmonad/xmonad.hs
+vim .config/alacritty/theme.yml
+pacman -Ss qtile
+cd .repo/clones
+ll
+git clone https://github.com/qtile/qtile.git
+cd qtile
+ll
+reame
+readme
+ll
+./setup.py
+pip
+ll
+ll bin
+./bin/qtile
+sudo pacman -S qtile
+sudo pacman -S python-xdg python-setproctitle python-dbus-next canto-daemon khal
+sudo pacman -Syy
+sudo pacman -S python-xdg python-setproctitle python-dbus-next canto-daemon khal
+ll
+neo
+nf
+nf
+ll
+la
+vim .repo/scripts/editwmconfig
+vim .repo/scripts/editwmconfig-env
+vim .repo/scripts/editwmconfig
+db
+locate qtile
+mkdir .config/qtile
+cp /usr/share/doc/qtile/default_config.py ~/.config/qtile/config.py
+ll
+vim .config/qtile/config.py
+nf
+vim .config/qtile/config.py
+nf
+date '+%A %D'
+clear
+nvim .config/alacritty/theme.yml
+nvim .config/alacritty/theme.yml
+vim .config/qtile/config.py
+pkill qtile
+pkill X
+sudo pkill X
+cp /usr/share/doc/qtile/default_config.py ~/.config/qtile/config.py
+ll
+ll
+la
+la
+rm test*
+la
+la
+la
+la
+sudo pkill X
+vim .config/picom/picom.conf
+wallp
+wallpaper
+vim .config/kitty/kitty.conf
+pacman -Ss python cairo
+sudo pacman -S pythoncairosvg
+sudo pacman -S python-cairosvg
+sudo pacman -S python-olefile
+cd .config/qtile
+ll
+chmod +x gen-keybinding-img
+./gen-keybinding-img
+ll
+python gen-keybinding-img
+pip search cairo
+pip search cairo
+python gen-keybinding-img
+nf
+of
+pf
+ff
+neofetch
+cp .config/qtile/config.py ~/.config/qtile/backup.config.py
+vim .config/qtile/config.py
+terminal
+vim .config/qtile/config.py
+vim colors.py
+vim colors.py
+mv colors.py colors.lua
+vim colors.lua
+vim colors.lua
+cp colors.lua colors.py
+vim colors.py
+python colors.py
+vim colors.py
+python colors.py
+vim colors.py
+python colors.py
+vim colors.py
+python colors.py
+python colors.py
+vim colors.py
+vim .config/alacritty/theme.yml
+cp .config/picom/picom.conf ~/.config/picom/qtile.conf
+pidof dunst
+whichcat agnostic-autostart
+env | less
+locate awful
+man picom
+vim colors.py
+vim .config/qtile/config.py
+vim .config/qtile/backup.config.py
+locate default_config.py
+bat /home/wbr/.repo/clones/qtile/libqtile/resources/default_config.py
+bat /home/wbr/.repo/clones/qtile/libqtile/resources/default_config.py -u
+bat /home/wbr/.repo/clones/qtile/libqtile/resources/default_config.py -up
+pidof picom
+pidof dunst
+pidof lxpolkit
+vim .config/qtile/autostart.lua
+cd .config/qtile
+ll
+rm dt.y
+rm backup.config.py
+rm gen-keybinding-img
+ll
+chmod +x autostart.lua
+ll
+ll
+luajit autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+head -n 5 ~/.config/awesome
+head -n 5 ~/.config/awesome/rc.lua
+vim autostart.lua
+head -n 5 ~/.config/awesome/rc.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+ll .config/qtile
+cp ~/.config/qtile/autostart.lua .repo/scripts/
+ln -s $SCRIPTS_DIR/autostart.lua /usr/local/bin/
+sudo ln -s $SCRIPTS_DIR/autostart.lua /usr/local/bin/
+locate default_config.py
+vim .repo/clones/qtile/libqtile/resources/default_config.py
+vim colors.py
+cp ~/Downloads/Python-logo-notext.svg ~/.config/qtile/logo.svg
+cd Downloads
+ll
+mkdir icons
+mv layout-max.png icons
+mv layout-monadtall.png icons
+mv layout-floating.png icons
+mv icons ~/.config/qtile
+cd ~/.config/qtile
+ll
+mv logo.svg icons
+ll
+btm
+vim .config/qtile/autostart.lua
+vim .config/qtile/config.py
+htop
+cd .config/qtile
+ll
+cd icons
+ll
+ll
+ll
+cp *max.png layout-max-light.png
+ll
+cp layout-floating.png layout-floating-light.png
+cp layout-monadtall.png layout-monadtall-light.png
+ll
+ll
+ln -sf layout-floating-dark.png layout-floating.png
+ln -sf layout-max-dark.png layout-max.png
+ln -sf layout-monadtall-dark.png layout-monadtall.png
+ll
+pamixer --get-mute
+pidof pipewire
+pidof pipewire-pulse
+pidof wireplumber
+vim .config/zsh/.zprofile
+man pamixer
+vim .config/qtile/dt.py
+pamixer
+pamixer --get-mute
+pacman -Ss spacefm
+pacman -Ss space
+pacman -Ss space file
+pacman -Ss space file manager
+pacman -Ss space file man
+pacman -Ss space file m
+sudo pacman -S exfatprogs dfrs
+ll
+dfrs
+dfrs
+dfrs
+light -h
+ll /sys/class/backlight
+ll /sys/class/backlight/amdgpu_bl0/brightness
+cat /sys/class/backlight/amdgpu_bl0/brightness
+ll /sys/class/backlight/amdgpu_bl0/
+cat /sys/class/backlight/amdgpu_bl0/actual_brightness
+cat /sys/class/backlight/amdgpu_bl0/bl_power
+cat /sys/class/backlight/amdgpu_bl0/type
+cat /sys/class/backlight/amdgpu_bl0/uevent
+cat /sys/class/backlight/amdgpu_bl0/scale
+cat /sys/class/backlight/amdgpu_bl0/max_brightness
+cat /sys/class/backlight/amdgpu_bl0/brightness
+systemctl --user restart pipewire;
+systemctl --user restart pipewire-pulse;
+systemctl --user restart wireplumber;
+vim .config/zsh/.zprofile
+xev
+cp ~/.repo/clones/qtile/scripts/gen-keybinding-img .
+ll
+./gen-keybinding-img
+./gen-keybinding-img -h
+./gen-keybinding-img --config .config/qtile/config.py
+./gen-keybinding-img --config .config/qtile/config.py o ./
+./gen-keybinding-img --config .config/qtile/config.py -o ./
+ll
+./gen-keybinding-img
+neofetch
+htop
+feh Pictures/screenshots &
+nitch
+clear
+ll
+htop
+nnn
+man qtile
+man python
+man kitty
+clear; sudo pacman
+clear; sudo pacman -Syyu
+glow -p ~/.repo/clones/qtile/README.rst
+clear;pf;dfrs
+clear;pf;dfrs
+btm
+htop
+vim .repo/scripts/powermenu.d/powermenu-shutdown
+pkill qtile
+pkill Qtile
+killall qtile
+htop
+pkill Xorg
+sudo pkill Xorg
+sudo cp -r .repo/clones/qtile /opt/
+sudo cp /usr/bin/qtile .
+ll
+chown wbr qtile
+sudo chown wbr qtile
+ll
+sudo ln -sf /opt/qtile/bin/qtile /usr/bin/qtile
+neofetch
+htop
+sudo mv ./qtile /usr/bin/qtile
+nmtui
+sudo pacman -Syy
+sudo pacman -Su
+clear
+ll
+la
+vim .config/zsh/aliases.zsh
+ll
+la
+ls
+l
+ll
+l
+l
+neofetch
+neofetch
+vim .config/zsh/.zprofile
+cd .repo/scripts/powermenu.d
+ll
+sudo rm /usr/local/bin/powermenu-whoops-nevermind
+rm powermenu-whoops-nevermind
+vim powermenu
+rm powermenu-whoops-nevermind
+vim powermenu
+bemenu-run -W 0.1
+vim .repo/scripts/powermenu.d/powermenu
+vim .repo/scripts/powermenu.d/powermenu
+man bemenu
+vim .repo/scripts/powermenu.d/powermenu
+vim .config/zsh/.zprofile
+man bemenu
+man bemenu
+ll /opt/discord
+whichcat autostart.lua
+vim .repo/scripts/autostart.lua
+vim .repo/scripts/autostart.lua
+cp .config/awesome/rc.lua .config/awesome/backup.lua
+mv rc.lua .config/awesome/rc.lua
+cp /usr/local/etc/xdg/awesome/rc.lua .
+vim rc.lua
+checkupdates
+sudo pacman -Syy
+cd .config
+rm -rf awesome
+cd ..
+git clone https://gitlab.com/dwt1/dotfiles
+ll
+cd dotfiles
+ll
+cp -r .config/awesome ~/.config
+cd
+editwmconfig
+editwmconfig & disown
+jobs
+rm -rf .config/awesome
+cp -r .config/awesomebackup .config/awesome
+mv .config/awesome/awesome .
+rm -rf .config/awesome
+mv awesome .config/awesome
+ll .config/awesome
+vim .config/awesome/rc.lua
+ll .config
+mv wbr-linux/config/awesome ~/.config/awesome
+cp -r .config/awesome .
+rm .config/awesome
+mv ./awesome .config/
+ll .config
+la
+la
+la .config
+rm .config/awesome
+la .config
+cp -r wbr-linux/config/awesome .
+cp -r ./awesome .config/awesome
+la .config
+la .config
+la .config/awesome
+powermenu
+rm .config/awesome
+rm .config/awesome -rf
+cp -r .config/awesomebackup/awesome ~/.config
+mkdir .config/awesome
+ll .config
+rm -rf .config/awesome
+ll
+cp -r wbr-linux/config/awesome/* ~/.config/awesome/
+cd .config
+ll
+vim ~/wbr-linux/config/awesome/rc.lua
+ll .config/awesome
+la .config
+cd .config/awesome
+lll
+ll
+ll
+vim .config/awesome/rc.lua
+cp -r .config/awesome .
+rm -rf ./awesome
+cp -r .config/awesome .
+rm -rf .config/awesomebackup
+rm -rf .config/awesome
+cp -r dotfiles/.config/awesome ~/.config
+neofetch
+ll
+la
+la
+rm -rf .config/awesome
+ll
+mv awesome .config
+ll .config
+cd .config/awesome
+ll
+chmod +x rc.lua
+ll
+chmod +x *
+ll
+vim rc.lua
+neo
+nf
+launcher
+cd .config/awesome
+ll
+vim keys.lua
+vim rc.lua
+vim theme/theme.lua
+man awesome
+editwmconfig & disown
+tty-clock
+pidof picom
+btm
+ff
+clear;pf;dfrs
+ll /usr/share/xsessions
+vim .config/qtile/config.py
+cp Pictures/wallpapers/girl.png ~/.config/awesome/theme/background.png
+vim .config/spectrwm/spectrwm.conf
+lxsession &
+env
+env | rg lx
+env
+rm -rf .config/awesome
+cp /usr/local/etc/xdg/awesome/rc.lua .
+mkdir .config/awesome
+mv rc.lua .config/awesome/rc.lua
+locate zenburn
+cp - /usr/local/share/awesome/themes/zenburn .config/awesome/theme
+mkdir .config/awesome/theme
+cp - /usr/local/share/awesome/themes/zenburn .config/awesome/theme
+cp -r /usr/local/share/awesome/themes/zenburn .config/awesome/theme
+cd .config/awesome
+ll
+cd theme
+ll
+cd zenburn
+ll
+mv * ..
+cd ..
+rm -rf theme
+ll
+cd ..
+ll
+ll theme
+rm -rf theme/zenburn
+ll
+vim rc.lua
+vim rc.lua
+chmod +x rc.lua
+ll
+cp ~/.repo/scripts/autostart.lua .
+ll
+cat autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+vim autostart.lua
+./autostart.lua
+env
+vim autostart.lua
+vim note
+pidof picom
+pidof lxsession
+wallp
+wallpaper
+wallpaper
+vim test.lua
+luajit test.lua
+rm test.lua
+vim .repo/scripts/editwmconfig
+editwmconfig
+vim .repo/scripts/editwmconfig
+chmod +x .config/awesome/rc.lua
+rm .config/awesome/function.lua
+cd .config/awesome
+ll
+./autostart.lua
+vim theme.lua
+cd .config/awesome
+ll
+chmod +x *
+ll
+cd theme
+ll
+ll
+ll taglist
+ll titlebar
+ll layouts
+clear
+ll
+db
+locate submenu.png
+cp /usr/local/share/awesome/themes/default/submenu.png ~/.config/awesome/theme
+locate minimize_normal.png
+cp /usr/local/share/awesome/themes/default/titlebar/minimize_normal.png ~/.config/awesome/theme/titlebar/
+cp /usr/local/share/awesome/themes/default/titlebar/minimize_focus.png ~/.config/awesome/theme/titlebar/
+ll
+rm zenburn-background.png
+mv theme.lua theme.backup.lua
+cp ~/theme.lua .
+ll
+chmod +x .config/awesome/theme/theme.lua
+mv .config/awesome/theme/theme.backup.lua ~/.config/awesome/theme/theme.lua
+zsh -c "man awesome"
+terminal -e zsh -c "man awesome"
+terminal -e zsh -c "man awesome" &
+exec terminal -e zsh -c "man awesome" &
+pacman -Qq | rg man
+vim .zshenv
+vim .config/zsh/.zshrc
+vim .config/zsh/.zprofile
+vim .config/zsh/functions.zsh
+ll .config/awesome/theme
+ll .config/awesome/theme/layouts
+wmdir
+cd .repo/scripts
+ll
+ll
+vim wmdir
+vim env-lua
+vim env-lua
+chmod +x env-lua
+vim wmdir
+chmod +x wmdir
+./wmdir
+mv env-lua envir.lua
+vim wmdir
+./wmdir
+ll
+vim wmdir
+./wmdir
+which chdir
+which cd
+which command cd
+vim ~/.config/zsh/aliases.zsh
+zsh
+which cd
+/usr/bin/cd
+vim wmdir
+./wmdir
+vim wmdir
+rm wmdir
+vim ~/.config/zsh/functions.zsh
+zsh
+wmdir
+vim .config/zsh/functions.zsh
+vim ~/.config/zsh/functions.zsh
+zsh
+env
+PWD=$XDG_CONFIG_HOME
+env
+cd
+ll
+env
+chdir ..
+cd 
+cd ..
+chdir
+$SHELL -c command cd ~/.config
+$SHELL -c cd ~/.config
+zsh --help
+zsh -c exec man awesome
+zsh -c 'exec man awesome & '
+zsh -c 'exec man awesome &'
+zsh -c 'exec man awesome;'
+zsh -c 'exec man awesome'
+login
+man login
+man fd
+vim wbr-linux/config/awesome/functions.lua
+vim test.lua
+luajit test.lua
+vim test.lua
+luajit test.lua
+vim test.lua
+luajit test.lua
+vim test.lua
+luajit test.lua
+vim test.lua
+wmdir
+fd . "$PWD"
+fd . "$PWD" -d 0
+fd . "$PWD" -d 1
+fd . "$PWD" -d 1 -t f
+fd . "$PWD" -d 1 -t f
+basename -a $PWD
+basename -a $PWD/*
+basename -a $PWD/*
+basename -h
+basename --help
+basename -a $PWD/* -s lua
+basename -as .lua $PWD/*
+basename -as lua $PWD/*
+fd . "$PWD" -d 1 -t f
+fd . "$PWD" -d 1 -t f | basename -a
+fd . "$PWD" -d 1 -t f --relative-path
+fd . "$PWD" -d 1 -t f -0
+fd . "$PWD" -d 1 -t f -0 | xargs basename -a 
+fd . "$PWD" -d 1 -t f -0 | xargs basename
+fd . "$PWD" -d 1 -t f -0 | basename
+fd . "$PWD" -d 1 -t f -0 | basename -a
+fd . "$PWD" -d 1 -t f --strip-cwd-prefix
+fd . "$PWD" -d 1 -t f --base-directory
+fd . --base-directory -d 1 -t f 
+fd . --base-directory "$PWD" -d 1 -t f 
+fd . --base-directory "$PWD" -d 1 -t f | perl -pe 's|\n||g'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe 's|\n||g'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe 's|\n| |g'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe 's|\n| |g s|^| |g'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe 's|\n| |g |^| |g'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe 's|\n| |g'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | sed 's|^ ||g'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | sed 's|^ || '
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | sed 's|^ || s|\n| |'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe 's|||g; s|||g;'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe 's|\n| |g; s|||g;'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe 's|\n| |g; s|\$||g;'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe 's|\n| |g; s|$$||g;'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe 's|\n| |g; s|^| |g;'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe 's|\n| |g; s|^| |g; s|$||g;'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe 's|\n| |g; s|^| |g; s|$|\n|g;'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe 's|\n| |g; s|^| |g; s||\n|g;'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe 's|\n| |g; s|^| |g;'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe 's|\n| |g; s|^| |g;' | perl -pe 's|$||g'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe 's|\n| |g; s|^| |g;' | perl -pe 's|$||g'
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe 's|\n| |g; s|^| |g;' | perl -pe 's|$|\n|g'
+fd . --base-directory '$PWD' -d 1 -t f --strip-cwd-prefix | perl -pe 's|\n| |g; s|^| |g;' | perl -pe 's|$|\n|g' 
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe "s|\n| |g; s|^| |g;" | perl -pe "s|$|\n|g" 
+fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe "s|\n| |g; s|^| |g;" | perl -pe "s|$|\n|g" 
+echo $(fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe "s|\n| |g; s|^| |g;" | perl -pe "s|$|\n|g")
+echo $(fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe "s|\n| |g; s|^| |g;" | perl -pe "s|$|\n|g")
+nvim -p $(fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe "s|\n| |g; s|^| |g;" | perl -pe "s|$|\n|g")
+vim ~/.repo/scripts/openalldir
+chmod +x $SCRIPTS_DIR/openalldir
+$SCRIPTS_DIR/openalldir
+sudo ln -s $SCRIPTS_DIR/openalldir /usr/local/bin/
+zsh
+openalldir
+wmdir
+ll
+vim keys.lua
+vim /usr/local/etc/xdg/awesome/rc.lua
+ll
+wmdir
+openalldir
+fc-list : family
+vim note
+vim colors.lua
+vim colors.py
+wmdir
+ll
+la
+vim keys.lua
+vim colors.py
+zd
+man fd
+echo $PWD
+vim .config/zsh/functions.zsh
+vim .config/zsh/aliases.zsh
+fd . "$PWD"
+fd . "$PWD" -d 1 -t d
+fd . "$PWD" -d 1 -t d -H
+fd . "$PWD" -d 1 -t d -H
+fd . "$PWD" -d 1 -t d -H
+fd . "$PWD" -d 1 -t d -H
+fd . "$PWD" -d 1 -t d -H
+fd . "$PWD" -d 1 -t d -H | perl -pe "s|$PWD\/||g"
+fd . "$PWD" -d 1 -t d -H | perl -pe "s|$PWD\/||g"
+fd . "$PWD" -d 1 -t d -H | perl -pe "s|$PWD\/||g; s|\/$||g;"
+fd . "$PWD" -d 1 -t d -H | perl -pe "s|$PWD\/||g; s|\/$||g;"
+fd . "$PWD" -d 1 -t d -H | perl -pe "s|$PWD\/||g; s|\/$||g;"
+fd . "$PWD" -d 1 -t d -H | perl -pe "s|$PWD\/||g; s|\/$||g;" | fzf
+cd $(fd . "$PWD" -d 1 -t d -H | perl -pe "s|$PWD\/||g; s|\/$||g;" | fzf)
+ll
+cd
+zd
+vim .config/zsh/path.zsh
+vim .config/zsh/.zprofile
+wmdir
+ll
+cd
+ll
+la
+vim .zshenv
+mv .zshenv backup.zshenv
+ll
+mv .config/zsh/.zprofile ~
+ll
+vim .zprofile
+ll
+env
+powermenu
+pidof picom
+env
+pidof picom
+pidof lxpolkit
+pidof unclutter
+wmname
+whichcat autostart.lua
+vim .xinitrc
+vim .xprofile
+pkill nm-applet
+rm .config/awesome/functions.lua
+ll
+htop
+pkill nm-applet
+pidof nm-applet
+pkill nm-applet
+pidof lxpolkit
+pidof lxsession
+reboot
+vim .config/alacritty/theme.yml
+cp ~/colors.lua ~/.config/awesome/theme
+cp ~/colors.lua ~/.config/awesome/theme/
+vim .config/nvim/lua/plugins.lua
+nvim +PackerSync
+vim .config/nvim/init.lua
+vim .config/nvim/lua/theme.lua
+vim .config/nvim/lua/plugins.lua
+vim .config/nvim/init.lua
+nvim +PackerSync
+nvim +PackerSync
+cp ~/colors.lua ~/.config/awesome/theme/
+wmdir
+ll
+ll
+la
+chmod +x keys.lua
+ll
+la
+ll
+whichcat editor
+vim ~/.repo/scripts/launch/editor
+vim ~/.repo/scripts/editwmconfig
+ll
+vim keys.lua
+bat -upp
+bat -upp colors.
+bat -upp colors.lua
+bat -up colors.lua
+bat -up /usr/local/etc/xdg/awesome/rc.lua
+cd dotfiles/.config/awesome
+ll
+cd themes
+ll
+cd powerarrow
+ll
+vim theme.lua
+pidof picom
+editor
+editor -p .config/awesome/rc.lua
+terminal editor
+terminal editor -p
+editwmconfig
+vim .repo/scripts/launch/editor
+vim .repo/scripts/editwmconfig
+terminal
+editwmconfig
+vim .repo/scripts/editwmconfig
+editwmconfig
+vim .repo/scripts/editwmconfig
+editwmconfig
+vim .repo/scripts/editwmconfig
+vim test.lua
+chmod +x test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+luarocks search sh
+sudo luarocks install luashell
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+luarocks install luashell
+luarocks install luashell --local
+luarocks install luashell --local
+./test.lua
+luarocks --help
+luarocks --version
+lua --version
+./test.lua
+./test.lua
+ll
+ll
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+pkill picom
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+./test.lua
+pkill picom
+./test.lua
+./test.lua
+htop
+vim .config/nvim/init.lua
+wmdir
+ll
+openalldir
+openalldir
+cd dotfiles/.config/awesome
+ll
+vim rc.lua
+pkill picom
+start-compositor
+ll ~
+env
+terminal
+browser
+editor
+browser
+browser
+browser
+browser
+browser
+browser
+browser
+clear
+luac rc.lua
+ll
+cat luac.out
+luac keys.lua
+luac widgets.lua
+luac variables.lua
+luac layouts.lua
+luac theme/theme.lua
+ll
+rm luac.out
+ll
+luac -t rc.lua
+luac -p rc.lua
+luac -l
+luac -l -l
+ll
+wmdir
+openalldir
+terminal
+cd $SCREENSHOTS_DIR
+ll
+feh & disown
+wmdir
+openalldir
+neofetch
+neofetch
+neofetch
+vim .zprofile
+source .zprofile
+source .zprofile
+vim .zprofile
+source .zprofile
+bat -up .config/awesome/theme/theme.lua
+vim .zprofile
+htop
+btm
+clear;pf;dfrs
+tty-clock
+man awesome
+man awesome
+cd Documents
+ll
+feh reddit.png & disown
+wmdir
+vim theme/theme.lua

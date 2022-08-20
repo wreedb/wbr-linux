@@ -23,6 +23,10 @@ untar() {
   fi
 }
 
+wmdir() {
+  cd $(printf "$XDG_CONFIG_HOME/$DESKTOP_SESSION\n")
+}
+
 function man() {
 	env \
 		LESS_TERMCAP_md=$(tput bold; tput setaf 4) \
@@ -37,3 +41,7 @@ function man() {
 }
 
 db() { sudo updatedb; sudo fc-cache -f; sudo mandb --quiet; fc-cache -f}
+
+zd() {
+  cd $(fd . "$PWD" -d 1 -t d -H | perl -pe "s|$PWD\/||g; s|\/$||g;" | fzf);
+}

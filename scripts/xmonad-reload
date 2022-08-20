@@ -1,0 +1,12 @@
+#!/usr/bin/dash
+
+BARPID=$(pidof xmobar);
+
+if [ -z "$mobarpid" ]; then
+  xmonad --recompile;
+  xmonad --restart;
+else
+  kill $BARPID;
+  xmonad --recompile;
+  xmonad --restart;
+fi

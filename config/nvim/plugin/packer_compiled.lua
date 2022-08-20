@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/home/wbr/.local/share/nvim/site/pack/packer/start/nord",
     url = "https://github.com/shaunsingh/nord.nvim"
   },
+  ["nvim-highlight-colors"] = {
+    loaded = true,
+    path = "/home/wbr/.local/share/nvim/site/pack/packer/start/nvim-highlight-colors",
+    url = "https://github.com/brenoprata10/nvim-highlight-colors"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/wbr/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -170,11 +175,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/wbr/.local/share/nvim/site/pack/packer/start/vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
-  },
-  ["vim-css-color"] = {
-    loaded = true,
-    path = "/home/wbr/.local/share/nvim/site/pack/packer/start/vim-css-color",
-    url = "https://github.com/ap/vim-css-color"
   },
   ["yuck.vim"] = {
     loaded = true,

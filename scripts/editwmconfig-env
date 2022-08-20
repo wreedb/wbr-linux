@@ -7,3 +7,4 @@ XMONAD=$XDG_CONFIG_HOME/xmonad/xmonad.hs
 BERRY=$XDG_CONFIG_HOME/berry/autostart
 HERBSTLUFTWM=$XDG_CONFIG_HOME/herbstluftwm/autostart
 LEFTWM=$XDG_CONFIG_HOME/leftwm/config.toml
+QTILE=$XDG_CONFIG_HOME/qtile/config.py

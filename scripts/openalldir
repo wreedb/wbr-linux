@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+
+$EDITOR -p $(fd . --base-directory "$PWD" -d 1 -t f --strip-cwd-prefix | perl -pe "s|\n| |g; s|^| |g;" | perl -pe "s|$|\n|g");

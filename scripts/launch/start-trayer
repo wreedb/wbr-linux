@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+
+trayer --edge top --align right --SetDockType true --expand false --alpha 256 --widthtype pixel --width 96 --tint 0x272935 --height 29 --SetPartialStrut true

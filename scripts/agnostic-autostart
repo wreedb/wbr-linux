@@ -1,0 +1,4 @@
+#!/usr/bin/dash
+
+numlockx;
+unclutter --jitter 50 --timeout 4 --fork;
