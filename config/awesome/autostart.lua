@@ -1,35 +1,20 @@
-#!/usr/bin/env luajit
+-- vim:filetype=lua:expandtab:shiftwidth=2:tabstop=4:softtabstop=2:textwidth=100
+-- Will Reed | wreedb@yandex.com | https://github.com/wreedb/wbr-linux
+----------------------------------------------------------------------
+-- AwesomeWM Configuration | AUTOSTART |
 
-function env(var)
-  return os.getenv(var)
-end
+local awful = require "awful"
+require "wbr.variables"
+require "cfg.widgets"
 
-function x(name)
-  os.execute(name)
-end
-function slash(inp)
-  return inp.."/"
-end
+awful.spawn.single_instance("wmname awesome")
+awful.spawn.single_instance("numlockx")
+awful.spawn.single_instance("unclutter --timeout 5 --jitter 50")
+awful.spawn.single_instance("lxsession")
+awful.spawn.single_instance("picom --daemon --config " .. xdg_configdir .. "picom/awesome.conf")
 
-wm         = env("DESKTOP_SESSION")
-xdgch      = env("XDG_CONFIG_HOME")
-comp       = env("COMPOSITOR")
-wmname     = "wmname "..wm
-compositor = "pkill "..comp.."; "..comp.." --daemon --config "..slash(xdgch)..slash(comp)..wm..".conf;"
-unclutter  = "unclutter --jitter 50 --timeout 5 --fork;"
-numlock    = "numlockx;"
-lxsession  = "pkill lxsession; lxsession &"
-killdunst  = "pkill dunst;"
-
-autostarts = {
-  wmname,
-  compositor,
-  unclutter,
-  numlock,
-  lxsession,
-  killdunst,
-}
-
-for nCount = 1, #autostarts do
-  x(autostarts[nCount])
-end
+awful.spawn.easy_async_with_shell(pacman_cmd, function()
+  awful.spawn.easy_async_with_shell(pacman_callback, function(out) 
+    updates.markup = "Updates: " .. out
+  end)
+end)

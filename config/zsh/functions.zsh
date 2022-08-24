@@ -1,5 +1,14 @@
 #!/bin/zsh
 
+append_path() {
+  case ":$PATH:" in
+    *:"$1":*)
+      ;;
+    *)
+      PATH="${PATH:+$PATH:}$1"
+  esac
+}
+
 fontq() { fc-list : family | rg -i $1 }
 
 readme() { glow -p README.md }

@@ -1,0 +1,72 @@
+#!/usr/bin/lua
+
+local xdgconfighome = os.getenv("XDG_CONFIG_HOME")
+
+
+local config_files =
+{
+  kitty        = xdgconfighome .. "/kitty/kitty.conf",
+  alacritty    = xdgconfighome .. "/alacritty/alacritty.yml",
+  awesome      = xdgconfighome .. "/awesome/rc.lua",
+  bspwm        = xdgconfighome .. "/bspwm/bspwmrc",
+  dunst        = xdgconfighome .. "/dunst/dunstrc",
+  fastfetch    = xdgconfighome .. "/fastfetch/config.conf",
+  fontconfig   = xdgconfighome .. "/fontconfig/fonts.conf",
+  herbstluftwm = xdgconfighome .. "/herbstluftwm/autostart",
+  leftwm       = xdgconfighome .. "/leftwm/config.toml",
+  neofetch     = xdgconfighome .. "/neofetch/config.conf",
+  paru         = xdgconfighome .. "/paru/paru.conf",
+  qtile        = xdgconfighome .. "/qtile/config.py",
+  spectrwm     = xdgconfighome .. "/spectrwm/spectrwm.conf",
+  xmonad       = xdgconfighome .. "/xmonad/xmonad.hs",
+  xmobar       = xdgconfighome .. "/xmobar/xmobar.hs",
+  zsh          = xdgconfighome .. "/zsh/.zshrc",
+}
+
+local size  = 0
+local iters = 0
+
+for _ in pairs(config_files) do size = size + 1 end
+
+local file_list = ""
+
+for name,file in pairs(config_files) do
+  iters = iters + 1
+
+  if (iters == 16) then
+    file_list = file_list .. name
+  else
+    file_list = file_list .. name .. "\n"
+  end
+
+end
+
+function os.capture(cmd, raw)
+  local f = assert(io.popen(cmd, 'r'))
+  local s = assert(f:read('*a'))
+  f:close()
+  if raw then return s end
+  s = string.gsub(s, '^%s+', '')
+  s = string.gsub(s, '%s+$', '')
+  s = string.gsub(s, '[\n\r]+', ' ')
+  return s
+end
+
+local choice = os.capture("printf '"..file_list.."' | bemenu")
+
+for name,file in pairs(config_files) do
+  if (choice == name) then
+    os.execute("terminal -e editor -p " .. file)
+  end
+end
+
+
+--[[
+os.execute("printf '"..file_list.."' | BEMENU_BACKEND=curses bemenu > /tmp/tmp_rc")
+handle = io.open("/tmp/tmp_rc")
+handle:close()
+
+print(choice)
+]]
+-- os.execute("editor -p "..config_files.choice)
+-- os.execute("editor -p "..config_files.choice)

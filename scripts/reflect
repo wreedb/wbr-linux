@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+
+use strict;
+
+open(handle, "<", "/etc/xdg/reflector/reflector.conf") or die $!;
+
+my $cmdstring = "";
+
+while (<handle>) {
+  $cmdstring .= $_;
+}
+
+$cmdstring =~ s|\n| |g;
+
+system("/usr/bin/sudo /usr/bin/reflector ".$cmdstring);

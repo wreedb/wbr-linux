@@ -23,6 +23,13 @@ export LAUNCHER=bemenu-run
 export BROWSER=firefox
 export COMPOSITOR=picom
 
+export TYPEWRITTEN_PROMPT_LAYOUT="pure_verbose" 
+export TYPEWRITTEN_SYMBOL="->"
+export TYPEWRITTEN_ARROW_SYMBOL="->"
+export TYPEWRITTEN_RELATIVE_PATH="adaptive"
+export TYPEWRITTEN_CURSOR="terminal"
+export TYPEWRITTEN_COLORS="prompt:default;user:blue;host:green;symbol:cyan;current_directory:green"
+
 #Path edits
 
 if ! [[ "$PATH" =~ "$HOME/.local/bin" ]]; then
@@ -46,27 +53,4 @@ if ! [[ "$PATH" =~ "$HOME/.cabal/bin" ]]; then
 fi
 
 export BEMENU_OPTS="-l 10 -p 'run: ' -w -i --fn 'Play 15' -c -W 0.2 -B 2 --scrollbar never --bdr '#555753' --scf '#6AA1FD' --hb '#6AA1FD' --cf '#27293500' --hf '#272935' --tb '#272935' --tf '#EEEEEC' --fork"
-
-#export BEMENU_OPTS="bemenu-run \
-#--prompt 'run:' \
-#--fn 'Play 17' \
-#--list 8 \
-#--wrap \
-#--index 40 \
-#--line-height 17 \
-#--grab \
-#--ignorecase \
-#--width-factor 100 \
-#--ifne \
-#--monitor focused \
-#--hf '#181921' \
-#--hb '#6AA1FD' \
-#--tf '#181921' \
-#--tb '#6AA1FD' \
-#--cf '#6AA1FD' \
-#--nb '#181921' \
-#--nf '#D3D7CF' \
-#--ab '#181921' \
-#--af '#D3D7CF' \
-#--ff '#EEEEEC' \
-#--fb '#000000'"
+#export BEMENU_OPTS="bemenu-run --prompt 'run:' --fn 'Play 17' --list 8 --wrap --index 40 --line-height 17 --grab --ignorecase --width-factor 100 --ifne --monitor focused --hf '#181921' --hb '#6AA1FD' --tf '#181921' --tb '#6AA1FD' --cf '#6AA1FD' --nb '#181921' --nf '#D3D7CF' --ab '#181921' --af '#D3D7CF' --ff '#EEEEEC' --fb '#000000'"
